@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DeployedItems RecursiveDeployAction="Ignore">
+  <DeployField ItemId="{31056D46-2FAA-4EA2-8759-BE93EAE10001}" FieldName="__Hidden" Database="core">1</DeployField>
+  <DeployField ItemId="{31056D46-2FAA-4EA2-8759-BE93EAE10001}" FieldName="__Icon" Database="core">Applications/16x16/question_and_answer.png</DeployField>
+  <DeployField ItemId="{31056D46-2FAA-4EA2-8759-BE93EAE10001}" FieldName="__Sortorder" Database="core">0</DeployField>
+  <DeployField ItemId="{31056D46-2FAA-4EA2-8759-BE93EAE10001}" FieldName="__Never publish" Database="core"></DeployField>
+  <DeployField ItemId="{31056D46-2FAA-4EA2-8759-BE93EAE10001}" FieldName="__Security" Database="core">ar|Everyone|pe|!*|pd|!*|ar|sitecore\Sitecore Client Users|pe|+item:read|!*|pd|+item:read|!*|ar|sitecore\Sitecore Client Developing|pe|+item:create|+item:write|+item:delete|!*|+item:rename|pd|+item:create|+item:write|+item:delete|!*|+item:rename|</DeployField>
+  <DeployField ItemId="{31056D46-2FAA-4EA2-8759-BE93EAE10001}" FieldName="__Display name" FieldLanguage="en" Database="core">Client</DeployField>
+  <DeployedItem Id="{31056D46-2FAA-4EA2-8759-BE93EAE10001}" Name="client.item" Parent="{11111111-1111-1111-1111-111111111111}" Database="core" />
+  <DeployField ItemId="{9CBE9270-1377-48CC-87B6-263F4C705C7D}" FieldName="__Icon" Database="core">Applications/16x16/window_dialog.png</DeployField>
+  <DeployField ItemId="{9CBE9270-1377-48CC-87B6-263F4C705C7D}" FieldName="__Sortorder" Database="core">75</DeployField>
+  <DeployedItem Id="{9CBE9270-1377-48CC-87B6-263F4C705C7D}" Name="Applications.item" Parent="{31056D46-2FAA-4EA2-8759-BE93EAE10001}" Database="core" />
+  <DeployField ItemId="{1F708226-942D-4D88-B548-BEF7844EDE71}" FieldName="__Security" Database="core">ar|sitecore\Customer Service Representative|pe|+item:read|pd|+item:read|ar|sitecore\Commerce Administrator|pe|+item:read|pd|+item:read|ar|sitecore\Customer Service Representative Administrator|pe|+item:read|pd|+item:read|ar|sitecore\Everyone|pe|!*|pd|!*|</DeployField>
+  <DeployedItem Id="{1F708226-942D-4D88-B548-BEF7844EDE71}" Name="CustomerOrderManager.item" Parent="{9CBE9270-1377-48CC-87B6-263F4C705C7D}" Database="core" />
+  <DeployField ItemId="{BC39400B-6255-4CBF-A997-5CD1863595FA}" FieldName="Theme" Database="core">Oxford</DeployField>
+  <DeployField ItemId="{BC39400B-6255-4CBF-A997-5CD1863595FA}" FieldName="UseFullWidth" Database="core">1</DeployField>
+  <DeployField ItemId="{BC39400B-6255-4CBF-A997-5CD1863595FA}" FieldName="__Renderings" Database="core">&lt;r&gt;
+  &lt;d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}"&gt;
+    &lt;r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d&amp;amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fApplications%2fCustomerOrderManager%2fCustomer%2fCustomer.js" ph="Page.Code" uid="{970E7E78-420E-4B23-A98E-AB6663D7FD9C}" /&gt;
+    &lt;r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="ConfigurationItem=%7bCCB9376E-6171-48AB-878E-56A43FE9EF15%7d&amp;amp;Id=Help" ph="GlobalHeader.LoginInfo" uid="{EACAE47A-B9EC-4057-8599-90D26CBC0E7F}" /&gt;
+    &lt;r id="{E06F7926-2A9E-4D2B-BC3F-C7EEB8B52065}" par="Id=CommerceHelpProvider&amp;amp;TabID=%257bBinding%2bCustomerTabControl.SelectedValue%257d&amp;amp;FolderID=%257bBF2BC7B8-54A9-4F79-ACD9-BA557FB5C7A9%257d" ph="Page.Body" uid="{3C361C95-E218-4241-8F95-EF032284F865}" /&gt;
+    &lt;r id="{5C2A51D7-1AA9-41FF-B1DE-4B9367870CA7}" par="ShowFooter=0" ph="Page.Body" uid="{B7E83BEE-6549-4371-9D6D-34395D2CD2C7}" /&gt;
+    &lt;r id="{78D8260C-4FF9-4627-BF64-0B884ACA4BA1}" ph="GlobalHeader" uid="{FE982A7B-7768-4302-A8F6-BF9212742298}" /&gt;
+    &lt;r id="{0DD00367-0B7D-4955-BB70-397523711B6D}" par="Id=AccountInformation" ph="GlobalHeader.LoginInfo" uid="{17977B5C-6737-4488-9738-2705436D50AC}" /&gt;
+    &lt;r id="{50E8FC46-422F-4B03-BC96-E0B9DCEA51E7}" par="Id=SearchBox&amp;amp;IsVisible=1&amp;amp;IsEnabled=1&amp;amp;Icon=%2fsitecore%2fshell%2fclient%2fSpeak%2fAssets%2fimg%2fSpeak%2fCommon%2f16x16%2fdark_gray%2fsearch.png&amp;amp;Click=javascript%3aapp.getSearchResults()%3b" ph="GlobalHeader.LoginInfo" uid="{9B6B7DB3-D4B2-46B7-97D9-6D6AC23372CF}" /&gt;
+    &lt;r id="{C02DE599-FC31-4059-9B9F-89C0018E0576}" par="Id=EnvironmentsSwitcher&amp;amp;IsEnabled=1&amp;amp;IsVisible=1&amp;amp;DisplayFieldName=Name&amp;amp;Tooltip=Select+your+environment&amp;amp;DynamicData=%7bBinding+EnvironmentsDataSource.Items%7d&amp;amp;ValueFieldName=Id" ph="GlobalHeader.LoginInfo" uid="{E27D7BD2-0961-4D90-88A5-E63C2D97CF2F}" /&gt;
+    &lt;r id="{18880E95-B373-40BF-8E5B-9F0455BEEB67}" par="DataUrl=%2fsitecore%2fshell%2fcommerce%2ftools%2fCommerceEnvironment%2fGetEnvironmentList&amp;amp;Id=EnvironmentsDataSource&amp;amp;IsReady=0" ph="GlobalHeader.LoginInfo" uid="{0CF92E1A-E56A-4727-818C-9BB06655EE8F}" /&gt;
+    &lt;r id="{C220369A-84A3-482B-A936-F75CDCB23736}" par="Id=GlobalLogo" ph="GlobalHeader.StartButton" uid="{96F31F05-4813-4C6D-A5D3-309C386E2F98}" /&gt;
+    &lt;r id="{047F31EF-7D7D-42E5-BC9B-F39FEAB0B83B}" ph="ApplicationHeader" uid="{70B114F2-82BE-422A-A96F-12A27DAEE7DA}" /&gt;
+    &lt;r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=HeaderTitle" ph="ApplicationHeader.Title" uid="{D3001B68-5A70-494A-81FA-E827A0FA278F}" /&gt;
+    &lt;r id="{33CAAE03-25A2-4917-8489-AEACC6AA1E54}" par="Id=HomeButton&amp;amp;NavigateUrl=%2fsitecore%2fclient%2fApplications%2fCustomerOrderManager%2fSearch&amp;amp;Text=CUSTOMER+%26+ORDER+MANAGER" ph="ApplicationHeader.BreadCrumb" uid="{43B809DC-8341-4E1B-9D82-807A4C20C2D4}" /&gt;
+    &lt;r id="{357DC261-E48D-4B04-85BC-3009300A6AE1}" ph="ApplicationContent" uid="{7CF2D38B-401C-4908-A9D9-E5ED8F0BA842}" /&gt;
+    &lt;r id="{AC03DC51-0BDF-4D5C-8EA1-4EB71F2B977D}" par="Id=CustomerActionBar" ph="ApplicationContent.Main" uid="{DCED223A-FF75-4A45-8E14-59B15A7104FA}" /&gt;
+    &lt;r id="{43F4C6E5-22F1-41BF-A317-B213C1ABBDA5}" par="ActionDefinitionsRoot=%7bF71A221B-6416-4C8B-8E61-BB2E8D18F3EC%7d&amp;amp;Id=GlobalActionsControl" ph="CustomerActionBar.Actions" uid="{886A8CBD-287C-4CF1-9975-B13BC20AE49B}" /&gt;
+    &lt;r id="{C03E9CF5-EE02-4B11-8F06-8E124CF3F6CE}" par="ConfigurationItem=%7b637DF26D-8999-4EB6-B9E5-110A2A1DDAD2%7d&amp;amp;Id=BackButton" ph="CustomerActionBar.Back" uid="{86C2576C-65C5-48CA-8AA0-8E4065238B27}" /&gt;
+    &lt;r id="{8C3B1C75-9DBA-49BC-AC49-CD9AD5559FD6}" par="Id=SuccessMessage" ph="ApplicationContent.Main" uid="{4722DE94-CD56-42BC-B4A3-6E243DDAE8D0}" /&gt;
+    &lt;r id="{8C3B1C75-9DBA-49BC-AC49-CD9AD5559FD6}" par="Id=GeneralErrorMessage" ph="ApplicationContent.Main" uid="{380F16D2-25AE-4544-BE71-E6D960E284AD}" /&gt;
+    &lt;r id="{8C3B1C75-9DBA-49BC-AC49-CD9AD5559FD6}" par="Id=ErrorMessage" ph="ApplicationContent.Main" uid="{FED46943-4867-4361-BF7A-78DAB4B43971}" /&gt;
+    &lt;r id="{8C3B1C75-9DBA-49BC-AC49-CD9AD5559FD6}" par="ConfigurationItem=%7bC885BC76-6C01-45C6-955C-85CDC6677DE6%7d&amp;amp;Id=ConcurrencyMessage&amp;amp;IsVisible=0" ph="ApplicationContent.Main" uid="{28D40D05-3534-417C-988C-A81FC5F4D019}" /&gt;
+    &lt;r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=ItemPickerContainer&amp;amp;IsVisible=0" ph="DialogWindow.Content" uid="{AFED215E-A64F-408E-ACCF-95006179ABA6}" /&gt;
+    &lt;r id="{06632524-7DD3-4E1A-84BF-2A5DF970263C}" par="Id=ConfirmActionDialog" ph="ApplicationContent.Main" uid="{766ACB67-66B7-4073-9809-8463502A48B8}" /&gt;
+    &lt;r id="{A7B206E7-7393-4125-962C-02EEFA4734CF}" par="Id=DialogWindow" ph="Page.Body" uid="{95D0E261-6F70-44A5-A823-C2049335FB90}" /&gt;
+    &lt;r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=ActionDialogOK&amp;amp;Text=OK&amp;amp;Click=javascript%3aapp.Modules.onActionDialogOK()%3b" ph="DialogWindow.Buttons" uid="{B58E4921-E95E-4DDA-AE65-5E702F174C62}" /&gt;
+    &lt;r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=ActionDialogCancel&amp;amp;Text=Cancel&amp;amp;Click=javascript%3aapp.Modules.onActionDialogCancel()%3b" ph="DialogWindow.Buttons" uid="{C9B206AC-5EE9-4FB3-9A0F-86C56EBAFA50}" /&gt;
+    &lt;r id="{49E22055-BF50-472B-9B8C-040EA68951D7}" par="Id=FormContentsPanel" ph="DialogWindow.Content" uid="{E1F977F9-492D-4638-AD1A-3D20226B1508}" /&gt;
+    &lt;r id="{DE943A70-61A4-4D27-A166-C79A5BC9683A}" par="ConfigurationItem=%7bA7AEC2CC-EEC7-4F51-8AD5-B7BFA30B6847%7d&amp;amp;Id=ItemPicker" ph="ItemPickerContainer.Content" uid="{19D16B43-7A48-4390-891E-9C84D451E6C8}" /&gt;
+    &lt;r id="{7CE24006-7B34-4678-BC91-7675C6E2C9B9}" par="Id=CustomerTabControl" ph="ApplicationContent.Main" uid="{FB6A67CA-5B26-467D-BECA-4E748F800C3A}" /&gt;
+  &lt;/d&gt;
+&lt;/r&gt;</DeployField>
+  <DeployField ItemId="{BC39400B-6255-4CBF-A997-5CD1863595FA}" FieldName="BrowserTitle" FieldLanguage="en" Database="core">Customer</DeployField>
+  <DeployedItem Id="{BC39400B-6255-4CBF-A997-5CD1863595FA}" Name="Customer.item" Parent="{1F708226-942D-4D88-B548-BEF7844EDE71}" Database="core" />
+  <DeployedItem Id="{3F83B5CF-E211-44F9-BC6D-34FFFCCB867E}" Name="PageSettings.item" Parent="{BC39400B-6255-4CBF-A997-5CD1863595FA}" Database="core" />
+  <DeployField ItemId="{B9780406-56C6-4FCA-ADFC-46CE3F429526}" FieldName="__Sortorder" Database="core">100</DeployField>
+  <DeployedItem Id="{B9780406-56C6-4FCA-ADFC-46CE3F429526}" Name="Buttons.item" Parent="{3F83B5CF-E211-44F9-BC6D-34FFFCCB867E}" Database="core" />
+  <DeployField ItemId="{637DF26D-8999-4EB6-B9E5-110A2A1DDAD2}" FieldName="__Sortorder" Database="core">200</DeployField>
+  <DeployField ItemId="{637DF26D-8999-4EB6-B9E5-110A2A1DDAD2}" FieldName="Text" FieldLanguage="en" Database="core">Back</DeployField>
+  <DeployedItem Id="{637DF26D-8999-4EB6-B9E5-110A2A1DDAD2}" Name="BackButton Parameters.item" Parent="{B9780406-56C6-4FCA-ADFC-46CE3F429526}" Database="core" />
+  <DeployField ItemId="{89E81C6A-BDDC-436C-B0FF-93674FE92F06}" FieldName="ButtonType" Database="core">Primary</DeployField>
+  <DeployField ItemId="{89E81C6A-BDDC-436C-B0FF-93674FE92F06}" FieldName="Tooltip" FieldLanguage="en" Database="core">View Customer Details</DeployField>
+  <DeployField ItemId="{89E81C6A-BDDC-436C-B0FF-93674FE92F06}" FieldName="Text" FieldLanguage="en" Database="core">View Details</DeployField>
+  <DeployedItem Id="{89E81C6A-BDDC-436C-B0FF-93674FE92F06}" Name="CustomerDetails Button Parameters.item" Parent="{B9780406-56C6-4FCA-ADFC-46CE3F429526}" Database="core" />
+  <DeployField ItemId="{2911074D-905E-4DB8-8288-A2A92DA32AD5}" FieldName="IconType" Database="core">Warning</DeployField>
+  <DeployField ItemId="{2911074D-905E-4DB8-8288-A2A92DA32AD5}" FieldName="HeaderText" FieldLanguage="en" Database="core">Confirmation Required</DeployField>
+  <DeployField ItemId="{2911074D-905E-4DB8-8288-A2A92DA32AD5}" FieldName="Title" FieldLanguage="en" Database="core">Confirm Action</DeployField>
+  <DeployField ItemId="{2911074D-905E-4DB8-8288-A2A92DA32AD5}" FieldName="Message" FieldLanguage="en" Database="core">Are you sure you want to perform this action?</DeployField>
+  <DeployField ItemId="{2911074D-905E-4DB8-8288-A2A92DA32AD5}" FieldName="ButtonSet" FieldLanguage="en" Database="core">{59BE697E-7931-41D2-8391-9B64ECF8D245}</DeployField>
+  <DeployedItem Id="{2911074D-905E-4DB8-8288-A2A92DA32AD5}" Name="ConfirmActionDialog.item" Parent="{3F83B5CF-E211-44F9-BC6D-34FFFCCB867E}" Database="core" />
+  <DeployField ItemId="{F8002246-73AD-4E6A-99FA-2A2E933A6478}" FieldName="TabVisualStyle" Database="core">Normal</DeployField>
+  <DeployField ItemId="{F8002246-73AD-4E6A-99FA-2A2E933A6478}" FieldName="IsVisible" Database="core">1</DeployField>
+  <DeployField ItemId="{F8002246-73AD-4E6A-99FA-2A2E933A6478}" FieldName="__Sortorder" Database="core">300</DeployField>
+  <DeployField ItemId="{F8002246-73AD-4E6A-99FA-2A2E933A6478}" FieldName="Tooltip" FieldLanguage="en" Database="core"></DeployField>
+  <DeployedItem Id="{F8002246-73AD-4E6A-99FA-2A2E933A6478}" Name="CustomerTabControl.item" Parent="{3F83B5CF-E211-44F9-BC6D-34FFFCCB867E}" Database="core" />
+  <DeployField ItemId="{9EF3C04F-D563-42DF-813F-309B5AE601B1}" FieldName="IsLazyLoaded" Database="core"></DeployField>
+  <DeployField ItemId="{9EF3C04F-D563-42DF-813F-309B5AE601B1}" FieldName="IsSubAppRegistered" Database="core">1</DeployField>
+  <DeployField ItemId="{9EF3C04F-D563-42DF-813F-309B5AE601B1}" FieldName="__Sortorder" Database="core">0</DeployField>
+  <DeployField ItemId="{9EF3C04F-D563-42DF-813F-309B5AE601B1}" FieldName="__Renderings" Database="core">&lt;r xmlns:p="p" xmlns:s="s" p:p="1"&gt;&lt;d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"&gt;&lt;r uid="{A9C50BA8-8B3F-4330-95E0-67DD7A4B3ED0}" s:id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" s:par="Id=HiddenText&amp;amp;IsVisible=0" /&gt;&lt;/d&gt;&lt;/r&gt;</DeployField>
+  <DeployField ItemId="{9EF3C04F-D563-42DF-813F-309B5AE601B1}" FieldName="Header" FieldLanguage="en" Database="core">Customers</DeployField>
+  <DeployField ItemId="{9EF3C04F-D563-42DF-813F-309B5AE601B1}" FieldName="Tooltip" FieldLanguage="en" Database="core">Customers</DeployField>
+  <DeployedItem Id="{9EF3C04F-D563-42DF-813F-309B5AE601B1}" Name="Details.item" Parent="{F8002246-73AD-4E6A-99FA-2A2E933A6478}" Database="core" KeepChildrenInSync="true" />
+  <DeployedItem Id="{85A0E019-65BD-4550-8CC8-81BC525283F9}" Name="PageSettings.item" Parent="{9EF3C04F-D563-42DF-813F-309B5AE601B1}" Database="core" KeepChildrenInSync="true" />
+  <DeployedItem Id="{F71A221B-6416-4C8B-8E61-BB2E8D18F3EC}" Name="CustomersGlobalActionControl.item" Parent="{85A0E019-65BD-4550-8CC8-81BC525283F9}" Database="core" KeepChildrenInSync="true" />
+  <DeployedItem Id="{98638857-1233-4415-8074-49A3B5CA1760}" Name="ActionColumn.item" Parent="{F71A221B-6416-4C8B-8E61-BB2E8D18F3EC}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{EE2B15FD-E1D2-400A-A0FE-4F8972E696DD}" FieldName="Text" FieldLanguage="en" Database="core">ActionGroup</DeployField>
+  <DeployedItem Id="{EE2B15FD-E1D2-400A-A0FE-4F8972E696DD}" Name="ActionGroup.item" Parent="{98638857-1233-4415-8074-49A3B5CA1760}" Database="core" KeepChildrenInSync="true" />
+  <DeployedItem Id="{090200CD-326C-44A5-B415-1BB8921EA36C}" Name="GlobalActions.item" Parent="{85A0E019-65BD-4550-8CC8-81BC525283F9}" Database="core" KeepChildrenInSync="true" />
+  <DeployedItem Id="{83D17BAA-7AB8-494A-9ABA-FBE5E844675F}" Name="GlobalActionColumn.item" Parent="{090200CD-326C-44A5-B415-1BB8921EA36C}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{92566EBC-0478-4739-9B31-8A76EEBC45DA}" FieldName="Text" FieldLanguage="en" Database="core">GlobalActionGroup</DeployField>
+  <DeployedItem Id="{92566EBC-0478-4739-9B31-8A76EEBC45DA}" Name="GlobalActionGroup.item" Parent="{83D17BAA-7AB8-494A-9ABA-FBE5E844675F}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{A3909979-10AB-42B9-A4B4-8B330C06F422}" FieldName="IsVisible" Database="core"></DeployField>
+  <DeployField ItemId="{A3909979-10AB-42B9-A4B4-8B330C06F422}" FieldName="HasNotificationMessages" Database="core"></DeployField>
+  <DeployField ItemId="{A3909979-10AB-42B9-A4B4-8B330C06F422}" FieldName="__Sortorder" Database="core">500</DeployField>
+  <DeployedItem Id="{A3909979-10AB-42B9-A4B4-8B330C06F422}" Name="GeneralErrorMessage.item" Parent="{3F83B5CF-E211-44F9-BC6D-34FFFCCB867E}" Database="core" />
+  <DeployField ItemId="{F36CC7E2-BB95-42A1-86B5-6255BE54713E}" FieldName="Type" Database="core">Error</DeployField>
+  <DeployField ItemId="{F36CC7E2-BB95-42A1-86B5-6255BE54713E}" FieldName="IsClosable" Database="core">1</DeployField>
+  <DeployField ItemId="{F36CC7E2-BB95-42A1-86B5-6255BE54713E}" FieldName="IsTemporary" Database="core"></DeployField>
+  <DeployField ItemId="{F36CC7E2-BB95-42A1-86B5-6255BE54713E}" FieldName="Text" FieldLanguage="en" Database="core">An error occured.</DeployField>
+  <DeployedItem Id="{F36CC7E2-BB95-42A1-86B5-6255BE54713E}" Name="ErrorMessage.item" Parent="{A3909979-10AB-42B9-A4B4-8B330C06F422}" Database="core" />
+  <DeployField ItemId="{C0E8B7E1-F22F-4856-9462-503FC3518BD2}" FieldName="Text" FieldLanguage="en" Database="core">Customer</DeployField>
+  <DeployField ItemId="{C0E8B7E1-F22F-4856-9462-503FC3518BD2}" FieldName="__Display name" FieldLanguage="en" Database="core">Customer</DeployField>
+  <DeployedItem Id="{C0E8B7E1-F22F-4856-9462-503FC3518BD2}" Name="HeaderTitle.item" Parent="{3F83B5CF-E211-44F9-BC6D-34FFFCCB867E}" Database="core" />
+  <DeployField ItemId="{5C4312BE-4DB2-45FD-86DD-1D80366497F9}" FieldName="Stylesheet" Database="core">/sitecore/shell/client/Applications/CustomerOrderManager/Assets/Styles/Styles.css</DeployField>
+  <DeployField ItemId="{5C4312BE-4DB2-45FD-86DD-1D80366497F9}" FieldName="__Sortorder" Database="core">0</DeployField>
+  <DeployedItem Id="{5C4312BE-4DB2-45FD-86DD-1D80366497F9}" Name="Page-Stylesheet-File.item" Parent="{3F83B5CF-E211-44F9-BC6D-34FFFCCB867E}" Database="core" />
+  <DeployField ItemId="{427B1B17-4EE1-4436-8966-317480472C43}" FieldName="IsVisible" Database="core"></DeployField>
+  <DeployField ItemId="{427B1B17-4EE1-4436-8966-317480472C43}" FieldName="HasNotificationMessages" Database="core"></DeployField>
+  <DeployField ItemId="{427B1B17-4EE1-4436-8966-317480472C43}" FieldName="__Sortorder" Database="core">500</DeployField>
+  <DeployedItem Id="{427B1B17-4EE1-4436-8966-317480472C43}" Name="SuccessMessage.item" Parent="{3F83B5CF-E211-44F9-BC6D-34FFFCCB867E}" Database="core" />
+  <DeployField ItemId="{013955E1-58C5-4560-927A-C1CB8B7972E2}" FieldName="Type" Database="core">Notification</DeployField>
+  <DeployField ItemId="{013955E1-58C5-4560-927A-C1CB8B7972E2}" FieldName="IsTemporary" Database="core"></DeployField>
+  <DeployField ItemId="{013955E1-58C5-4560-927A-C1CB8B7972E2}" FieldName="Text" FieldLanguage="en" Database="core">Save succeeded.</DeployField>
+  <DeployedItem Id="{013955E1-58C5-4560-927A-C1CB8B7972E2}" Name="SaveSucceeded.item" Parent="{427B1B17-4EE1-4436-8966-317480472C43}" Database="core" />
+  <DeployField ItemId="{41687087-C31C-4531-A066-ADC2AA728BF1}" FieldName="__Sortorder" Database="core">400</DeployField>
+  <DeployedItem Id="{41687087-C31C-4531-A066-ADC2AA728BF1}" Name="Text.item" Parent="{3F83B5CF-E211-44F9-BC6D-34FFFCCB867E}" Database="core" />
+  <DeployField ItemId="{53A1C1E9-21E1-4338-B8C3-741A4FD4BA57}" FieldName="Theme" Database="core">Oxford</DeployField>
+  <DeployField ItemId="{53A1C1E9-21E1-4338-B8C3-741A4FD4BA57}" FieldName="UseFullWidth" Database="core">1</DeployField>
+  <DeployField ItemId="{53A1C1E9-21E1-4338-B8C3-741A4FD4BA57}" FieldName="__Renderings" Database="core">&lt;r&gt;
+  &lt;d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}"&gt;
+    &lt;r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d&amp;amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fApplications%2fCustomerOrderManager%2fOrder%2fOrder.js" ph="Page.Code" uid="{970E7E78-420E-4B23-A98E-AB6663D7FD9C}" /&gt;
+    &lt;r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="ConfigurationItem=%7bCCB9376E-6171-48AB-878E-56A43FE9EF15%7d&amp;amp;Id=Help" ph="GlobalHeader.LoginInfo" uid="{6A3D8C43-64AA-4BDB-B618-BCC29D739CD8}" /&gt;
+    &lt;r id="{E06F7926-2A9E-4D2B-BC3F-C7EEB8B52065}" par="Id=CommerceHelpProvider&amp;amp;TabID=%257bBinding%2bOrderTabControl.SelectedValue%257d&amp;amp;FolderID=%257bBF2BC7B8-54A9-4F79-ACD9-BA557FB5C7A9%257d" ph="Page.Body" uid="{38EFEF9A-DCAB-4030-8295-83DB51EE46A1}" /&gt;
+    &lt;r id="{5C2A51D7-1AA9-41FF-B1DE-4B9367870CA7}" par="ShowFooter=0" ph="Page.Body" uid="{B7E83BEE-6549-4371-9D6D-34395D2CD2C7}" /&gt;
+    &lt;r id="{78D8260C-4FF9-4627-BF64-0B884ACA4BA1}" ph="GlobalHeader" uid="{FE982A7B-7768-4302-A8F6-BF9212742298}" /&gt;
+    &lt;r id="{0DD00367-0B7D-4955-BB70-397523711B6D}" par="Id=AccountInformation" ph="GlobalHeader.LoginInfo" uid="{032B8906-AF49-464D-B6A6-D14A033293F8}" /&gt;
+    &lt;r id="{50E8FC46-422F-4B03-BC96-E0B9DCEA51E7}" par="Id=SearchBox&amp;amp;IsVisible=1&amp;amp;IsEnabled=1&amp;amp;Icon=%2fsitecore%2fshell%2fclient%2fSpeak%2fAssets%2fimg%2fSpeak%2fCommon%2f16x16%2fdark_gray%2fsearch.png&amp;amp;Click=javascript%3aapp.getSearchResults()%3b" ph="GlobalHeader.LoginInfo" uid="{9B6B7DB3-D4B2-46B7-97D9-6D6AC23372CF}" /&gt;
+    &lt;r id="{C02DE599-FC31-4059-9B9F-89C0018E0576}" par="Id=EnvironmentsSwitcher&amp;amp;DisplayFieldName=Name&amp;amp;Tooltip=Select+your+environment&amp;amp;DynamicData=%7bBinding+EnvironmentsDataSource.Items%7d&amp;amp;ValueFieldName=Id" ph="GlobalHeader.LoginInfo" uid="{20847179-933F-409A-8A72-73CD34A92573}" /&gt;
+    &lt;r id="{18880E95-B373-40BF-8E5B-9F0455BEEB67}" par="DataUrl=%2fsitecore%2fshell%2fcommerce%2ftools%2fCommerceEnvironment%2fGetEnvironmentList&amp;amp;Id=EnvironmentsDataSource&amp;amp;IsReady=0" ph="GlobalHeader.LoginInfo" uid="{2DB788B8-4862-4F81-86BD-3CA87AD32F31}" /&gt;
+    &lt;r id="{C220369A-84A3-482B-A936-F75CDCB23736}" par="Id=GlobalLogo" ph="GlobalHeader.StartButton" uid="{96F31F05-4813-4C6D-A5D3-309C386E2F98}" /&gt;
+    &lt;r id="{047F31EF-7D7D-42E5-BC9B-F39FEAB0B83B}" ph="ApplicationHeader" uid="{F2BC25AA-1E04-4F29-A2AB-CEE76FAC87B6}" /&gt;
+    &lt;r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=HeaderTitle&amp;amp;Text=Order+Number" ph="ApplicationHeader.Title" uid="{D3001B68-5A70-494A-81FA-E827A0FA278F}" /&gt;
+    &lt;r id="{33CAAE03-25A2-4917-8489-AEACC6AA1E54}" par="Id=HomeButton&amp;amp;NavigateUrl=%2fsitecore%2fclient%2fApplications%2fCustomerOrderManager%2fSearch&amp;amp;Text=CUSTOMER+%26+ORDER+MANAGER" ph="ApplicationHeader.BreadCrumb" uid="{43B809DC-8341-4E1B-9D82-807A4C20C2D4}" /&gt;
+    &lt;r id="{357DC261-E48D-4B04-85BC-3009300A6AE1}" ph="ApplicationContent" uid="{7CF2D38B-401C-4908-A9D9-E5ED8F0BA842}" /&gt;
+    &lt;r id="{AC03DC51-0BDF-4D5C-8EA1-4EB71F2B977D}" par="Id=OrderActionBar" ph="ApplicationContent.Main" uid="{B92F2EAD-1AB8-4D33-99E8-3E1CF4C4BE72}" /&gt;
+    &lt;r id="{43F4C6E5-22F1-41BF-A317-B213C1ABBDA5}" par="ActionDefinitionsRoot=%7bF1B3F8E9-8A6F-4233-B4B0-4D0A9AF994E2%7d&amp;amp;Id=GlobalActionsControl" ph="OrderActionBar.Actions" uid="{E30B9BCD-A581-4141-BC83-52991BA076DD}" /&gt;
+    &lt;r id="{C03E9CF5-EE02-4B11-8F06-8E124CF3F6CE}" par="ConfigurationItem=%7b637DF26D-8999-4EB6-B9E5-110A2A1DDAD2%7d&amp;amp;Id=BackButton" ph="OrderActionBar.Back" uid="{FF2F1E05-5B9B-41D3-9EF6-474EC9DEA764}" /&gt;
+    &lt;r id="{8C3B1C75-9DBA-49BC-AC49-CD9AD5559FD6}" par="Id=SuccessMessage" ph="ApplicationContent.Main" uid="{344A841A-CA8D-4A7F-A726-67F7B9D1416D}" /&gt;
+    &lt;r id="{8C3B1C75-9DBA-49BC-AC49-CD9AD5559FD6}" par="Id=GeneralErrorMessage" ph="ApplicationContent.Main" uid="{91AA5EB9-DD32-4564-B7BC-18A0E81F4C82}" /&gt;
+    &lt;r id="{8C3B1C75-9DBA-49BC-AC49-CD9AD5559FD6}" par="Id=ErrorMessage" ph="ApplicationContent.Main" uid="{4325E8D3-5E62-456F-B76D-A278D4BDC929}" /&gt;
+    &lt;r id="{8C3B1C75-9DBA-49BC-AC49-CD9AD5559FD6}" par="ConfigurationItem=%7bC885BC76-6C01-45C6-955C-85CDC6677DE6%7d&amp;amp;Id=ConcurrencyMessage&amp;amp;IsVisible=0" ph="ApplicationContent.Main" uid="{B3626D45-5867-4299-918A-CFA91E2D679F}" /&gt;
+    &lt;r id="{7CE24006-7B34-4678-BC91-7675C6E2C9B9}" par="Id=OrderTabControl" ph="ApplicationContent.Main" uid="{FB6A67CA-5B26-467D-BECA-4E748F800C3A}" /&gt;
+    &lt;r id="{06632524-7DD3-4E1A-84BF-2A5DF970263C}" par="Id=ConfirmActionDialog" ph="ApplicationContent.Main" uid="{92D3EB07-23E6-4423-B61A-BFFFEEB8B3F2}" /&gt;
+    &lt;r id="{A7B206E7-7393-4125-962C-02EEFA4734CF}" par="Id=DialogWindow" ph="Page.Body" uid="{C170337F-057E-463E-9DC9-D33EE653FB2A}" /&gt;
+    &lt;r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=ActionDialogOK&amp;amp;Text=OK&amp;amp;Click=javascript%3aapp.Modules.onActionDialogOK()%3b" ph="DialogWindow.Buttons" uid="{2ABD1819-3B1E-483A-8901-D25D0EDCC7D8}" /&gt;
+    &lt;r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=ActionDialogCancel&amp;amp;Text=Cancel&amp;amp;Click=javascript%3aapp.Modules.onActionDialogCancel()%3b" ph="DialogWindow.Buttons" uid="{4C874D35-1B9F-4509-9730-7B50A1DAFD43}" /&gt;
+    &lt;r id="{49E22055-BF50-472B-9B8C-040EA68951D7}" par="Id=FormContentsPanel" ph="DialogWindow.Content" uid="{74AA7D98-946E-4075-9C1F-76B7A0845524}" /&gt;
+    &lt;r id="{DE943A70-61A4-4D27-A166-C79A5BC9683A}" par="ConfigurationItem=%7bA7AEC2CC-EEC7-4F51-8AD5-B7BFA30B6847%7d&amp;amp;Id=ItemPicker" ph="ItemPickerContainer.Content" uid="{6BB8DAC4-F73B-4AD9-A4CE-2A596B662E9B}" /&gt;
+    &lt;r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=ItemPickerContainer&amp;amp;IsVisible=0" ph="DialogWindow.Content" uid="{4F3A15FB-B89E-40F6-9BD2-45ECE5B24757}" /&gt;
+    &lt;r id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" par="Id=PaymentPopupContainer&amp;amp;IsVisible=0" ph="DialogWindow.Content" uid="{4651169C-6CD2-435F-92B8-70859AEA548D}" /&gt;
+    &lt;r id="{DE943A70-61A4-4D27-A166-C79A5BC9683A}" par="ConfigurationItem=%7b1E6E3FCA-B256-4E3E-B240-7183C860699C%7d&amp;amp;Id=PaymentPopup" ph="PaymentPopupContainer.Content" uid="{E6FDBD48-A5F5-43A0-A95C-CC218EF98F66}" /&gt;
+  &lt;/d&gt;
+&lt;/r&gt;</DeployField>
+  <DeployField ItemId="{53A1C1E9-21E1-4338-B8C3-741A4FD4BA57}" FieldName="BrowserTitle" FieldLanguage="en" Database="core">Order</DeployField>
+  <DeployedItem Id="{53A1C1E9-21E1-4338-B8C3-741A4FD4BA57}" Name="Order.item" Parent="{1F708226-942D-4D88-B548-BEF7844EDE71}" Database="core" />
+  <DeployedItem Id="{B82FD4C6-2262-41C2-AE33-D23987CE5A72}" Name="PageSettings.item" Parent="{53A1C1E9-21E1-4338-B8C3-741A4FD4BA57}" Database="core" />
+  <DeployedItem Id="{4B41D65E-162A-4614-BFE2-17AF063FE612}" Name="Buttons.item" Parent="{B82FD4C6-2262-41C2-AE33-D23987CE5A72}" Database="core" />
+  <DeployField ItemId="{9FCAC2A7-B2D6-429E-82AA-203DF095A873}" FieldName="IconType" Database="core">Warning</DeployField>
+  <DeployField ItemId="{9FCAC2A7-B2D6-429E-82AA-203DF095A873}" FieldName="HeaderText" FieldLanguage="en" Database="core">Confirmation Required</DeployField>
+  <DeployField ItemId="{9FCAC2A7-B2D6-429E-82AA-203DF095A873}" FieldName="Title" FieldLanguage="en" Database="core">Confirm Action</DeployField>
+  <DeployField ItemId="{9FCAC2A7-B2D6-429E-82AA-203DF095A873}" FieldName="Message" FieldLanguage="en" Database="core">Are you sure you want to perform this action?</DeployField>
+  <DeployField ItemId="{9FCAC2A7-B2D6-429E-82AA-203DF095A873}" FieldName="ButtonSet" FieldLanguage="en" Database="core">{59BE697E-7931-41D2-8391-9B64ECF8D245}</DeployField>
+  <DeployedItem Id="{9FCAC2A7-B2D6-429E-82AA-203DF095A873}" Name="ConfirmActionDialog.item" Parent="{B82FD4C6-2262-41C2-AE33-D23987CE5A72}" Database="core" />
+  <DeployField ItemId="{B4CFA6C5-4AAC-4829-80CE-5FB23FEB6D10}" FieldName="IsVisible" Database="core"></DeployField>
+  <DeployField ItemId="{B4CFA6C5-4AAC-4829-80CE-5FB23FEB6D10}" FieldName="HasNotificationMessages" Database="core"></DeployField>
+  <DeployField ItemId="{B4CFA6C5-4AAC-4829-80CE-5FB23FEB6D10}" FieldName="__Sortorder" Database="core">600</DeployField>
+  <DeployedItem Id="{B4CFA6C5-4AAC-4829-80CE-5FB23FEB6D10}" Name="GeneralErrorMessage.item" Parent="{B82FD4C6-2262-41C2-AE33-D23987CE5A72}" Database="core" />
+  <DeployField ItemId="{175689B6-46F0-4394-BACB-07FC904B3743}" FieldName="Type" Database="core">Error</DeployField>
+  <DeployField ItemId="{175689B6-46F0-4394-BACB-07FC904B3743}" FieldName="IsClosable" Database="core">1</DeployField>
+  <DeployField ItemId="{175689B6-46F0-4394-BACB-07FC904B3743}" FieldName="IsTemporary" Database="core"></DeployField>
+  <DeployField ItemId="{175689B6-46F0-4394-BACB-07FC904B3743}" FieldName="Text" FieldLanguage="en" Database="core">An error occured.</DeployField>
+  <DeployedItem Id="{175689B6-46F0-4394-BACB-07FC904B3743}" Name="ErrorMessage.item" Parent="{B4CFA6C5-4AAC-4829-80CE-5FB23FEB6D10}" Database="core" />
+  <DeployField ItemId="{54B8C477-320B-4BC7-9268-58D1BAADB2E1}" FieldName="Text" FieldLanguage="en" Database="core">Actions</DeployField>
+  <DeployedItem Id="{54B8C477-320B-4BC7-9268-58D1BAADB2E1}" Name="GlobalActionsControl.item" Parent="{B82FD4C6-2262-41C2-AE33-D23987CE5A72}" Database="core" />
+  <DeployField ItemId="{6027660A-C649-428B-83FA-E605F4FD5A8B}" FieldName="TabVisualStyle" Database="core">Normal</DeployField>
+  <DeployField ItemId="{6027660A-C649-428B-83FA-E605F4FD5A8B}" FieldName="IsVisible" Database="core">1</DeployField>
+  <DeployField ItemId="{6027660A-C649-428B-83FA-E605F4FD5A8B}" FieldName="Tooltip" FieldLanguage="en" Database="core"></DeployField>
+  <DeployedItem Id="{6027660A-C649-428B-83FA-E605F4FD5A8B}" Name="OrderTabControl.item" Parent="{B82FD4C6-2262-41C2-AE33-D23987CE5A72}" Database="core" />
+  <DeployField ItemId="{3C7F60B9-F80F-4350-ABB8-2C7BCA52D87C}" FieldName="IsSubAppRegistered" Database="core">1</DeployField>
+  <DeployField ItemId="{3C7F60B9-F80F-4350-ABB8-2C7BCA52D87C}" FieldName="__Sortorder" Database="core">0</DeployField>
+  <DeployField ItemId="{3C7F60B9-F80F-4350-ABB8-2C7BCA52D87C}" FieldName="__Renderings" Database="core">&lt;r&gt;
+  &lt;d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"&gt;
+    &lt;r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=PreventSpeakErrorText&amp;amp;IsVisible=0" uid="{7F2E6DFB-F690-4D8E-8E2B-BD9F9B77637F}" /&gt;
+  &lt;/d&gt;
+&lt;/r&gt;</DeployField>
+  <DeployField ItemId="{3C7F60B9-F80F-4350-ABB8-2C7BCA52D87C}" FieldName="Header" FieldLanguage="en" Database="core">Details</DeployField>
+  <DeployField ItemId="{3C7F60B9-F80F-4350-ABB8-2C7BCA52D87C}" FieldName="Tooltip" FieldLanguage="en" Database="core">Details</DeployField>
+  <DeployField ItemId="{3C7F60B9-F80F-4350-ABB8-2C7BCA52D87C}" FieldName="__Display name" FieldLanguage="en" Database="core">Details</DeployField>
+  <DeployedItem Id="{3C7F60B9-F80F-4350-ABB8-2C7BCA52D87C}" Name="Details.item" Parent="{6027660A-C649-428B-83FA-E605F4FD5A8B}" Database="core" KeepChildrenInSync="true" />
+  <DeployedItem Id="{25BD7D02-D794-4F59-AE02-C8B92A47800C}" Name="PageSettings.item" Parent="{3C7F60B9-F80F-4350-ABB8-2C7BCA52D87C}" Database="core" KeepChildrenInSync="true" />
+  <DeployedItem Id="{F05056A2-0E8D-4421-B078-C02EB716E342}" Name="GlobalActions.item" Parent="{25BD7D02-D794-4F59-AE02-C8B92A47800C}" Database="core" KeepChildrenInSync="true" />
+  <DeployedItem Id="{DA0B95E0-CF0E-4327-875A-523ACADE6607}" Name="GlobalActionColumn.item" Parent="{F05056A2-0E8D-4421-B078-C02EB716E342}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{CBC89C94-BFF0-4CA3-BB44-9A875ACD9232}" FieldName="Text" FieldLanguage="en" Database="core">GlobalActionsGroup</DeployField>
+  <DeployedItem Id="{CBC89C94-BFF0-4CA3-BB44-9A875ACD9232}" Name="GlobalActionsGroup.item" Parent="{DA0B95E0-CF0E-4327-875A-523ACADE6607}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{C76B0216-3BD5-4CD6-8F86-5D07AB0CC116}" FieldName="HeaderText" FieldLanguage="en" Database="core">Order Details</DeployField>
+  <DeployedItem Id="{C76B0216-3BD5-4CD6-8F86-5D07AB0CC116}" Name="OrderInformation.item" Parent="{25BD7D02-D794-4F59-AE02-C8B92A47800C}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{CD557E9B-F7D9-4740-A943-480941065A5E}" FieldName="IsSubAppRegistered" Database="core">1</DeployField>
+  <DeployField ItemId="{CD557E9B-F7D9-4740-A943-480941065A5E}" FieldName="__Sortorder" Database="core">100</DeployField>
+  <DeployField ItemId="{CD557E9B-F7D9-4740-A943-480941065A5E}" FieldName="__Renderings" Database="core">&lt;r xmlns:p="p" xmlns:s="s" p:p="1"&gt;&lt;d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"&gt;&lt;r uid="{B52CAB91-E0CA-41E8-B5DA-381D0C121447}" p:before="*" s:id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" s:par="Id=MainBorder&amp;amp;PaddingType=All" /&gt;&lt;r uid="{092E482A-D415-4D11-A378-F766098B91D5}" p:after="r[@uid='{B52CAB91-E0CA-41E8-B5DA-381D0C121447}']" s:id="{1CA7EB02-74E0-42F9-B8C9-32E62FD505BD}" s:par="Id=LineItemsExpander&amp;amp;HeaderText=Line+Items+for+this+Order&amp;amp;IsVisible=0&amp;amp;IsOpen=1&amp;amp;IsCollapsible=0" s:ph="MainBorder.Content" /&gt;&lt;r uid="{92296A24-1654-4214-B052-1FC1154B63BF}" p:after="r[@uid='{092E482A-D415-4D11-A378-F766098B91D5}']" s:id="{43F4C6E5-22F1-41BF-A317-B213C1ABBDA5}" s:par="Menu=%25252525252525257bF1B3F8E9-8A6F-4233-B4B0-4D0A9AF994E2%25252525252525257d&amp;amp;IsVisible=0&amp;amp;Id=LineItemsActionControl" s:ph="LineItemsExpander.ActionBar" /&gt;&lt;r uid="{9C63C498-F011-476F-8889-F760931CFC80}" p:after="r[@uid='{92296A24-1654-4214-B052-1FC1154B63BF}']" s:id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}" s:par="Id=LineItemsList&amp;amp;IsVisible=0&amp;amp;IsStateDiscarded=1" s:ph="LineItemsExpander.Body" /&gt;&lt;r uid="{868AC8CF-F94C-4F4F-9B5D-19EC95AA6A5D}" p:after="r[@uid='{9C63C498-F011-476F-8889-F760931CFC80}']" s:id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" s:par="Id=OrderDetailsButton&amp;amp;IsVisible=0&amp;amp;ButtonType=Primary&amp;amp;Text=Details" s:ph="SideBorder.Content" /&gt;&lt;r uid="{B55626DD-F79B-495F-A9B9-09EEEFD1ED2E}" p:after="*[1=2]" s:id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" s:par="TextWeight=Bold&amp;amp;Id=SelectedLineItemTitle&amp;amp;IsVisible=0&amp;amp;Text=SELECTED+ITEM&amp;amp;TextSize=Large" s:ph="SideBorder.Content" /&gt;&lt;/d&gt;&lt;/r&gt;</DeployField>
+  <DeployField ItemId="{CD557E9B-F7D9-4740-A943-480941065A5E}" FieldName="Header" FieldLanguage="en" Database="core">Line Items</DeployField>
+  <DeployField ItemId="{CD557E9B-F7D9-4740-A943-480941065A5E}" FieldName="Tooltip" FieldLanguage="en" Database="core">Line Items</DeployField>
+  <DeployField ItemId="{CD557E9B-F7D9-4740-A943-480941065A5E}" FieldName="__Display name" FieldLanguage="en" Database="core">Line Items</DeployField>
+  <DeployedItem Id="{CD557E9B-F7D9-4740-A943-480941065A5E}" Name="Line Items.item" Parent="{6027660A-C649-428B-83FA-E605F4FD5A8B}" Database="core" KeepChildrenInSync="true" />
+  <DeployedItem Id="{EF0A6379-97D4-47A5-82A4-E4B00D659D87}" Name="PageSettings.item" Parent="{CD557E9B-F7D9-4740-A943-480941065A5E}" Database="core" KeepChildrenInSync="true" />
+  <DeployedItem Id="{F1B3F8E9-8A6F-4233-B4B0-4D0A9AF994E2}" Name="LineItemsActionControl.item" Parent="{EF0A6379-97D4-47A5-82A4-E4B00D659D87}" Database="core" KeepChildrenInSync="true" />
+  <DeployedItem Id="{E4CBB858-FA52-485D-91ED-E6AD23D24F1B}" Name="ActionColumn.item" Parent="{F1B3F8E9-8A6F-4233-B4B0-4D0A9AF994E2}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{32ECDFA0-0427-4B9C-A9AB-FF9336EB6345}" FieldName="Text" FieldLanguage="en" Database="core">ActionGroup</DeployField>
+  <DeployedItem Id="{32ECDFA0-0427-4B9C-A9AB-FF9336EB6345}" Name="ActionGroup.item" Parent="{E4CBB858-FA52-485D-91ED-E6AD23D24F1B}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{92E06FF9-BAE2-4EEA-B938-4EAA5B7A6910}" FieldName="ValueFieldName" Database="core">ItemId</DeployField>
+  <DeployField ItemId="{92E06FF9-BAE2-4EEA-B938-4EAA5B7A6910}" FieldName="IsSelectionRequired" Database="core">1</DeployField>
+  <DeployedItem Id="{92E06FF9-BAE2-4EEA-B938-4EAA5B7A6910}" Name="LineItemsList.item" Parent="{EF0A6379-97D4-47A5-82A4-E4B00D659D87}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{D0171239-686F-40CD-9C78-EBA175D22FF6}" FieldName="DataFieldName" Database="core">Description</DeployField>
+  <DeployField ItemId="{D0171239-686F-40CD-9C78-EBA175D22FF6}" FieldName="__Sortorder" Database="core">-25</DeployField>
+  <DeployField ItemId="{D0171239-686F-40CD-9C78-EBA175D22FF6}" FieldName="ColumnTitle" FieldLanguage="en" Database="core">Description</DeployField>
+  <DeployedItem Id="{D0171239-686F-40CD-9C78-EBA175D22FF6}" Name="Description.item" Parent="{92E06FF9-BAE2-4EEA-B938-4EAA5B7A6910}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{9689D0E2-8684-49E3-8044-3270623D0EFC}" FieldName="DataFieldName" Database="core">Name</DeployField>
+  <DeployField ItemId="{9689D0E2-8684-49E3-8044-3270623D0EFC}" FieldName="__Sortorder" Database="core">-50</DeployField>
+  <DeployField ItemId="{9689D0E2-8684-49E3-8044-3270623D0EFC}" FieldName="ColumnTitle" FieldLanguage="en" Database="core">Display Name</DeployField>
+  <DeployedItem Id="{9689D0E2-8684-49E3-8044-3270623D0EFC}" Name="Display Name.item" Parent="{92E06FF9-BAE2-4EEA-B938-4EAA5B7A6910}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{D2719457-BEF4-4F64-9CB6-1E50015D75D8}" FieldName="DataFieldName" Database="core">LineTotal</DeployField>
+  <DeployField ItemId="{D2719457-BEF4-4F64-9CB6-1E50015D75D8}" FieldName="__Sortorder" Database="core">300</DeployField>
+  <DeployField ItemId="{D2719457-BEF4-4F64-9CB6-1E50015D75D8}" FieldName="ColumnTitle" FieldLanguage="en" Database="core">Total</DeployField>
+  <DeployedItem Id="{D2719457-BEF4-4F64-9CB6-1E50015D75D8}" Name="Line Total.item" Parent="{92E06FF9-BAE2-4EEA-B938-4EAA5B7A6910}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{6302AD0E-B9A8-4A0A-9468-8111BB301A04}" FieldName="DataFieldName" Database="core">Quantity</DeployField>
+  <DeployField ItemId="{6302AD0E-B9A8-4A0A-9468-8111BB301A04}" FieldName="ColumnTitle" FieldLanguage="en" Database="core">Quantity</DeployField>
+  <DeployedItem Id="{6302AD0E-B9A8-4A0A-9468-8111BB301A04}" Name="Quantity.item" Parent="{92E06FF9-BAE2-4EEA-B938-4EAA5B7A6910}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{8ECB304F-44C6-4A01-B73E-A15DDD952FF8}" FieldName="DataFieldName" Database="core">Sku</DeployField>
+  <DeployField ItemId="{8ECB304F-44C6-4A01-B73E-A15DDD952FF8}" FieldName="__Sortorder" Database="core">0</DeployField>
+  <DeployField ItemId="{8ECB304F-44C6-4A01-B73E-A15DDD952FF8}" FieldName="ColumnTitle" FieldLanguage="en" Database="core">SKU</DeployField>
+  <DeployedItem Id="{8ECB304F-44C6-4A01-B73E-A15DDD952FF8}" Name="SKU.item" Parent="{92E06FF9-BAE2-4EEA-B938-4EAA5B7A6910}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{621A0AAA-CED9-4730-AD5B-FA3B961101E0}" FieldName="AltFieldName" Database="core">Display Name</DeployField>
+  <DeployField ItemId="{621A0AAA-CED9-4730-AD5B-FA3B961101E0}" FieldName="ImageFieldName" Database="core">Thumbnail</DeployField>
+  <DeployField ItemId="{621A0AAA-CED9-4730-AD5B-FA3B961101E0}" FieldName="__Sortorder" Database="core">-100</DeployField>
+  <DeployField ItemId="{621A0AAA-CED9-4730-AD5B-FA3B961101E0}" FieldName="ColumnTitle" FieldLanguage="en" Database="core">Thumbnail</DeployField>
+  <DeployedItem Id="{621A0AAA-CED9-4730-AD5B-FA3B961101E0}" Name="Thumbnail.item" Parent="{92E06FF9-BAE2-4EEA-B938-4EAA5B7A6910}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{C4F7F1DC-DB73-4977-9068-5AD762360D8C}" FieldName="Stylesheet" Database="core">/sitecore/shell/client/Applications/CustomerOrderManager/Assets/Styles/Styles.css</DeployField>
+  <DeployedItem Id="{C4F7F1DC-DB73-4977-9068-5AD762360D8C}" Name="Page-Stylesheet-File.item" Parent="{B82FD4C6-2262-41C2-AE33-D23987CE5A72}" Database="core" />
+  <DeployField ItemId="{E37C4A60-8FBC-466F-B26C-A90F96F954C9}" FieldName="IsVisible" Database="core"></DeployField>
+  <DeployedItem Id="{E37C4A60-8FBC-466F-B26C-A90F96F954C9}" Name="SuccessMessage.item" Parent="{B82FD4C6-2262-41C2-AE33-D23987CE5A72}" Database="core" />
+  <DeployField ItemId="{684A6F7E-1D05-4433-A78D-8D3A76AE5DD4}" FieldName="Type" Database="core">Notification</DeployField>
+  <DeployField ItemId="{684A6F7E-1D05-4433-A78D-8D3A76AE5DD4}" FieldName="Text" FieldLanguage="en" Database="core">The action succeeded.</DeployField>
+  <DeployedItem Id="{684A6F7E-1D05-4433-A78D-8D3A76AE5DD4}" Name="ActionSucceeded.item" Parent="{E37C4A60-8FBC-466F-B26C-A90F96F954C9}" Database="core" />
+  <DeployedItem Id="{296565A3-E47B-46B3-A4D9-7A5C291920F0}" Name="Text.item" Parent="{B82FD4C6-2262-41C2-AE33-D23987CE5A72}" Database="core" />
+  <DeployField ItemId="{B56509F8-E7EB-4EA3-90FD-530C8C0F8C39}" FieldName="SpeakCoreVersion" Database="core">{3F937240-C16E-4229-9641-4CE5B4CB4ABA}</DeployField>
+  <DeployedItem Id="{B56509F8-E7EB-4EA3-90FD-530C8C0F8C39}" Name="Renderings.item" Parent="{1F708226-942D-4D88-B548-BEF7844EDE71}" Database="core" />
+  <DeployField ItemId="{3CAD0BE7-734A-47DD-8D3F-D55A2E4012F8}" FieldName="Theme" Database="core">Oxford</DeployField>
+  <DeployField ItemId="{3CAD0BE7-734A-47DD-8D3F-D55A2E4012F8}" FieldName="UseFullWidth" Database="core">1</DeployField>
+  <DeployField ItemId="{3CAD0BE7-734A-47DD-8D3F-D55A2E4012F8}" FieldName="__Renderings" Database="core">&lt;r&gt;
+  &lt;d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}"&gt;
+    &lt;r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d&amp;amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fApplications%2fCustomerOrderManager%2fSearch%2fSearch.js" ph="Page.Code" uid="{970E7E78-420E-4B23-A98E-AB6663D7FD9C}" /&gt;
+    &lt;r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="ConfigurationItem=%7bCCB9376E-6171-48AB-878E-56A43FE9EF15%7d&amp;amp;Id=Help" ph="GlobalHeader.LoginInfo" uid="{D0DDA96A-BCC0-47EB-900A-BE5C062639B6}" /&gt;
+    &lt;r id="{0DD00367-0B7D-4955-BB70-397523711B6D}" par="Id=AccountInformation" ph="GlobalHeader.LoginInfo" uid="{1D0D630E-B086-47CE-81A4-53DE84D5F1E8}" /&gt;
+    &lt;r id="{E06F7926-2A9E-4D2B-BC3F-C7EEB8B52065}" par="Id=CommerceHelpProvider&amp;amp;TabID=%257bBinding%2bSearchTabControl.SelectedValue%257d&amp;amp;FolderID=%257bBF2BC7B8-54A9-4F79-ACD9-BA557FB5C7A9%257d" ph="Page.Body" uid="{146C5E1F-B878-4279-BF2B-69BBE99B2AAB}" /&gt;
+    &lt;r id="{50E8FC46-422F-4B03-BC96-E0B9DCEA51E7}" par="Id=SearchBox&amp;amp;IsVisible=1&amp;amp;IsEnabled=1&amp;amp;Icon=%2fsitecore%2fshell%2fclient%2fSpeak%2fAssets%2fimg%2fSpeak%2fCommon%2f16x16%2fdark_gray%2fsearch.png&amp;amp;Click=javascript%3aapp.getSearchResults()%3b" ph="GlobalHeader.LoginInfo" uid="{9B6B7DB3-D4B2-46B7-97D9-6D6AC23372CF}" /&gt;
+    &lt;r id="{C02DE599-FC31-4059-9B9F-89C0018E0576}" par="Id=EnvironmentsSwitcher&amp;amp;DisplayFieldName=Name&amp;amp;Tooltip=Select+your+environment&amp;amp;DynamicData=%7bBinding+EnvironmentsDataSource.Items%7d&amp;amp;ValueFieldName=Id" ph="GlobalHeader.LoginInfo" uid="{452F05BB-5F32-4417-92DA-5AF4A8091280}" /&gt;
+    &lt;r id="{18880E95-B373-40BF-8E5B-9F0455BEEB67}" par="DataUrl=%2fsitecore%2fshell%2fcommerce%2ftools%2fCommerceEnvironment%2fGetEnvironmentList&amp;amp;Id=EnvironmentsDataSource&amp;amp;IsReady=0" ph="GlobalHeader.LoginInfo" uid="{CBEB9D72-CC22-427A-B49A-7AACB2E5FD33}" /&gt;
+    &lt;r id="{5C2A51D7-1AA9-41FF-B1DE-4B9367870CA7}" par="ShowFooter=0" ph="Page.Body" uid="{B7E83BEE-6549-4371-9D6D-34395D2CD2C7}" /&gt;
+    &lt;r id="{78D8260C-4FF9-4627-BF64-0B884ACA4BA1}" ph="GlobalHeader" uid="{FE982A7B-7768-4302-A8F6-BF9212742298}" /&gt;
+    &lt;r id="{C220369A-84A3-482B-A936-F75CDCB23736}" par="Id=GlobalLogo" ph="GlobalHeader.StartButton" uid="{96F31F05-4813-4C6D-A5D3-309C386E2F98}" /&gt;
+    &lt;r id="{A9C1F47A-1E2B-4852-946F-6F9FAB939056}" ph="GlobalFooter" uid="{FC62C0F8-02D4-44E4-B3CA-8C110EF3CDCF}" /&gt;
+    &lt;r id="{047F31EF-7D7D-42E5-BC9B-F39FEAB0B83B}" ph="ApplicationHeader" uid="{F2BC25AA-1E04-4F29-A2AB-CEE76FAC87B6}" /&gt;
+    &lt;r id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" par="Id=HeaderTitle" ph="ApplicationHeader.Title" uid="{D3001B68-5A70-494A-81FA-E827A0FA278F}" /&gt;
+    &lt;r id="{33CAAE03-25A2-4917-8489-AEACC6AA1E54}" par="Id=HomeButton&amp;amp;NavigateUrl=%2fsitecore%2fclient%2fApplications%2fCustomerOrderManager%2fSearch&amp;amp;Text=CUSTOMER+%26+ORDER+MANAGER" ph="ApplicationHeader.BreadCrumb" uid="{43B809DC-8341-4E1B-9D82-807A4C20C2D4}" /&gt;
+    &lt;r id="{357DC261-E48D-4B04-85BC-3009300A6AE1}" ph="ApplicationContent" uid="{7CF2D38B-401C-4908-A9D9-E5ED8F0BA842}" /&gt;
+    &lt;r id="{7CE24006-7B34-4678-BC91-7675C6E2C9B9}" par="Id=SearchTabControl" ph="ApplicationContent.Main" uid="{FB6A67CA-5B26-467D-BECA-4E748F800C3A}" /&gt;
+    &lt;r id="{A7B206E7-7393-4125-962C-02EEFA4734CF}" par="Id=CustomerTemplatesDialog" ph="ApplicationContent.Main" uid="{140AC7D9-9AA9-4B4E-A82C-098B0F82A14D}" /&gt;
+    &lt;r id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}" par="Id=CustomerTemplatesList&amp;amp;IsStateDiscarded=1" ph="CustomerTemplatesDialog.Content" uid="{F40801CE-CA90-422F-B4C7-5FE9B7BA5336}" /&gt;
+    &lt;r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=CustomerTemplatesOKButton&amp;amp;Click=javascript%3aapp.templatesOKClicked()%3b" ph="CustomerTemplatesDialog.Buttons" uid="{677D9ED7-25DA-40D9-B5A7-790947FEDFC5}" /&gt;
+    &lt;r id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" par="Id=CustomerTemplatesCancelButton&amp;amp;Click=javascript%3aapp.templatesCancelClicked()%3b" ph="CustomerTemplatesDialog.Buttons" uid="{A30BC5A7-4068-4B40-A04B-D6554865E09C}" /&gt;
+    &lt;r id="{8C3B1C75-9DBA-49BC-AC49-CD9AD5559FD6}" par="Id=GeneralErrorMessage" ph="ApplicationContent.Main" uid="{68E4F418-97A7-4CF5-B968-F61ECB9543D0}" /&gt;
+    &lt;r id="{8C3B1C75-9DBA-49BC-AC49-CD9AD5559FD6}" par="Id=ErrorMessage" ph="ApplicationContent.Main" uid="{81C88B99-61B9-41AB-9A5B-43545FE7D6F7}" /&gt;
+    &lt;r id="{06632524-7DD3-4E1A-84BF-2A5DF970263C}" par="Id=ConfirmDeleteCustomer" ph="ApplicationContent.Main" uid="{6F5926DC-27EF-44BD-9EEA-A0277701C88F}" /&gt;
+  &lt;/d&gt;
+&lt;/r&gt;</DeployField>
+  <DeployField ItemId="{3CAD0BE7-734A-47DD-8D3F-D55A2E4012F8}" FieldName="BrowserTitle" FieldLanguage="en" Database="core">Search Results</DeployField>
+  <DeployedItem Id="{3CAD0BE7-734A-47DD-8D3F-D55A2E4012F8}" Name="Search.item" Parent="{1F708226-942D-4D88-B548-BEF7844EDE71}" Database="core" />
+  <DeployedItem Id="{082DE6E2-17F7-41D0-91C5-22D951545283}" Name="PageSettings.item" Parent="{3CAD0BE7-734A-47DD-8D3F-D55A2E4012F8}" Database="core" />
+  <DeployedItem Id="{AA966CDE-8AF9-41FD-8819-7DAA8DB1D62F}" Name="Buttons.item" Parent="{082DE6E2-17F7-41D0-91C5-22D951545283}" Database="core" />
+  <DeployField ItemId="{B96804D1-B8F5-411F-81B5-BFA1399852A6}" FieldName="Text" FieldLanguage="en" Database="core">New Customer</DeployField>
+  <DeployedItem Id="{B96804D1-B8F5-411F-81B5-BFA1399852A6}" Name="NewCustomerButton Parameters.item" Parent="{AA966CDE-8AF9-41FD-8819-7DAA8DB1D62F}" Database="core" />
+  <DeployField ItemId="{A6D940AA-1BDC-40DB-9046-521BEB3E1A11}" FieldName="ButtonType" Database="core">Primary</DeployField>
+  <DeployField ItemId="{A6D940AA-1BDC-40DB-9046-521BEB3E1A11}" FieldName="Tooltip" FieldLanguage="en" Database="core">View Order Details</DeployField>
+  <DeployField ItemId="{A6D940AA-1BDC-40DB-9046-521BEB3E1A11}" FieldName="Text" FieldLanguage="en" Database="core">View Details</DeployField>
+  <DeployedItem Id="{A6D940AA-1BDC-40DB-9046-521BEB3E1A11}" Name="OrderDetails Button Parameters.item" Parent="{AA966CDE-8AF9-41FD-8819-7DAA8DB1D62F}" Database="core" />
+  <DeployField ItemId="{89F13C9B-53B4-499D-BB0A-830CB96FD14D}" FieldName="IconType" Database="core">Warning</DeployField>
+  <DeployField ItemId="{89F13C9B-53B4-499D-BB0A-830CB96FD14D}" FieldName="HeaderText" FieldLanguage="en" Database="core">Confirm Delete Customer</DeployField>
+  <DeployField ItemId="{89F13C9B-53B4-499D-BB0A-830CB96FD14D}" FieldName="Title" FieldLanguage="en" Database="core">Confirm Delete?</DeployField>
+  <DeployField ItemId="{89F13C9B-53B4-499D-BB0A-830CB96FD14D}" FieldName="Message" FieldLanguage="en" Database="core">Are you sure you want to delete the selected customer?</DeployField>
+  <DeployField ItemId="{89F13C9B-53B4-499D-BB0A-830CB96FD14D}" FieldName="ButtonSet" FieldLanguage="en" Database="core">{59BE697E-7931-41D2-8391-9B64ECF8D245}</DeployField>
+  <DeployedItem Id="{89F13C9B-53B4-499D-BB0A-830CB96FD14D}" Name="ConfirmDeleteCustomer.item" Parent="{082DE6E2-17F7-41D0-91C5-22D951545283}" Database="core" />
+  <DeployField ItemId="{F6CB1D7D-E663-4E7C-89E9-3DE3B0D202D3}" FieldName="Text" FieldLanguage="en" Database="core">Cancel</DeployField>
+  <DeployedItem Id="{F6CB1D7D-E663-4E7C-89E9-3DE3B0D202D3}" Name="CustomerTemplatesCancelButton.item" Parent="{082DE6E2-17F7-41D0-91C5-22D951545283}" Database="core" />
+  <DeployField ItemId="{CC2051E6-875E-409F-A380-1F6BABBE10DB}" FieldName="HeaderText" FieldLanguage="en" Database="core">Select a customer template</DeployField>
+  <DeployedItem Id="{CC2051E6-875E-409F-A380-1F6BABBE10DB}" Name="CustomerTemplatesDialog.item" Parent="{082DE6E2-17F7-41D0-91C5-22D951545283}" Database="core" />
+  <DeployField ItemId="{A7CAADFD-8D9A-4DD1-9135-532B4C7405EE}" FieldName="ValueFieldName" Database="core">Id</DeployField>
+  <DeployedItem Id="{A7CAADFD-8D9A-4DD1-9135-532B4C7405EE}" Name="CustomerTemplatesList.item" Parent="{082DE6E2-17F7-41D0-91C5-22D951545283}" Database="core" />
+  <DeployField ItemId="{7A2083F3-3229-44F3-9F53-C8A3D0891404}" FieldName="DataFieldName" Database="core">TemplateName</DeployField>
+  <DeployField ItemId="{7A2083F3-3229-44F3-9F53-C8A3D0891404}" FieldName="ColumnTitle" FieldLanguage="en" Database="core">Template Name</DeployField>
+  <DeployedItem Id="{7A2083F3-3229-44F3-9F53-C8A3D0891404}" Name="Template Name.item" Parent="{A7CAADFD-8D9A-4DD1-9135-532B4C7405EE}" Database="core" />
+  <DeployField ItemId="{D8285F9A-1218-46C7-8C5A-EEF890E365F3}" FieldName="Text" FieldLanguage="en" Database="core">OK</DeployField>
+  <DeployedItem Id="{D8285F9A-1218-46C7-8C5A-EEF890E365F3}" Name="CustomerTemplatesOKButton.item" Parent="{082DE6E2-17F7-41D0-91C5-22D951545283}" Database="core" />
+  <DeployField ItemId="{2733B9D0-181D-45A1-A425-3E9CC616747C}" FieldName="IsVisible" Database="core"></DeployField>
+  <DeployField ItemId="{2733B9D0-181D-45A1-A425-3E9CC616747C}" FieldName="HasNotificationMessages" Database="core"></DeployField>
+  <DeployField ItemId="{2733B9D0-181D-45A1-A425-3E9CC616747C}" FieldName="__Sortorder" Database="core">700</DeployField>
+  <DeployedItem Id="{2733B9D0-181D-45A1-A425-3E9CC616747C}" Name="GeneralErrorMessage.item" Parent="{082DE6E2-17F7-41D0-91C5-22D951545283}" Database="core" />
+  <DeployField ItemId="{D84C91D2-778C-4547-8079-4C238C681291}" FieldName="Type" Database="core">Error</DeployField>
+  <DeployField ItemId="{D84C91D2-778C-4547-8079-4C238C681291}" FieldName="IsClosable" Database="core">1</DeployField>
+  <DeployField ItemId="{D84C91D2-778C-4547-8079-4C238C681291}" FieldName="IsTemporary" Database="core"></DeployField>
+  <DeployField ItemId="{D84C91D2-778C-4547-8079-4C238C681291}" FieldName="Text" FieldLanguage="en" Database="core">An error occured.</DeployField>
+  <DeployedItem Id="{D84C91D2-778C-4547-8079-4C238C681291}" Name="ErrorMessage.item" Parent="{2733B9D0-181D-45A1-A425-3E9CC616747C}" Database="core" />
+  <DeployField ItemId="{32B687E7-EA01-4F8E-B440-17E355BC54A6}" FieldName="Id" Database="core">HeaderTItle</DeployField>
+  <DeployField ItemId="{32B687E7-EA01-4F8E-B440-17E355BC54A6}" FieldName="Text" FieldLanguage="en" Database="core">Search Results</DeployField>
+  <DeployedItem Id="{32B687E7-EA01-4F8E-B440-17E355BC54A6}" Name="HeaderTitle.item" Parent="{082DE6E2-17F7-41D0-91C5-22D951545283}" Database="core" />
+  <DeployField ItemId="{FB1427AF-3C0B-4817-BCA4-548A1EA32EF5}" FieldName="Stylesheet" Database="core">/sitecore/shell/client/Applications/CustomerOrderManager/Assets/Styles/Styles.css</DeployField>
+  <DeployedItem Id="{FB1427AF-3C0B-4817-BCA4-548A1EA32EF5}" Name="Page-Stylesheet-File.item" Parent="{082DE6E2-17F7-41D0-91C5-22D951545283}" Database="core" />
+  <DeployField ItemId="{58F8EB5D-4B90-4FD3-B518-8B7B1EB8FE1D}" FieldName="TabVisualStyle" Database="core">Normal</DeployField>
+  <DeployField ItemId="{58F8EB5D-4B90-4FD3-B518-8B7B1EB8FE1D}" FieldName="IsVisible" Database="core">1</DeployField>
+  <DeployField ItemId="{58F8EB5D-4B90-4FD3-B518-8B7B1EB8FE1D}" FieldName="Tooltip" FieldLanguage="en" Database="core"></DeployField>
+  <DeployedItem Id="{58F8EB5D-4B90-4FD3-B518-8B7B1EB8FE1D}" Name="SearchTabControl.item" Parent="{082DE6E2-17F7-41D0-91C5-22D951545283}" Database="core" />
+  <DeployField ItemId="{18AF25A0-0F69-4AD8-89A9-E8D056C53AF3}" FieldName="IsSubAppRegistered" Database="core">1</DeployField>
+  <DeployField ItemId="{18AF25A0-0F69-4AD8-89A9-E8D056C53AF3}" FieldName="__Renderings" Database="core">&lt;r xmlns:p="p" xmlns:s="s" p:p="1"&gt;&lt;d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"&gt;&lt;r uid="{B52CAB91-E0CA-41E8-B5DA-381D0C121447}" p:before="*" s:id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" s:par="Id=MainBorder&amp;amp;PaddingType=All&amp;amp;UsePadding=1" /&gt;&lt;r uid="{092E482A-D415-4D11-A378-F766098B91D5}" p:after="r[@uid='{B52CAB91-E0CA-41E8-B5DA-381D0C121447}']" s:id="{1CA7EB02-74E0-42F9-B8C9-32E62FD505BD}" s:par="Id=CustomerExpander&amp;amp;IsOpen=1&amp;amp;IsCollapsible=0" s:ph="MainBorder.Content" /&gt;&lt;r uid="{5C0F85A6-A5BA-485E-AD22-42A0D8FD6448}" p:after="r[@uid='{092E482A-D415-4D11-A378-F766098B91D5}']" s:id="{18880E95-B373-40BF-8E5B-9F0455BEEB67}" s:par="DataUrl=%2fsitecore%2fshell%2fcommerce%2ftools%2fCustomerOrderSearch%2fGetSearchResults&amp;amp;Id=CustomerDataSource&amp;amp;IsReady=0&amp;amp;PageSize=10&amp;amp;ItemType=customer&amp;amp;Sorting=%7bBinding+CustomersList.Sorting%7d" s:ph="MainBorder.Content" /&gt;&lt;r uid="{92296A24-1654-4214-B052-1FC1154B63BF}" p:after="r[@uid='{5C0F85A6-A5BA-485E-AD22-42A0D8FD6448}']" s:id="{43F4C6E5-22F1-41BF-A317-B213C1ABBDA5}" s:par="Menu=%252525252525252525252525257bA2996BB8-79AF-442A-B1A6-06485E8A7F35%252525252525252525252525257d&amp;amp;IsEnabled=1&amp;amp;Id=CustomerActionControl" s:ph="CustomerExpander.ActionBar" /&gt;&lt;r uid="{9C63C498-F011-476F-8889-F760931CFC80}" p:after="r[@uid='{92296A24-1654-4214-B052-1FC1154B63BF}']" s:id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}" s:par="Id=CustomersList&amp;amp;DynamicData=%7bBinding+CustomerDataSource.Items%7d&amp;amp;IsStateDiscarded=1&amp;amp;MaxRows=%7bBinding+CustomerDataSource.PageSize%7d" s:ph="CustomerExpander.Body" /&gt;&lt;r uid="{5F1F2CBF-B41F-456D-B2CF-A51799F181B2}" p:after="r[@uid='{9C63C498-F011-476F-8889-F760931CFC80}']" s:id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" s:par="Id=SideBorder" /&gt;&lt;r uid="{B55626DD-F79B-495F-A9B9-09EEEFD1ED2E}" p:after="r[@uid='{5F1F2CBF-B41F-456D-B2CF-A51799F181B2}']" s:id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" s:par="TextWeight=Bold&amp;amp;Id=SelectedCustomerItemTitle" s:ph="SideBorder.Content" /&gt;&lt;r uid="{69B98FED-B541-4B9F-B808-1C6F5F3DEC06}" p:after="r[@uid='{B55626DD-F79B-495F-A9B9-09EEEFD1ED2E}']" s:id="{49E22055-BF50-472B-9B8C-040EA68951D7}" s:par="Id=PreviewPanel" s:ph="SideBorder.Content" /&gt;&lt;r uid="{868AC8CF-F94C-4F4F-9B5D-19EC95AA6A5D}" p:after="r[@uid='{69B98FED-B541-4B9F-B808-1C6F5F3DEC06}']" s:id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" s:par="ConfigurationItem=%7b89E81C6A-BDDC-436C-B0FF-93674FE92F06%7d&amp;amp;Id=CustomerDetailsButton&amp;amp;Click=javascript%3aapp.parent.viewCustomerDetailsClicked()%3b" s:ph="SideBorder.Content" /&gt;&lt;r uid="{8D28B04E-23CF-4645-9631-4095BB8D5C0D}" p:after="r[@uid='{868AC8CF-F94C-4F4F-9B5D-19EC95AA6A5D}']" s:id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" s:par="Id=MoreResultsButton" s:ph="CustomerExpander.Body" /&gt;&lt;r uid="{2EC899B3-23F0-415D-AD8C-ABE506D9B05A}" p:after="*[1=2]" s:id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" s:par="ConfigurationItem=%7bA079766C-0469-4A92-B117-2078E92E8E5C%7d&amp;amp;Id=NoResultMessage" s:ph="PreviewPanel.Content" /&gt;&lt;/d&gt;&lt;/r&gt;</DeployField>
+  <DeployField ItemId="{18AF25A0-0F69-4AD8-89A9-E8D056C53AF3}" FieldName="Header" FieldLanguage="en" Database="core">Customers</DeployField>
+  <DeployField ItemId="{18AF25A0-0F69-4AD8-89A9-E8D056C53AF3}" FieldName="Tooltip" FieldLanguage="en" Database="core">Customers</DeployField>
+  <DeployedItem Id="{18AF25A0-0F69-4AD8-89A9-E8D056C53AF3}" Name="Customers.item" Parent="{58F8EB5D-4B90-4FD3-B518-8B7B1EB8FE1D}" Database="core" KeepChildrenInSync="true" />
+  <DeployedItem Id="{904DD556-32C3-4BA2-8481-AD47812154E6}" Name="PageSettings.item" Parent="{18AF25A0-0F69-4AD8-89A9-E8D056C53AF3}" Database="core" KeepChildrenInSync="true" />
+  <DeployedItem Id="{A2996BB8-79AF-442A-B1A6-06485E8A7F35}" Name="CustomerActionControl.item" Parent="{904DD556-32C3-4BA2-8481-AD47812154E6}" Database="core" KeepChildrenInSync="true" />
+  <DeployedItem Id="{72068223-D437-4753-B0C5-20413E5F06E1}" Name="ActionColumn.item" Parent="{A2996BB8-79AF-442A-B1A6-06485E8A7F35}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{88895936-EFF9-43D3-A212-6555E53B11CF}" FieldName="Text" FieldLanguage="en" Database="core">ActionGroup</DeployField>
+  <DeployedItem Id="{88895936-EFF9-43D3-A212-6555E53B11CF}" Name="ActionGroup.item" Parent="{72068223-D437-4753-B0C5-20413E5F06E1}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{F5CE685D-141B-495F-880C-48AE4C9181CC}" FieldName="Name" Database="core">Delete</DeployField>
+  <DeployField ItemId="{F5CE685D-141B-495F-880C-48AE4C9181CC}" FieldName="Click" Database="core">javascript:app.parent.deleteCustomerClicked();</DeployField>
+  <DeployField ItemId="{F5CE685D-141B-495F-880C-48AE4C9181CC}" FieldName="Text" FieldLanguage="en" Database="core">Delete</DeployField>
+  <DeployedItem Id="{F5CE685D-141B-495F-880C-48AE4C9181CC}" Name="Delete.item" Parent="{88895936-EFF9-43D3-A212-6555E53B11CF}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{FB5E8289-C788-41B9-BB57-2656A812FBE0}" FieldName="HeaderText" FieldLanguage="en" Database="core">Search Results for Customers</DeployField>
+  <DeployedItem Id="{FB5E8289-C788-41B9-BB57-2656A812FBE0}" Name="CustomerExpander.item" Parent="{904DD556-32C3-4BA2-8481-AD47812154E6}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{607EABD5-5239-45BC-988D-CF0A7D01FF9E}" FieldName="ValueFieldName" Database="core">ItemId</DeployField>
+  <DeployedItem Id="{607EABD5-5239-45BC-988D-CF0A7D01FF9E}" Name="CustomersList.item" Parent="{904DD556-32C3-4BA2-8481-AD47812154E6}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{7A32EBA6-6BD1-40E0-B894-FC10DAE8135C}" FieldName="IsSortable" Database="core">1</DeployField>
+  <DeployField ItemId="{7A32EBA6-6BD1-40E0-B894-FC10DAE8135C}" FieldName="LinkTextFieldName" Database="core">email_address</DeployField>
+  <DeployField ItemId="{7A32EBA6-6BD1-40E0-B894-FC10DAE8135C}" FieldName="LinkUrlFieldName" Database="core">customertargeturl</DeployField>
+  <DeployField ItemId="{7A32EBA6-6BD1-40E0-B894-FC10DAE8135C}" FieldName="ColumnTitle" FieldLanguage="en" Database="core">Email</DeployField>
+  <DeployedItem Id="{7A32EBA6-6BD1-40E0-B894-FC10DAE8135C}" Name="Email.item" Parent="{607EABD5-5239-45BC-988D-CF0A7D01FF9E}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{F5BADA98-ED2A-429D-924F-7CCFC3BA4FD6}" FieldName="IsSortable" Database="core">1</DeployField>
+  <DeployField ItemId="{F5BADA98-ED2A-429D-924F-7CCFC3BA4FD6}" FieldName="DataFieldName" Database="core">first_name</DeployField>
+  <DeployField ItemId="{F5BADA98-ED2A-429D-924F-7CCFC3BA4FD6}" FieldName="ColumnTitle" FieldLanguage="en" Database="core">First Name</DeployField>
+  <DeployedItem Id="{F5BADA98-ED2A-429D-924F-7CCFC3BA4FD6}" Name="FirstName.item" Parent="{607EABD5-5239-45BC-988D-CF0A7D01FF9E}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{CA1FD4C1-06BD-4D4C-9073-E2276283A9C0}" FieldName="IsSortable" Database="core">1</DeployField>
+  <DeployField ItemId="{CA1FD4C1-06BD-4D4C-9073-E2276283A9C0}" FieldName="DataFieldName" Database="core">last_name</DeployField>
+  <DeployField ItemId="{CA1FD4C1-06BD-4D4C-9073-E2276283A9C0}" FieldName="ColumnTitle" FieldLanguage="en" Database="core">Last Name</DeployField>
+  <DeployedItem Id="{CA1FD4C1-06BD-4D4C-9073-E2276283A9C0}" Name="LastName.item" Parent="{607EABD5-5239-45BC-988D-CF0A7D01FF9E}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{04F535BF-5873-44E2-BCD5-2E38EF5A0B4A}" FieldName="Click" Database="core">javascript:app.parent.moreCustomersResultsClicked();</DeployField>
+  <DeployField ItemId="{04F535BF-5873-44E2-BCD5-2E38EF5A0B4A}" FieldName="Text" FieldLanguage="en" Database="core">More Results</DeployField>
+  <DeployedItem Id="{04F535BF-5873-44E2-BCD5-2E38EF5A0B4A}" Name="MoreResultsButton.item" Parent="{904DD556-32C3-4BA2-8481-AD47812154E6}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{A079766C-0469-4A92-B117-2078E92E8E5C}" FieldName="Text" FieldLanguage="en" Database="core">No item to preview</DeployField>
+  <DeployedItem Id="{A079766C-0469-4A92-B117-2078E92E8E5C}" Name="No Sidebar Results Text.item" Parent="{904DD556-32C3-4BA2-8481-AD47812154E6}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{79C7367A-F2DC-47D6-A093-75E747D51169}" FieldName="TextSize" Database="core">XX-Large</DeployField>
+  <DeployField ItemId="{79C7367A-F2DC-47D6-A093-75E747D51169}" FieldName="Text" FieldLanguage="en" Database="core">Select a Customer</DeployField>
+  <DeployedItem Id="{79C7367A-F2DC-47D6-A093-75E747D51169}" Name="SelectedCustomerItemTitle.item" Parent="{904DD556-32C3-4BA2-8481-AD47812154E6}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{E1A99056-DE43-49BF-8688-A9F056AF0D6F}" FieldName="IsLazyLoaded" Database="core"></DeployField>
+  <DeployField ItemId="{E1A99056-DE43-49BF-8688-A9F056AF0D6F}" FieldName="IsSubAppRegistered" Database="core">1</DeployField>
+  <DeployField ItemId="{E1A99056-DE43-49BF-8688-A9F056AF0D6F}" FieldName="__Renderings" Database="core">&lt;r xmlns:p="p" xmlns:s="s" p:p="1"&gt;&lt;d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"&gt;&lt;r uid="{B52CAB91-E0CA-41E8-B5DA-381D0C121447}" p:before="*" s:id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" s:par="Id=MainBorder&amp;amp;PaddingType=All&amp;amp;UsePadding=1" /&gt;&lt;r uid="{092E482A-D415-4D11-A378-F766098B91D5}" p:after="r[@uid='{B52CAB91-E0CA-41E8-B5DA-381D0C121447}']" s:id="{1CA7EB02-74E0-42F9-B8C9-32E62FD505BD}" s:par="Id=OrdersExpander&amp;amp;IsOpen=1&amp;amp;IsCollapsible=0" s:ph="MainBorder.Content" /&gt;&lt;r uid="{5F1F2CBF-B41F-456D-B2CF-A51799F181B2}" p:after="r[@uid='{092E482A-D415-4D11-A378-F766098B91D5}']" s:id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}" s:par="Id=SideBorder" /&gt;&lt;r uid="{92296A24-1654-4214-B052-1FC1154B63BF}" p:after="r[@uid='{5F1F2CBF-B41F-456D-B2CF-A51799F181B2}']" s:id="{43F4C6E5-22F1-41BF-A317-B213C1ABBDA5}" s:par="Menu=%252525252525252525252525257b08057112-5A2C-4356-983E-44EB77B83C4F%252525252525252525252525257d&amp;amp;Id=OrderActionControl" s:ph="OrdersExpander.ActionBar" /&gt;&lt;r uid="{9C63C498-F011-476F-8889-F760931CFC80}" p:after="r[@uid='{92296A24-1654-4214-B052-1FC1154B63BF}']" s:id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}" s:par="Id=OrdersList&amp;amp;IsMultipleColumnSortEnabled=0&amp;amp;DynamicData=%7bBinding+OrderDataSource.Items%7d&amp;amp;IsStateDiscarded=1&amp;amp;MaxRows=%7bBinding+OrderDataSource.PageSize%7d" s:ph="OrdersExpander.Body" /&gt;&lt;r uid="{57243532-B8F9-4464-89E1-F2C3CEBE0831}" p:after="r[@uid='{9C63C498-F011-476F-8889-F760931CFC80}']" s:id="{18880E95-B373-40BF-8E5B-9F0455BEEB67}" s:par="DataUrl=%2fsitecore%2fshell%2fcommerce%2ftools%2fCustomerOrderSearch%2fGetSearchResults&amp;amp;Id=OrderDataSource&amp;amp;IsReady=0&amp;amp;Fields=orderid%7corderconfirmationid%7cstatus%7corderdate&amp;amp;PageSize=10&amp;amp;ItemType=order&amp;amp;Sorting=%7bBinding+OrdersList.Sorting%7d" s:ph="MainBorder.Content" /&gt;&lt;r uid="{B55626DD-F79B-495F-A9B9-09EEEFD1ED2E}" p:after="r[@uid='{57243532-B8F9-4464-89E1-F2C3CEBE0831}']" s:id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}" s:par="TextWeight=Bold&amp;amp;Id=SelectedOrderItemTitle&amp;amp;TextSize=XX-Large" s:ph="SideBorder.Content" /&gt;&lt;r uid="{56B16AE6-E230-4642-BD2B-615CBD5D797A}" p:after="r[@uid='{B55626DD-F79B-495F-A9B9-09EEEFD1ED2E}']" s:id="{49E22055-BF50-472B-9B8C-040EA68951D7}" s:par="Id=PreviewPanel" s:ph="SideBorder.Content" /&gt;&lt;r uid="{FB44018E-E7ED-4DD3-B241-E3B8FDFF97EB}" p:after="r[@uid='{56B16AE6-E230-4642-BD2B-615CBD5D797A}']" s:id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" s:par="Id=MoreResultsButton" s:ph="OrdersExpander.Body" /&gt;&lt;r uid="{868AC8CF-F94C-4F4F-9B5D-19EC95AA6A5D}" p:after="*[1=2]" s:id="{88C38B36-787A-43FA-85D4-FE08B0A4B7FF}" s:par="ConfigurationItem=%7bA6D940AA-1BDC-40DB-9046-521BEB3E1A11%7d&amp;amp;Id=OrderDetailsButton&amp;amp;Click=javascript%3aapp.parent.viewOrderDetailsClicked()%3b" s:ph="SideBorder.Content" /&gt;&lt;/d&gt;&lt;/r&gt;</DeployField>
+  <DeployField ItemId="{E1A99056-DE43-49BF-8688-A9F056AF0D6F}" FieldName="Header" FieldLanguage="en" Database="core">Orders</DeployField>
+  <DeployField ItemId="{E1A99056-DE43-49BF-8688-A9F056AF0D6F}" FieldName="Tooltip" FieldLanguage="en" Database="core">Orders</DeployField>
+  <DeployField ItemId="{E1A99056-DE43-49BF-8688-A9F056AF0D6F}" FieldName="__Display name" FieldLanguage="en" Database="core">Orders</DeployField>
+  <DeployedItem Id="{E1A99056-DE43-49BF-8688-A9F056AF0D6F}" Name="Orders.item" Parent="{58F8EB5D-4B90-4FD3-B518-8B7B1EB8FE1D}" Database="core" KeepChildrenInSync="true" />
+  <DeployedItem Id="{9DCB29E5-EBEC-4417-8177-8DF821C2CF54}" Name="PageSettings.item" Parent="{E1A99056-DE43-49BF-8688-A9F056AF0D6F}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{AF83DF57-3F13-40A6-8513-AF8C62C2ADFE}" FieldName="Click" Database="core">javascript:app.parent.moreOrdersResultsClicked();</DeployField>
+  <DeployField ItemId="{AF83DF57-3F13-40A6-8513-AF8C62C2ADFE}" FieldName="Text" FieldLanguage="en" Database="core">More Results</DeployField>
+  <DeployedItem Id="{AF83DF57-3F13-40A6-8513-AF8C62C2ADFE}" Name="MoreResultsButton.item" Parent="{9DCB29E5-EBEC-4417-8177-8DF821C2CF54}" Database="core" KeepChildrenInSync="true" />
+  <DeployedItem Id="{08057112-5A2C-4356-983E-44EB77B83C4F}" Name="OrderActionControl.item" Parent="{9DCB29E5-EBEC-4417-8177-8DF821C2CF54}" Database="core" KeepChildrenInSync="true" />
+  <DeployedItem Id="{D3AB475B-9CCD-4199-9AB4-1DA8F0B500BD}" Name="ActionColumn.item" Parent="{08057112-5A2C-4356-983E-44EB77B83C4F}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{63D73423-B29D-4EE5-944E-3DBD1C663FC4}" FieldName="Text" FieldLanguage="en" Database="core">ActionGroup</DeployField>
+  <DeployedItem Id="{63D73423-B29D-4EE5-944E-3DBD1C663FC4}" Name="ActionGroup.item" Parent="{D3AB475B-9CCD-4199-9AB4-1DA8F0B500BD}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{E912D478-5CCC-4FC6-AB92-AB54438FB0AE}" FieldName="HeaderText" FieldLanguage="en" Database="core">Search Results for Orders</DeployField>
+  <DeployField ItemId="{E912D478-5CCC-4FC6-AB92-AB54438FB0AE}" FieldName="Tooltip" FieldLanguage="en" Database="core">Search Results for Orders</DeployField>
+  <DeployField ItemId="{E912D478-5CCC-4FC6-AB92-AB54438FB0AE}" FieldName="__Display name" FieldLanguage="en" Database="core">Search Results for Orders</DeployField>
+  <DeployedItem Id="{E912D478-5CCC-4FC6-AB92-AB54438FB0AE}" Name="OrdersExpander.item" Parent="{9DCB29E5-EBEC-4417-8177-8DF821C2CF54}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{ED9A74A2-6D5B-4E8A-8B47-AC4E7E20BD02}" FieldName="ValueFieldName" Database="core">orderid</DeployField>
+  <DeployedItem Id="{ED9A74A2-6D5B-4E8A-8B47-AC4E7E20BD02}" Name="OrdersList.item" Parent="{9DCB29E5-EBEC-4417-8177-8DF821C2CF54}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{5E5CC8D3-8D4E-4148-ADD9-5DEBE7933C2A}" FieldName="IsSortable" Database="core">1</DeployField>
+  <DeployField ItemId="{5E5CC8D3-8D4E-4148-ADD9-5DEBE7933C2A}" FieldName="LinkTextFieldName" Database="core">orderconfirmationid</DeployField>
+  <DeployField ItemId="{5E5CC8D3-8D4E-4148-ADD9-5DEBE7933C2A}" FieldName="LinkUrlFieldName" Database="core">ordertargeturl</DeployField>
+  <DeployField ItemId="{5E5CC8D3-8D4E-4148-ADD9-5DEBE7933C2A}" FieldName="__Sortorder" Database="core">0</DeployField>
+  <DeployField ItemId="{5E5CC8D3-8D4E-4148-ADD9-5DEBE7933C2A}" FieldName="ColumnTitle" FieldLanguage="en" Database="core">Order Confirmation</DeployField>
+  <DeployedItem Id="{5E5CC8D3-8D4E-4148-ADD9-5DEBE7933C2A}" Name="Order Confirmation.item" Parent="{ED9A74A2-6D5B-4E8A-8B47-AC4E7E20BD02}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{82EDECE3-CB60-454A-9BBE-232EE272C5B8}" FieldName="IsSortable" Database="core">1</DeployField>
+  <DeployField ItemId="{82EDECE3-CB60-454A-9BBE-232EE272C5B8}" FieldName="DataFieldName" Database="core">orderplaceddate</DeployField>
+  <DeployField ItemId="{82EDECE3-CB60-454A-9BBE-232EE272C5B8}" FieldName="__Sortorder" Database="core">200</DeployField>
+  <DeployField ItemId="{82EDECE3-CB60-454A-9BBE-232EE272C5B8}" FieldName="ColumnTitle" FieldLanguage="en" Database="core">Order Placed Date</DeployField>
+  <DeployedItem Id="{82EDECE3-CB60-454A-9BBE-232EE272C5B8}" Name="Order Placed Date.item" Parent="{ED9A74A2-6D5B-4E8A-8B47-AC4E7E20BD02}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{EBF794F2-8472-4469-BFDB-817E2AE8939F}" FieldName="IsSortable" Database="core">1</DeployField>
+  <DeployField ItemId="{EBF794F2-8472-4469-BFDB-817E2AE8939F}" FieldName="DataFieldName" Database="core">status</DeployField>
+  <DeployField ItemId="{EBF794F2-8472-4469-BFDB-817E2AE8939F}" FieldName="__Sortorder" Database="core">100</DeployField>
+  <DeployField ItemId="{EBF794F2-8472-4469-BFDB-817E2AE8939F}" FieldName="ColumnTitle" FieldLanguage="en" Database="core">Status</DeployField>
+  <DeployedItem Id="{EBF794F2-8472-4469-BFDB-817E2AE8939F}" Name="Order Status.item" Parent="{ED9A74A2-6D5B-4E8A-8B47-AC4E7E20BD02}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{D5F0226E-765A-4143-8044-A1F865B1C791}" FieldName="Text" FieldLanguage="en" Database="core">Select an Order</DeployField>
+  <DeployedItem Id="{D5F0226E-765A-4143-8044-A1F865B1C791}" Name="SelectedOrderItemTitle.item" Parent="{9DCB29E5-EBEC-4417-8177-8DF821C2CF54}" Database="core" KeepChildrenInSync="true" />
+  <DeployedItem Id="{D60F277E-2769-4469-956A-FBF818C6A4F4}" Name="Settings.item" Parent="{1F708226-942D-4D88-B548-BEF7844EDE71}" Database="core" />
+  <DeployField ItemId="{CCB9376E-6171-48AB-878E-56A43FE9EF15}" FieldName="Icon" Database="core">Apps/16x16/help.png</DeployField>
+  <DeployField ItemId="{CCB9376E-6171-48AB-878E-56A43FE9EF15}" FieldName="Click" Database="core">javascript:app.CommerceHelpProvider.openHelp()</DeployField>
+  <DeployField ItemId="{CCB9376E-6171-48AB-878E-56A43FE9EF15}" FieldName="Tooltip" FieldLanguage="en" Database="core">Help</DeployField>
+  <DeployField ItemId="{CCB9376E-6171-48AB-878E-56A43FE9EF15}" FieldName="Text" FieldLanguage="en" Database="core"></DeployField>
+  <DeployedItem Id="{CCB9376E-6171-48AB-878E-56A43FE9EF15}" Name="Help Button Parameters.item" Parent="{D60F277E-2769-4469-956A-FBF818C6A4F4}" Database="core" />
+  <DeployedItem Id="{BF2BC7B8-54A9-4F79-ACD9-BA557FB5C7A9}" Name="Help Configuration Items.item" Parent="{D60F277E-2769-4469-956A-FBF818C6A4F4}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{CB71DC79-23A4-490A-886E-44547F10B0E1}" FieldName="Relative URL" Database="core">index.html#Concepts/c_COM_CustomerDetailsPage.html</DeployField>
+  <DeployField ItemId="{CB71DC79-23A4-490A-886E-44547F10B0E1}" FieldName="Page ID" Database="core">{BC39400B-6255-4CBF-A997-5CD1863595FA}</DeployField>
+  <DeployField ItemId="{CB71DC79-23A4-490A-886E-44547F10B0E1}" FieldName="Tab ID" Database="core">{9EF3C04F-D563-42DF-813F-309B5AE601B1}</DeployField>
+  <DeployedItem Id="{CB71DC79-23A4-490A-886E-44547F10B0E1}" Name="Customer-DetailsTab.item" Parent="{BF2BC7B8-54A9-4F79-ACD9-BA557FB5C7A9}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{0BCF7F03-8434-4060-83AC-93CA0CF45A7C}" FieldName="Relative URL" Database="core">index.html#Concepts/c_COM_OrderDetailsPage.html</DeployField>
+  <DeployField ItemId="{0BCF7F03-8434-4060-83AC-93CA0CF45A7C}" FieldName="Page ID" Database="core">{53A1C1E9-21E1-4338-B8C3-741A4FD4BA57}</DeployField>
+  <DeployField ItemId="{0BCF7F03-8434-4060-83AC-93CA0CF45A7C}" FieldName="Tab ID" Database="core">{3C7F60B9-F80F-4350-ABB8-2C7BCA52D87C}</DeployField>
+  <DeployedItem Id="{0BCF7F03-8434-4060-83AC-93CA0CF45A7C}" Name="Order-DetailsTab.item" Parent="{BF2BC7B8-54A9-4F79-ACD9-BA557FB5C7A9}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{2B1BDAC7-5C31-4A96-8684-77969C954F86}" FieldName="Relative URL" Database="core">index.html#Concepts/c_COM_LineItemsPage.html</DeployField>
+  <DeployField ItemId="{2B1BDAC7-5C31-4A96-8684-77969C954F86}" FieldName="Page ID" Database="core">{53A1C1E9-21E1-4338-B8C3-741A4FD4BA57}</DeployField>
+  <DeployField ItemId="{2B1BDAC7-5C31-4A96-8684-77969C954F86}" FieldName="Tab ID" Database="core">{CD557E9B-F7D9-4740-A943-480941065A5E}</DeployField>
+  <DeployedItem Id="{2B1BDAC7-5C31-4A96-8684-77969C954F86}" Name="Order-ItemsTab.item" Parent="{BF2BC7B8-54A9-4F79-ACD9-BA557FB5C7A9}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{D9B21255-848E-455E-9B83-CED88A0D0F53}" FieldName="Relative URL" Database="core">index.html#Concepts/c_COM_Customer.html</DeployField>
+  <DeployField ItemId="{D9B21255-848E-455E-9B83-CED88A0D0F53}" FieldName="Page ID" Database="core">{3CAD0BE7-734A-47DD-8D3F-D55A2E4012F8}</DeployField>
+  <DeployField ItemId="{D9B21255-848E-455E-9B83-CED88A0D0F53}" FieldName="Tab ID" Database="core">{18AF25A0-0F69-4AD8-89A9-E8D056C53AF3}</DeployField>
+  <DeployedItem Id="{D9B21255-848E-455E-9B83-CED88A0D0F53}" Name="Search-CustomersTab.item" Parent="{BF2BC7B8-54A9-4F79-ACD9-BA557FB5C7A9}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{D58429EA-B038-419D-A968-BE35B2BB9EF6}" FieldName="Relative URL" Database="core">index.html#Concepts/c_COM_Orders.html</DeployField>
+  <DeployField ItemId="{D58429EA-B038-419D-A968-BE35B2BB9EF6}" FieldName="Page ID" Database="core">{3CAD0BE7-734A-47DD-8D3F-D55A2E4012F8}</DeployField>
+  <DeployField ItemId="{D58429EA-B038-419D-A968-BE35B2BB9EF6}" FieldName="Tab ID" Database="core">{E1A99056-DE43-49BF-8688-A9F056AF0D6F}</DeployField>
+  <DeployedItem Id="{D58429EA-B038-419D-A968-BE35B2BB9EF6}" Name="Search-OrdersTab.item" Parent="{BF2BC7B8-54A9-4F79-ACD9-BA557FB5C7A9}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{7002ED61-BD4C-43EB-9D36-4607DBACE639}" FieldName="Theme" Database="core">Oxford</DeployField>
+  <DeployField ItemId="{7002ED61-BD4C-43EB-9D36-4607DBACE639}" FieldName="__Originator" Database="core"></DeployField>
+  <DeployField ItemId="{7002ED61-BD4C-43EB-9D36-4607DBACE639}" FieldName="__Renderings" Database="core">&lt;r&gt;
+  &lt;d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{03861315-F397-4435-920F-4E9FA72C231E}"&gt;
+    &lt;r id="{CB83D434-31ED-4AC3-A280-CCE2B63F9743}" par="PageCodeTypeName=Sitecore.Commerce.UX.CustomerOrderManager.PageCode.SidebarPageCode%2c+Sitecore.Commerce.UX.CustomerOrderManager" ph="Page.Code" uid="{0150A636-CA38-4FD6-8927-E2D71AA5E367}" /&gt;
+    &lt;r id="{59E2A66D-11D2-488D-A3BC-6C1C81326645}" par="FieldDefinitionType=%7b0FC611D6-2A79-4423-BE2D-AD426E9A8A44%7d&amp;amp;Id=SidebarForm&amp;amp;FieldDefinitionDatabase=core" ph="Page.Body" uid="{821C798F-F60A-4BF3-BD0F-E15219EF2805}" /&gt;
+  &lt;/d&gt;
+&lt;/r&gt;</DeployField>
+  <DeployField ItemId="{7002ED61-BD4C-43EB-9D36-4607DBACE639}" FieldName="BrowserTitle" FieldLanguage="en" Database="core">Task Page</DeployField>
+  <DeployedItem Id="{7002ED61-BD4C-43EB-9D36-4607DBACE639}" Name="SidebarFormPage.item" Parent="{1F708226-942D-4D88-B548-BEF7844EDE71}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{CB1A73FA-CD7C-4670-B17C-51BEB8CDB1B8}" FieldName="__Sortorder" Database="core">0</DeployField>
+  <DeployField ItemId="{CB1A73FA-CD7C-4670-B17C-51BEB8CDB1B8}" FieldName="__Originator" Database="core"></DeployField>
+  <DeployedItem Id="{CB1A73FA-CD7C-4670-B17C-51BEB8CDB1B8}" Name="PageSettings.item" Parent="{7002ED61-BD4C-43EB-9D36-4607DBACE639}" Database="core" KeepChildrenInSync="true" />
+  <DeployedItem Id="{E3A5A9B4-409B-4153-B406-55704C4B17DF}" Name="SubAppRenderings.item" Parent="{1F708226-942D-4D88-B548-BEF7844EDE71}" Database="core" />
+  <DeployField ItemId="{EF81F664-453A-44F6-8632-8B2ECB3A9666}" FieldName="__Renderings" Database="core">&lt;r&gt;
+  &lt;d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"&gt;
+    &lt;r id="{6BD31067-6DAB-4028-B5FD-584C3F6208EF}" par="NumberOfCells=2&amp;amp;Id=Grid1&amp;amp;LayoutType=%7b374B2DBC-BD33-4879-854E-62807ED4AECC%7d" uid="{16DECD52-955E-470B-A97A-CE0898E15ED4}" /&gt;
+    &lt;r id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}" par="Id=ListControl1" ph="Grid1.Cell1" uid="{9C63C498-F011-476F-8889-F760931CFC80}" /&gt;
+    &lt;r id="{6BD31067-6DAB-4028-B5FD-584C3F6208EF}" par="NumberOfCells=1&amp;amp;Id=DetailsGrid&amp;amp;LayoutType=%7b6AE745C6-9821-4DEE-9178-2DB325C2C3F2%7d" ph="Grid1.Cell2" uid="{3F6E76E2-84EA-4085-B260-2C0339C16F0B}" /&gt;
+    &lt;r id="{1CA7EB02-74E0-42F9-B8C9-32E62FD505BD}" par="Id=Expander1" ph="DetailsGrid.Cell1" uid="{3CCD6D5B-3459-4809-A7E0-294178DF61CF}" /&gt;
+  &lt;/d&gt;
+&lt;/r&gt;</DeployField>
+  <DeployedItem Id="{EF81F664-453A-44F6-8632-8B2ECB3A9666}" Name="ListViewDetails.item" Parent="{E3A5A9B4-409B-4153-B406-55704C4B17DF}" Database="core" />
+  <DeployField ItemId="{0FD4EBF1-A5D7-4A52-B7D3-208EF9A3514B}" FieldName="__Renderings" Database="core">&lt;r&gt;
+  &lt;d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"&gt;
+    &lt;r id="{6BD31067-6DAB-4028-B5FD-584C3F6208EF}" par="NumberOfCells=1&amp;amp;Id=Grid1&amp;amp;LayoutType=%7b6AE745C6-9821-4DEE-9178-2DB325C2C3F2%7d" uid="{16DECD52-955E-470B-A97A-CE0898E15ED4}" /&gt;
+    &lt;r id="{6F8AB6DD-9307-4AD3-964E-5B84F0B9B4F0}" par="Id=ListControl1" ph="Grid1.Cell1" uid="{9C63C498-F011-476F-8889-F760931CFC80}" /&gt;
+  &lt;/d&gt;
+&lt;/r&gt;</DeployField>
+  <DeployedItem Id="{0FD4EBF1-A5D7-4A52-B7D3-208EF9A3514B}" Name="ListViewNoDetails.item" Parent="{E3A5A9B4-409B-4153-B406-55704C4B17DF}" Database="core" />
+  <DeployedItem Id="{D86299C6-9124-4E79-96BC-5492E1A930E7}" Name="Templates.item" Parent="{1F708226-942D-4D88-B548-BEF7844EDE71}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{521CB219-3065-42AF-8DEA-2C5E457967D5}" FieldName="__Base template" Database="core">{1930BBEB-7805-471A-A3BE-4858AC7CF696}</DeployField>
+  <DeployedItem Id="{521CB219-3065-42AF-8DEA-2C5E457967D5}" Name="CorporateCustomer.item" Parent="{D86299C6-9124-4E79-96BC-5492E1A930E7}" Database="core" KeepChildrenInSync="true" />
+  <DeployedItem Id="{E4351829-2E18-4B55-86D3-0EC9315699F5}" Name="Commerce.item" Parent="{521CB219-3065-42AF-8DEA-2C5E457967D5}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{F0327448-4FF0-40AD-97D1-AF1D274EB5D7}" FieldName="Type" Database="core">Single-Line Text</DeployField>
+  <DeployField ItemId="{F0327448-4FF0-40AD-97D1-AF1D274EB5D7}" FieldName="Shared" Database="core">1</DeployField>
+  <DeployField ItemId="{F0327448-4FF0-40AD-97D1-AF1D274EB5D7}" FieldName="__Sortorder" Database="core">200</DeployField>
+  <DeployField ItemId="{F0327448-4FF0-40AD-97D1-AF1D274EB5D7}" FieldName="__Display name" FieldLanguage="en" Database="core">Code</DeployField>
+  <DeployedItem Id="{F0327448-4FF0-40AD-97D1-AF1D274EB5D7}" Name="Code.item" Parent="{E4351829-2E18-4B55-86D3-0EC9315699F5}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{582519A7-53E1-4F5C-A027-18B90A0EBE47}" FieldName="Type" Database="core">Single-Line Text</DeployField>
+  <DeployField ItemId="{582519A7-53E1-4F5C-A027-18B90A0EBE47}" FieldName="Source" Database="core">CommercePref=true</DeployField>
+  <DeployField ItemId="{582519A7-53E1-4F5C-A027-18B90A0EBE47}" FieldName="Shared" Database="core">1</DeployField>
+  <DeployField ItemId="{582519A7-53E1-4F5C-A027-18B90A0EBE47}" FieldName="__Sortorder" Database="core">300</DeployField>
+  <DeployField ItemId="{582519A7-53E1-4F5C-A027-18B90A0EBE47}" FieldName="__Display name" FieldLanguage="en" Database="core">Contact</DeployField>
+  <DeployedItem Id="{582519A7-53E1-4F5C-A027-18B90A0EBE47}" Name="Contact.item" Parent="{E4351829-2E18-4B55-86D3-0EC9315699F5}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{CE0F4487-CA96-473C-A746-89B5CC19E00E}" FieldName="Type" Database="core">Single-Line Text</DeployField>
+  <DeployField ItemId="{CE0F4487-CA96-473C-A746-89B5CC19E00E}" FieldName="Source" Database="core">CommercePref=true</DeployField>
+  <DeployField ItemId="{CE0F4487-CA96-473C-A746-89B5CC19E00E}" FieldName="Shared" Database="core">1</DeployField>
+  <DeployField ItemId="{CE0F4487-CA96-473C-A746-89B5CC19E00E}" FieldName="__Display name" FieldLanguage="en" Database="core">Corporation Name</DeployField>
+  <DeployedItem Id="{CE0F4487-CA96-473C-A746-89B5CC19E00E}" Name="CorporationName.item" Parent="{E4351829-2E18-4B55-86D3-0EC9315699F5}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{A14E9857-F2A5-426E-ADC8-F674B92841F4}" FieldName="__Base template" Database="core">{1930BBEB-7805-471A-A3BE-4858AC7CF696}</DeployField>
+  <DeployedItem Id="{A14E9857-F2A5-426E-ADC8-F674B92841F4}" Name="Customer.item" Parent="{D86299C6-9124-4E79-96BC-5492E1A930E7}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{FD31EE57-E0EE-411B-8BB1-6C658BA28B44}" FieldName="__Sortorder" Database="core">100</DeployField>
+  <DeployedItem Id="{FD31EE57-E0EE-411B-8BB1-6C658BA28B44}" Name="Commerce.item" Parent="{A14E9857-F2A5-426E-ADC8-F674B92841F4}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{6F3A4122-6788-45D9-BC18-AD660EDDD4CF}" FieldName="Type" Database="core">Single-Line Text</DeployField>
+  <DeployField ItemId="{6F3A4122-6788-45D9-BC18-AD660EDDD4CF}" FieldName="Source" Database="core">CommercePref=true</DeployField>
+  <DeployField ItemId="{6F3A4122-6788-45D9-BC18-AD660EDDD4CF}" FieldName="__Sortorder" Database="core">300</DeployField>
+  <DeployField ItemId="{6F3A4122-6788-45D9-BC18-AD660EDDD4CF}" FieldName="__Display name" FieldLanguage="en" Database="core">Display Name</DeployField>
+  <DeployedItem Id="{6F3A4122-6788-45D9-BC18-AD660EDDD4CF}" Name="DisplayName.item" Parent="{FD31EE57-E0EE-411B-8BB1-6C658BA28B44}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{5EA9356D-DC21-4294-BF30-EE6CF7DBA9A8}" FieldName="Type" Database="core">Single-Line Text</DeployField>
+  <DeployField ItemId="{5EA9356D-DC21-4294-BF30-EE6CF7DBA9A8}" FieldName="Source" Database="core">CommercePref=true</DeployField>
+  <DeployField ItemId="{5EA9356D-DC21-4294-BF30-EE6CF7DBA9A8}" FieldName="Shared" Database="core">1</DeployField>
+  <DeployField ItemId="{5EA9356D-DC21-4294-BF30-EE6CF7DBA9A8}" FieldName="__Sortorder" Database="core">100</DeployField>
+  <DeployField ItemId="{5EA9356D-DC21-4294-BF30-EE6CF7DBA9A8}" FieldName="__Display name" FieldLanguage="en" Database="core">First Name</DeployField>
+  <DeployedItem Id="{5EA9356D-DC21-4294-BF30-EE6CF7DBA9A8}" Name="FirstName.item" Parent="{FD31EE57-E0EE-411B-8BB1-6C658BA28B44}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{8F2654EA-A7CA-4590-A814-5CEACD5C1ECF}" FieldName="Type" Database="core">Single-Line Text</DeployField>
+  <DeployField ItemId="{8F2654EA-A7CA-4590-A814-5CEACD5C1ECF}" FieldName="Source" Database="core">CommercePref=true</DeployField>
+  <DeployField ItemId="{8F2654EA-A7CA-4590-A814-5CEACD5C1ECF}" FieldName="Shared" Database="core">1</DeployField>
+  <DeployField ItemId="{8F2654EA-A7CA-4590-A814-5CEACD5C1ECF}" FieldName="__Sortorder" Database="core">200</DeployField>
+  <DeployField ItemId="{8F2654EA-A7CA-4590-A814-5CEACD5C1ECF}" FieldName="__Display name" FieldLanguage="en" Database="core">Last Name</DeployField>
+  <DeployedItem Id="{8F2654EA-A7CA-4590-A814-5CEACD5C1ECF}" Name="LastName.item" Parent="{FD31EE57-E0EE-411B-8BB1-6C658BA28B44}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{B5997A01-633F-4B18-972A-259C712D549D}" FieldName="Type" Database="core">Single-Line Text</DeployField>
+  <DeployField ItemId="{B5997A01-633F-4B18-972A-259C712D549D}" FieldName="__Sortorder" Database="core">400</DeployField>
+  <DeployField ItemId="{B5997A01-633F-4B18-972A-259C712D549D}" FieldName="__Display name" FieldLanguage="en" Database="core">Last Order</DeployField>
+  <DeployedItem Id="{B5997A01-633F-4B18-972A-259C712D549D}" Name="LastOrderDate.item" Parent="{FD31EE57-E0EE-411B-8BB1-6C658BA28B44}" Database="core" KeepChildrenInSync="true" />
+  <DeployField ItemId="{6B846FBD-8549-4C91-AE6B-18286EFE82D2}" FieldName="Theme" Database="core">Harvard</DeployField>
+  <DeployField ItemId="{6B846FBD-8549-4C91-AE6B-18286EFE82D2}" FieldName="__Icon" Database="core">Applications/16x16/media_play.png</DeployField>
+  <DeployField ItemId="{6B846FBD-8549-4C91-AE6B-18286EFE82D2}" FieldName="__Originator" Database="core"></DeployField>
+  <DeployField ItemId="{6B846FBD-8549-4C91-AE6B-18286EFE82D2}" FieldName="__Renderings" Database="core">&lt;r&gt;
+  &lt;d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}"&gt;
+    &lt;r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="PageCodeTypeName=Sitecore.LaunchPad.LaunchPad%2c+Sitecore.LaunchPad&amp;amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fApplications%2fLaunchPad%2fLaunchPad.js" ph="Page.Code" uid="{4384EC19-B143-4059-B6A4-142FE2645693}" /&gt;
+    &lt;r id="{BE007891-2D9C-4E67-943C-752DBA0C041F}" ph="Page.Body" uid="{6E265D00-0C65-41A5-96A9-14A579B7BA29}" /&gt;
+    &lt;r id="{5AE97C0C-EE88-4564-A363-4FA11C01C90A}" ph="GlobalHeader" uid="{5A309782-0857-4857-9898-79B701CF1A56}" /&gt;
+    &lt;r id="{7A69C522-7E99-4630-A25A-5D571505862A}" par="Id=GlobalLogo1" ph="GlobalHeader.StartButton" uid="{4CCD9FDA-3686-4A88-ABC9-6E968EE4D0DA}" /&gt;
+    &lt;r id="{2EE499CD-439A-4F10-B81F-36A54CAC01DB}" ph="GlobalHeader.LoginInfo" uid="{60FE3FAE-6338-49FA-9A1A-4158740149C8}" /&gt;
+    &lt;r id="{93CEEFCD-2DE1-40AF-AE9A-EBBFBCCC522F}" ph="ApplicationHeader" uid="{7640778D-34EC-426A-875D-3FA573EC2DAF}" /&gt;
+    &lt;r id="{AF79ED5D-4396-4EEC-8E22-9D7C523266FA}" par="Id=Breadcrumb2&amp;amp;RootItemId=%7bA3F0D121-2CEC-454A-ADB1-9F3CED6BF2FB%7d" ph="ApplicationHeader.BreadCrumb" uid="{D7CA4BD6-5A96-4868-89E4-CFBAB0F09F96}" /&gt;
+    &lt;r ds="{FDE99A0D-D215-4BB7-8B98-51606B180ACE}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=Text2&amp;amp;TextType=Text" ph="ApplicationHeader.Title" uid="{485FEC56-8663-4647-8741-6C4A4FC21A51}" /&gt;
+    &lt;r id="{19A9EB6B-1283-49EB-BD75-AAFE76453469}" ph="ApplicationContent" uid="{258C0220-9CCB-4276-907E-4153ED5571EA}" /&gt;
+    &lt;r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=RowPanel1" ph="ApplicationContent.Main" uid="{4B2F6C9A-79A7-4F9D-9F99-C1BE371081CD}" /&gt;
+    &lt;r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ColumnPanel1&amp;amp;GridColumns=12" ph="RowPanel1.Content" uid="{229C7E83-38FC-4078-935B-F6449C1EBD12}" /&gt;
+    &lt;r id="{560F09E2-1C08-458A-AF4B-F0D89EA8BE30}" ph="ColumnPanel1.Content" uid="{47925744-04FF-4DE3-A797-EBFAFB83D6A8}" /&gt;
+    &lt;r id="{BEEEDCF8-45DF-4895-A261-CAEE9B91C77F}" par="IsVisible=False" ph="ColumnPanel1.Content" uid="{C5D96FC8-4519-430A-9B0D-29F2B7DB0FA2}" /&gt;
+    &lt;r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=RowPanelTilesWrapper" ph="ColumnPanel1.Content" uid="{4E6B4E42-DBFB-44F6-8206-352275C1CE3F}" /&gt;
+    &lt;r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=RowPanelTiles" ph="RowPanelTilesWrapper.Content" uid="{89FD779A-A017-4614-834E-CDD76801CA14}" /&gt;
+    &lt;r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ColumnPanelInteractions&amp;amp;GridColumns=6" ph="RowPanelTiles.Content" uid="{C1A59D3A-63E3-40B8-BBC3-896992E3A339}" /&gt;
+    &lt;r ds="{FA046F20-75A5-4C7F-9FEC-FAC6EEAC33D7}" id="{1E538B08-446D-40BF-BE63-B6ABBD266C6A}" par="Id=InteractionChartApp" ph="ColumnPanelInteractions.Content" uid="{223D3EF6-DCA7-49F5-B34C-076AC8507BBC}" /&gt;
+    &lt;r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ColumnPanelCampaigns&amp;amp;GridColumns=6" ph="RowPanelTiles.Content" uid="{C1A59D3A-63E3-40B8-BBC3-896992E3A339}" /&gt;
+    &lt;r ds="{7431DE4F-C65B-4CBC-B5BA-FD99E1931AE9}" id="{1E538B08-446D-40BF-BE63-B6ABBD266C6A}" par="Id=CampaignsChartApp" ph="ColumnPanelCampaigns.Content" uid="{908EC629-1101-4ADB-AF84-6EB2CC6E8A14}" /&gt;
+    &lt;r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=FallBackMessageBorder&amp;amp;IsVisible=True" ph="ColumnPanel1.Content" uid="{D04496CC-6E37-47C5-B2CF-26D9F683A0B0}" /&gt;
+    &lt;r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=FallBackMessageRow" ph="FallBackMessageBorder.Content" uid="{275CB122-F0C8-418B-BAC9-F14FF4BF5152}" /&gt;
+    &lt;r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=FallBackMessageCol&amp;amp;GridColumns=6" ph="FallBackMessageRow.Content" uid="{6E7C622A-0D3F-4565-94B4-2C956FD9C6CC}" /&gt;
+    &lt;r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=AnalyticsFallback" ph="FallBackMessageCol.Content" uid="{FCA30821-FBC1-4877-8BF5-5141F284D0F6}" /&gt;
+    &lt;r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=FallbackMessageHeaderWrap" ph="AnalyticsFallback.Content" uid="{4179F2B2-CE4E-4A56-9398-9FC79A061665}" /&gt;
+    &lt;r ds="{B79C9216-E15D-49FE-B7CE-73AD44AFEFE2}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=FallbackHeader&amp;amp;TextType=LargeTitle" ph="FallbackMessageHeaderWrap.Content" uid="{D8955B51-AE54-4B91-8504-AF9EFD96A66C}" /&gt;
+    &lt;r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=FallbackMessageWrap&amp;amp;ContentAlignment=Left" ph="AnalyticsFallback.Content" uid="{1A28478C-7CE0-484B-B214-D50E0088739E}" /&gt;
+    &lt;r ds="{A2F582BC-E73E-4C2C-BC04-EBCF34F94DFD}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=FallBackMessage&amp;amp;TextType=Title" ph="FallbackMessageWrap.Content" uid="{48789849-0332-429F-BC69-C701D1F6B021}" /&gt;
+  &lt;/d&gt;
+&lt;/r&gt;</DeployField>
+  <DeployField ItemId="{6B846FBD-8549-4C91-AE6B-18286EFE82D2}" FieldName="BrowserTitle" FieldLanguage="en" Database="core">Sitecore Launchpad</DeployField>
+  <DeployedItem Id="{6B846FBD-8549-4C91-AE6B-18286EFE82D2}" Name="Launchpad.item" Parent="{9CBE9270-1377-48CC-87B6-263F4C705C7D}" Database="core" />
+  <DeployField ItemId="{AFE511E0-249F-47AF-8439-4E3641DAFAB8}" FieldName="__Sortorder" Database="core">0</DeployField>
+  <DeployField ItemId="{AFE511E0-249F-47AF-8439-4E3641DAFAB8}" FieldName="__Originator" Database="core"></DeployField>
+  <DeployedItem Id="{AFE511E0-249F-47AF-8439-4E3641DAFAB8}" Name="PageSettings.item" Parent="{6B846FBD-8549-4C91-AE6B-18286EFE82D2}" Database="core" />
+  <DeployField ItemId="{C625DB2F-6DB2-4645-B7F7-733ABFC2CAC6}" FieldName="__Icon" Database="core">Software/16x16/element.png</DeployField>
+  <DeployField ItemId="{C625DB2F-6DB2-4645-B7F7-733ABFC2CAC6}" FieldName="__Masters" Database="core">{5EE505EE-8C0C-4CBD-8815-C1B7B1F06516}</DeployField>
+  <DeployedItem Id="{C625DB2F-6DB2-4645-B7F7-733ABFC2CAC6}" Name="Buttons.item" Parent="{AFE511E0-249F-47AF-8439-4E3641DAFAB8}" Database="core" />
+  <DeployField ItemId="{11FEE71B-C63E-42C8-9319-8883A9A9DD20}" FieldName="__Sortorder" Database="core">200</DeployField>
+  <DeployField ItemId="{11FEE71B-C63E-42C8-9319-8883A9A9DD20}" FieldName="__Security" Database="core">ar|sitecore\Sitecore Client Users|pe|+item:read|pd|-item:read|</DeployField>
+  <DeployedItem Id="{11FEE71B-C63E-42C8-9319-8883A9A9DD20}" Name="ContentEditing.item" Parent="{C625DB2F-6DB2-4645-B7F7-733ABFC2CAC6}" Database="core" />
+  <DeployField ItemId="{C796F123-FE92-459E-8587-755B44D7DDC4}" FieldName="Icon" Database="core">/sitecore/shell/client/Applications/CustomerOrderManager/Assets/Icons/48x48/CustomerOrderManagement.png</DeployField>
+  <DeployField ItemId="{C796F123-FE92-459E-8587-755B44D7DDC4}" FieldName="Link" Database="core">/sitecore/client/Applications/CustomerOrderManager/Search</DeployField>
+  <DeployField ItemId="{C796F123-FE92-459E-8587-755B44D7DDC4}" FieldName="__Security" Database="core">ar|sitecore\Commerce Administrator|pe|+item:read|pd|+item:read|ar|sitecore\Customer Service Representative|pe|+item:read|pd|+item:read|au|default\Anonymous|pe|-item:read|-item:write|pd|-item:read|-item:write|ar|sitecore\Customer Service Representative Administrator|pe|+item:read|pd|+item:read|</DeployField>
+  <DeployField ItemId="{C796F123-FE92-459E-8587-755B44D7DDC4}" FieldName="Text" FieldLanguage="en" Database="core">Customer &amp; Order Manager</DeployField>
+  <DeployedItem Id="{C796F123-FE92-459E-8587-755B44D7DDC4}" Name="Customer Order Manager.item" Parent="{11FEE71B-C63E-42C8-9319-8883A9A9DD20}" Database="core" />
+  <Role Name="sitecore\Customer Service Representative Administrator"><![CDATA[LS0tLXJvbGUtLS0tDQpuYW1lOiBzaXRlY29yZVxDdXN0b21lciBTZXJ2aWNlIFJlcHJlc2VudGF0aXZlIEFkbWluaXN0cmF0b3INCg0K]]></Role>
+  <Role Name="sitecore\Customer Service Representative"><![CDATA[LS0tLXJvbGUtLS0tDQpuYW1lOiBzaXRlY29yZVxDdXN0b21lciBTZXJ2aWNlIFJlcHJlc2VudGF0aXZlDQoNCg==]]></Role>
+</DeployedItems>

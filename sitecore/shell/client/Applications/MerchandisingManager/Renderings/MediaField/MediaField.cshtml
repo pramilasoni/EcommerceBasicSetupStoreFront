@@ -1,0 +1,53 @@
+﻿@using Sitecore.Data
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Web.UI.Controls.Common.UserControls
+@model RenderingModel
+@{
+  var rendering = Html.Sitecore().Controls().GetUserControl(Model.Rendering);
+  rendering.Class = "sc-MediaField";
+  rendering.Requires.Script("client", "MediaField.js");
+
+  rendering.GetString("MediaItemId", "mediaItemId");
+
+  var renderingId = this.Model.Rendering.Parameters["Id"];
+  var inputId = renderingId + "TextInput";
+  var selectButtonId = renderingId + "SelectButton";
+  var clearButtonId = renderingId + "ClearButton";
+
+  var mediaItemId = this.Model.Rendering.Parameters["MediaItemId"];
+  rendering.SetAttribute("data-sc-mediaItemId", mediaItemId);
+
+  var htmlAttributes = rendering.HtmlAttributes;
+
+  var mediaSelectAltText = Sitecore.Context.Database.GetItem("{920F5E51-F4EF-4783-8907-BAE7256CDD64}");
+  var mediaClearAltText = Sitecore.Context.Database.GetItem("{6FAE2F4D-CE16-4773-9FA0-57CCFAA6C9A4}");
+
+  string selectAltText;
+  string clearAltText;
+
+  if (mediaSelectAltText != null)
+  {
+      selectAltText = mediaSelectAltText.Fields["Text"].Value;
+  }
+  else
+  {
+      selectAltText = "Select media item";
+  }
+
+  if (mediaClearAltText != null)
+  {
+      clearAltText = mediaClearAltText.Fields["Text"].Value;
+  }
+  else
+  {
+      clearAltText = "Clear media field";
+  }
+  
+}      
+
+<div @htmlAttributes>
+    <input data-sc-id="@inputId" type="text" readonly="true"/>
+    <button data-sc-id="@selectButtonId" alt="@selectAltText" class="cs-icon-button addMediaIcon"/>
+    <button data-sc-id="@clearButtonId" alt="@clearAltText" class="cs-icon-button clearMediaIcon"/>
+</div>

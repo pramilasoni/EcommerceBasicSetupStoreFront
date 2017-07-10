@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<messages>
+  <message>
+    <number>1</number>
+    <level>Collision</level>
+    <database>core</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/client[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/client[/s]'&lt;br/&gt;Item ID: '[s]{31056D46-2FAA-4EA2-8759-BE93EAE10001}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{31056d46-2faa-4ea2-8759-be93eae10001}_addeditems_core</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+</messages>

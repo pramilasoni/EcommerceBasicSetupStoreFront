@@ -1,0 +1,47 @@
+INFO:Installing package: C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\admin\packages\Sitecore.Reference.Storefront.Powered.by.SitecoreCommerce.10.1.110.update
+INFO:Installation Mode: Install
+WARN:Item path: '[s]/sitecore/templates[/s]'<br/>Item ID: '[s]{3C1715FE-6A13-4FCF-845F-DE308BA9741D}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/templates/Storefront[/s]'<br/>Item ID: '[s]{11084221-2F5F-4835-8EFE-B8819CEB7947}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/templates/Storefront/Data Templates[/s]'<br/>Item ID: '[s]{648EE9E7-67B0-48B7-8E9B-EADADC0519C3}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/templates/Storefront/Page Templates[/s]'<br/>Item ID: '[s]{FBC0EE3B-9FBF-4356-8C0B-CA31A6BCAA00}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/templates/Storefront/Page Templates/Home[/s]'<br/>Item ID: '[s]{FB9DBD60-CBA2-490D-9C72-997271D576A3}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/Commerce[/s]'<br/>Item ID: '[s]{CA2E00B1-0917-44A5-AD05-5FC3167AAA0C}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/content[/s]'<br/>Item ID: '[s]{0DE95AE4-41AB-4D01-9EB0-67441B7C2450}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/media library[/s]'<br/>Item ID: '[s]{3D6658D8-A0BF-4E75-B3E2-D050FABCF4E1}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/Commerce/Commerce Control Panel[/s]'<br/>Item ID: '[s]{770EF91B-36CC-42BF-865E-B76633FAC34B}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/content/Storefront[/s]'<br/>Item ID: '[s]{662344C9-D908-46D8-9A1A-CBF2EAA32E93}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/media library/Images[/s]'<br/>Item ID: '[s]{15451229-7534-44EF-815D-D93D6170BFCB}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/Commerce/Commerce Control Panel/Shared Settings[/s]'<br/>Item ID: '[s]{BEC7A22D-95BD-49D9-9715-5A2307110139}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/Commerce/Commerce Control Panel/Storefront Settings[/s]'<br/>Item ID: '[s]{431CCB66-AD67-472F-B11A-5908C822B768}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/content/Storefront/Global[/s]'<br/>Item ID: '[s]{67A61D44-9C33-4490-8F6E-AE6C1819682F}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/media library/Images/Storefront[/s]'<br/>Item ID: '[s]{5C11ED5A-BAA7-485D-BEBF-591A09704FCB}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/Commerce/Commerce Control Panel/Shared Settings/Countries-Regions[/s]'<br/>Item ID: '[s]{41FBC29E-001F-42AC-80B7-835440C852A7}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/Commerce/Commerce Control Panel/Shared Settings/Fulfillment Options[/s]'<br/>Item ID: '[s]{EDA9D296-26B7-433E-AB7E-8F795854B417}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/Commerce/Commerce Control Panel/Storefront Settings/Storefronts[/s]'<br/>Item ID: '[s]{99A2D449-7CC0-4FAC-B516-DB2176898898}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/Commerce/Settings[/s]'<br/>Item ID: '[s]{E6073E88-8D37-4E7F-B0B8-111AD46706E5}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/content/Storefront/Global/Lookups[/s]'<br/>Item ID: '[s]{E5C0498A-7F54-4365-AE30-52A84370CC3F}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/media library/Images/Storefront/General[/s]'<br/>Item ID: '[s]{D2BE1B43-9784-47F1-B00E-F324BC0D474A}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/Commerce/Catalog Management[/s]'<br/>Item ID: '[s]{0291F8D9-E2D9-4BDC-A426-0F235725964C}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/Commerce/Commerce Control Panel/Shared Settings/Payment Options[/s]'<br/>Item ID: '[s]{92CAF6BE-135A-4D03-9438-83BAE34D5A6B}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/Commerce/Commerce Control Panel/Storefront Settings/Storefronts/Storefront[/s]'<br/>Item ID: '[s]{51541163-54AF-4D41-B86E-0B2E3A26B215}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/Commerce/Settings/Catalog[/s]'<br/>Item ID: '[s]{614105BC-C812-43E6-8005-1934275A9529}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/content/Storefront/Global/Lookups/Order Statuses[/s]'<br/>Item ID: '[s]{52FE7FFC-6482-4318-BC29-6DD8FA15033F}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/content/Storefront/Global/Named Searches[/s]'<br/>Item ID: '[s]{58BE28BC-0398-4CE6-B565-A980CBDE7D4E}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/content/Storefront/Global/QuickLinks[/s]'<br/>Item ID: '[s]{3A5114AC-44CA-401C-A20A-C3EC314630C8}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/content/Storefront/Home[/s]'<br/>Item ID: '[s]{441B60D3-09BB-4111-A3AD-D10076B78B54}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/media library/Images/Storefront/General/Promotions[/s]'<br/>Item ID: '[s]{0A11C470-0EAD-4129-AC99-80AB7AD04BDF}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/Commerce/Catalog Management/Catalogs[/s]'<br/>Item ID: '[s]{08BFB57F-DAC9-4B11-90C5-5D19647899EF}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/Commerce/Settings/Catalog/Default Catalog[/s]'<br/>Item ID: '[s]{20CF30D5-9BE4-4681-91DD-E15B515FD1F3}[/s]'<br/>Item will be overwritten.
+WARN:Item path: '[s]/sitecore/content/Storefront/Global/Named Searches/Shop by brand[/s]'<br/>Item ID: '[s]{C85426EB-2702-47EC-9BAC-44FEE195218F}[/s]'<br/>Item will be overwritten.
+WARN:Item path: '[s]/sitecore/content/Storefront/Global/QuickLinks/Account information[/s]'<br/>Item ID: '[s]{BE891052-E65A-4C5F-9F52-88D288E96974}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/content/Storefront/Global/QuickLinks/Site options[/s]'<br/>Item ID: '[s]{54E0708F-7431-4711-A527-67C164ED5C73}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/content/Storefront/Global/QuickLinks/TopBarLinks[/s]'<br/>Item ID: '[s]{5886D851-1625-48AE-A787-84FC5B5EB271}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/content/Storefront/Home/Product catalog[/s]'<br/>Item ID: '[s]{889A6934-BCDC-4294-94B7-6D141E7312B4}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/media library/Images/Storefront/General/Promotions/GiftCard01[/s]'<br/>Item ID: '[s]{2F2D7304-F009-438D-B366-DAF8108591C7}[/s]'<br/>Add item operation will be skipped.
+WARN:File path: '[s]C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\bin\WebActivatorEx.dll[/s]'<br/>The file to be installed already exists and is different from the file in the package.
+WARN:File path: '[s]C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Default.aspx[/s]'<br/>The file to be installed already exists and is different from the file in the package.
+INFO:"File path: '[s]C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\packages.config[/s]'<br/>The file has been added manually and is different from the file in the package.<br/>The file will be replaced with the file from the package.<br/>The current file will be saved with a different name.<br/>The custom changes will be extracted and applied to the clean configuration file.<br/>The backup of the current file is saved as: '[s]C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\packages.custom.config.disabled1[/s]'<br/>The merged file with customizations is saved as: '[s]C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\packages.merged.config.disabled1[/s]'<br/>You must manually review the patch file, modify it if necessary, and then enable it to apply your customizations."
+WARN:File path: '[s]C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Views\Storefront\Catalog\ProductInformation.cshtml[/s]'<br/>The file to be installed already exists and is different from the file in the package.
+WARN:File path: '[s]C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Views\Storefront\Checkout\_Billing.cshtml[/s]'<br/>The file to be installed already exists and is different from the file in the package.
+INFO:Installation of package 'C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\admin\packages\Sitecore.Reference.Storefront.Powered.by.SitecoreCommerce.10.1.110.update' has been finished.
+INFO:Post installation step for the package 'C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\admin\packages\Sitecore.Reference.Storefront.Powered.by.SitecoreCommerce.10.1.110.update' has been executed.

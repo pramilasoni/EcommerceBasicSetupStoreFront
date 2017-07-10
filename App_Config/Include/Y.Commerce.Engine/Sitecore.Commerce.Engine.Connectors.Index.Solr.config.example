@@ -1,0 +1,97 @@
+﻿<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
+  <sitecore>
+    <contentSearch>
+      <configuration type="Sitecore.ContentSearch.ContentSearchConfiguration, Sitecore.ContentSearch">
+        <indexes hint="list:AddIndex">
+          <index id="commerce_orders_index" type="Sitecore.ContentSearch.SolrProvider.SolrSearchIndex, Sitecore.ContentSearch.SolrProvider">
+            <param desc="name">$(id)</param>
+            <param desc="folder">$(id)</param>
+            <!-- This initializes index property store. Id has to be set to the index id -->
+            <param desc="propertyStore" ref="contentSearch/indexConfigurations/databasePropertyStore" param1="$(id)" />
+            <configuration ref="contentSearch/indexConfigurations/defaultSolrIndexConfiguration"/>
+            <strategies hint="list:AddStrategy">
+              <strategy ref="contentSearch/indexConfigurations/indexUpdateStrategies/ordersIntervalAsynchronousStrategy" />
+            </strategies>
+            <commitPolicyExecutor type="Sitecore.ContentSearch.CommitPolicyExecutor, Sitecore.ContentSearch">
+              <policies hint="list:AddCommitPolicy">
+                <policy type="Sitecore.ContentSearch.TimeIntervalCommitPolicy, Sitecore.ContentSearch" />
+              </policies>
+            </commitPolicyExecutor>
+            <locations hint="list:AddCrawler">
+              <crawler type="Sitecore.Commerce.Engine.Connect.Search.Crawlers.OrdersCrawler, Sitecore.Commerce.Engine.Connect">
+                <ItemsToTake>10</ItemsToTake>
+                <ListName>Orders</ListName>
+                <IndexListName>OrdersIndex</IndexListName>
+                <Environments hint="list">
+                  <environment>HabitatAuthoring</environment>
+                  <environment>AdventureWorksAuthoring</environment>
+                </Environments>
+              </crawler>
+            </locations>
+          </index>
+          
+          <index id="commerce_promotions_index" type="Sitecore.ContentSearch.SolrProvider.SolrSearchIndex, Sitecore.ContentSearch.SolrProvider">
+            <param desc="name">$(id)</param>
+            <param desc="folder">$(id)</param>
+            <!-- This initializes index property store. Id has to be set to the index id -->
+            <param desc="propertyStore" ref="contentSearch/indexConfigurations/databasePropertyStore" param1="$(id)" />
+            <configuration ref="contentSearch/indexConfigurations/defaultSolrIndexConfiguration"/>
+            <strategies hint="list:AddStrategy">
+              <strategy ref="contentSearch/indexConfigurations/indexUpdateStrategies/promotionsIntervalAsynchronousStrategy" />
+            </strategies>
+            <commitPolicyExecutor type="Sitecore.ContentSearch.CommitPolicyExecutor, Sitecore.ContentSearch">
+              <policies hint="list:AddCommitPolicy">
+                <policy type="Sitecore.ContentSearch.TimeIntervalCommitPolicy, Sitecore.ContentSearch" />
+              </policies>
+            </commitPolicyExecutor>
+            <locations hint="list:AddCrawler">
+              <crawler type="Sitecore.Commerce.Engine.Connect.Search.Crawlers.PromotionsCrawler, Sitecore.Commerce.Engine.Connect">
+                <ItemsToTake>10</ItemsToTake>
+                <ListName>Promotions</ListName>
+                <IndexListName>PromotionsIndex</IndexListName>
+                <Environments hint="list">
+                  <environment>HabitatAuthoring</environment>
+                  <environment>AdventureWorksAuthoring</environment>
+                </Environments>
+              </crawler>
+            </locations>
+          </index>
+        </indexes>
+      </configuration>
+
+      <indexConfigurations>
+        <defaultSolrIndexConfiguration type="Sitecore.ContentSearch.SolrProvider.SolrIndexConfiguration, Sitecore.ContentSearch.SolrProvider">
+          <fieldMap type="Sitecore.ContentSearch.SolrProvider.SolrFieldMap, Sitecore.ContentSearch.SolrProvider">
+            <fieldNames hint="raw:AddFieldByFieldName">
+              <field fieldName="orderid" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="text" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+
+              <field fieldName="email" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="string" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+
+              <field fieldName="customerid" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="text" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+
+              <field fieldName="orderconfirmationid" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="text" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+
+              <field fieldName="status" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="text" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+
+              <field fieldName="orderdate" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="datetime" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+
+              <field fieldName="promotionid" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="text" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+
+              <field fieldName="promotionbook" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="text" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+
+              <field fieldName="includeditemids" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="text" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+
+              <field fieldName="excludeditemids" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="text" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+
+              <field fieldName="disabled" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="bool" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+
+              <field fieldName="artifactstoreid" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="text" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+              
+              <field fieldName="displayname" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="text" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+            </fieldNames>
+          </fieldMap>
+        </defaultSolrIndexConfiguration>
+      </indexConfigurations>
+    </contentSearch>
+  </sitecore>
+</configuration>

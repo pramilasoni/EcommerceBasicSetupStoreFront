@@ -1,0 +1,241 @@
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config\include
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Carts.config D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config/include/sitecore.commerce.carts.config
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\2oivmzrw.z5g C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Carts.config
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config\include
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Catalogs.config D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config/include/sitecore.commerce.catalogs.config
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\y5aigqxz.nt2 C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Catalogs.config
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config\include
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.config D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config/include/sitecore.commerce.config
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\k5elqooc.s0q C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.config
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config\include
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Customers.config D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config/include/sitecore.commerce.customers.config
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\143x2q5s.401 C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Customers.config
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config\include
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.ExperienceAnalytics.config D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config/include/sitecore.commerce.experienceanalytics.config
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\maq5xukb.hod C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.ExperienceAnalytics.config
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config\include
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.ExperienceProfile.config D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config/include/sitecore.commerce.experienceprofile.config
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\nso5l0rp.mmd C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.ExperienceProfile.config
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config\include
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.ExperienceProfile.ReportingServer.config D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config/include/sitecore.commerce.experienceprofile.reportingserver.config
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\ej1qqoue.zdv C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.ExperienceProfile.ReportingServer.config
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config\include
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.GiftCards.config D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config/include/sitecore.commerce.giftcards.config
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\2bzhqcnm.bxh C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.GiftCards.config
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config\include
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Globalization.config D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config/include/sitecore.commerce.globalization.config
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\nlaqbbkk.h3f C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Globalization.config
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config\include
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Inventory.config D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config/include/sitecore.commerce.inventory.config
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\afhxo1cx.hjh C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Inventory.config
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config\include
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.LoyaltyPrograms.config D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config/include/sitecore.commerce.loyaltyprograms.config
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\hlwwslca.5rz C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.LoyaltyPrograms.config
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config\include
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Orders.config D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config/include/sitecore.commerce.orders.config
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\dolh1me1.5om C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Orders.config
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config\include
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Payments.config D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config/include/sitecore.commerce.payments.config
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\q3ttqj5o.psd C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Payments.config
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config\include
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Prices.config D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config/include/sitecore.commerce.prices.config
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\50yxoqeh.fdg C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Prices.config
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config\include
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Products.config D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config/include/sitecore.commerce.products.config
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\toyg5fj5.vi2 C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Products.config
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config\include
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Products.DelayedSyncProductRepository.config.disabled D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config/include/sitecore.commerce.products.delayedsyncproductrepository.config.disabled
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\jadp5s11.cf2 C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Products.DelayedSyncProductRepository.config.disabled
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config\include
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Products.Lucene.DefaultIndexConfiguration.config.disabled D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config/include/sitecore.commerce.products.lucene.defaultindexconfiguration.config.disabled
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\eicfutix.u1n C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Products.Lucene.DefaultIndexConfiguration.config.disabled
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config\include
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Products.Lucene.Index.Common.config.disabled D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config/include/sitecore.commerce.products.lucene.index.common.config.disabled
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\yixvdwz3.hob C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Products.Lucene.Index.Common.config.disabled
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config\include
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Products.Lucene.Index.Master.config.disabled D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config/include/sitecore.commerce.products.lucene.index.master.config.disabled
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\ezfq3j2v.fmw C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Products.Lucene.Index.Master.config.disabled
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config\include
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Products.Lucene.Index.Web.config.disabled D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config/include/sitecore.commerce.products.lucene.index.web.config.disabled
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\swovodhw.h2q C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Products.Lucene.Index.Web.config.disabled
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config\include
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Products.Solr.DefaultIndexConfiguration.config.disabled D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config/include/sitecore.commerce.products.solr.defaultindexconfiguration.config.disabled
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\etvqya5t.r1l C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Products.Solr.DefaultIndexConfiguration.config.disabled
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config\include
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Products.Solr.Index.Common.config.disabled D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config/include/sitecore.commerce.products.solr.index.common.config.disabled
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\s2j5lssw.xre C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Products.Solr.Index.Common.config.disabled
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config\include
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Products.Solr.Index.Master.config.disabled D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config/include/sitecore.commerce.products.solr.index.master.config.disabled
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\zzconc1x.g2b C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Products.Solr.Index.Master.config.disabled
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config\include
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Products.Solr.Index.Web.config.disabled D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config/include/sitecore.commerce.products.solr.index.web.config.disabled
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\tbu0ltai.xw5 C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Products.Solr.Index.Web.config.disabled
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config\include
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Shipping.config D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config/include/sitecore.commerce.shipping.config
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\l2mo2njr.t3i C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.Shipping.config
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config\include
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.WishLists.config D:\installation_history\66094F3320D448669F9DC3535CDF70D7\app_config/include/sitecore.commerce.wishlists.config
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\yk1drquy.ve2 C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Sitecore.Commerce.WishLists.config
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\bin
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\bin\Sitecore.Commerce.dll D:\installation_history\66094F3320D448669F9DC3535CDF70D7\bin/sitecore.commerce.dll
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\bin
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\css5pp0g.uw1 C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\bin\Sitecore.Commerce.dll
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\bin
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\bin\Sitecore.Commerce.ExperienceAnalytics.dll D:\installation_history\66094F3320D448669F9DC3535CDF70D7\bin/sitecore.commerce.experienceanalytics.dll
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\bin
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\dybfa1tg.ggv C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\bin\Sitecore.Commerce.ExperienceAnalytics.dll
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\bin
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\bin\Sitecore.Commerce.ExperienceProfile.dll D:\installation_history\66094F3320D448669F9DC3535CDF70D7\bin/sitecore.commerce.experienceprofile.dll
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\bin
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\jm2k0u5i.saz C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\bin\Sitecore.Commerce.ExperienceProfile.dll
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\bin
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\bin\Sitecore.Commerce.Remote.dll D:\installation_history\66094F3320D448669F9DC3535CDF70D7\bin/sitecore.commerce.remote.dll
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\bin
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\vkktjmv1.hkd C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\bin\Sitecore.Commerce.Remote.dll
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\bin
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\bin\Sitecore.Commerce.xml D:\installation_history\66094F3320D448669F9DC3535CDF70D7\bin/sitecore.commerce.xml
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\bin
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\bq4mqyqs.vdr C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\bin\Sitecore.Commerce.xml
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore\shell\client\applications\experienceprofile\contact\commerce
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\AbandonedCarts.js D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore/shell/client/applications/experienceprofile/contact/commerce/abandonedcarts.js
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\vpgjk0yk.dnk C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\AbandonedCarts.js
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore\shell\client\applications\experienceprofile\contact\commerce
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\Adjustments.png D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore/shell/client/applications/experienceprofile/contact/commerce/adjustments.png
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\idzi3bm3.jrn C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\Adjustments.png
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore\shell\client\applications\experienceprofile\contact\commerce
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\BillingAddress.png D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore/shell/client/applications/experienceprofile/contact/commerce/billingaddress.png
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\ffnx4eqe.sxn C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\BillingAddress.png
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore\shell\client\applications\experienceprofile\contact\commerce
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\Cart.png D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore/shell/client/applications/experienceprofile/contact/commerce/cart.png
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\g0ccelyz.10i C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\Cart.png
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore\shell\client\applications\experienceprofile\contact\commerce
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\CartDetail.css D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore/shell/client/applications/experienceprofile/contact/commerce/cartdetail.css
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\btcqgon4.ljm C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\CartDetail.css
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore\shell\client\applications\experienceprofile\contact\commerce
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\CartDetail.js D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore/shell/client/applications/experienceprofile/contact/commerce/cartdetail.js
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\a0el3pbf.mj1 C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\CartDetail.js
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore\shell\client\applications\experienceprofile\contact\commerce
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\Commerce.js D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore/shell/client/applications/experienceprofile/contact/commerce/commerce.js
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\rzftimpg.xgu C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\Commerce.js
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore\shell\client\applications\experienceprofile\contact\commerce
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\details.png D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore/shell/client/applications/experienceprofile/contact/commerce/details.png
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\gkh1sbxx.5kh C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\details.png
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore\shell\client\applications\experienceprofile\contact\commerce
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\MissedOpportunities.js D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore/shell/client/applications/experienceprofile/contact/commerce/missedopportunities.js
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\0sixzeqp.kvd C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\MissedOpportunities.js
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore\shell\client\applications\experienceprofile\contact\commerce
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\OrderOutcomes.js D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore/shell/client/applications/experienceprofile/contact/commerce/orderoutcomes.js
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\f0fg4q23.sc0 C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\OrderOutcomes.js
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore\shell\client\applications\experienceprofile\contact\commerce
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\Overview.js D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore/shell/client/applications/experienceprofile/contact/commerce/overview.js
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\lb0mqin0.ci3 C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\Overview.js
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore\shell\client\applications\experienceprofile\contact\commerce
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\OverviewTab.css D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore/shell/client/applications/experienceprofile/contact/commerce/overviewtab.css
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\jvi3rgr1.qdx C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\OverviewTab.css
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore\shell\client\applications\experienceprofile\contact\commerce
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\Party.png D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore/shell/client/applications/experienceprofile/contact/commerce/party.png
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\221x4si2.bi4 C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\Party.png
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore\shell\client\applications\experienceprofile\contact\commerce
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\PopularProducts.js D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore/shell/client/applications/experienceprofile/contact/commerce/popularproducts.js
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\yu0hjusz.2dp C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\PopularProducts.js
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore\shell\client\applications\experienceprofile\contact\commerce
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\PopularProductsTab.css D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore/shell/client/applications/experienceprofile/contact/commerce/popularproductstab.css
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\y51ucq15.hjx C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\PopularProductsTab.css
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore\shell\client\applications\experienceprofile\contact\commerce
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\ShippingAddress.png D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore/shell/client/applications/experienceprofile/contact/commerce/shippingaddress.png
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\oezs5kvq.put C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\ShippingAddress.png
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore\shell\client\applications\experienceprofile\contact\commerce
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\ShoppingCarts.js D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore/shell/client/applications/experienceprofile/contact/commerce/shoppingcarts.js
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\nqxkyl2q.blv C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\ShoppingCarts.js
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore\shell\client\applications\experienceprofile\contact\commerce
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\ShoppingCartsTab.css D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore/shell/client/applications/experienceprofile/contact/commerce/shoppingcartstab.css
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\dz1yw01j.geu C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\shell\client\Applications\ExperienceProfile\Contact\Commerce\ShoppingCartsTab.css
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore modules\shell\commerceconnect\services
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore modules\Shell\CommerceConnect\Services\ProductService.svc D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore modules/shell/commerceconnect/services/productservice.svc
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore modules\Shell\CommerceConnect\Services
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\a3pfsrlb.hx3 C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore modules\Shell\CommerceConnect\Services\ProductService.svc
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore modules\shell\commerceconnect\services
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore modules\Shell\CommerceConnect\Services\Web.config D:\installation_history\66094F3320D448669F9DC3535CDF70D7\sitecore modules/shell/commerceconnect/services/web.config
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore modules\Shell\CommerceConnect\Services
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\jihknmut.whl C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore modules\Shell\CommerceConnect\Services\Web.config
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\temp\commerceconnect
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Temp\CommerceConnect\da-DK.xml D:\installation_history\66094F3320D448669F9DC3535CDF70D7\temp/commerceconnect/da-dk.xml
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Temp\CommerceConnect
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\tdybdgrw.3bv C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Temp\CommerceConnect\da-DK.xml
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\temp\commerceconnect
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Temp\CommerceConnect\de-DE.xml D:\installation_history\66094F3320D448669F9DC3535CDF70D7\temp/commerceconnect/de-de.xml
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Temp\CommerceConnect
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\0cixmtts.qzj C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Temp\CommerceConnect\de-DE.xml
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\temp\commerceconnect
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Temp\CommerceConnect\ja-JP.xml D:\installation_history\66094F3320D448669F9DC3535CDF70D7\temp/commerceconnect/ja-jp.xml
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Temp\CommerceConnect
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\1a0lxle2.afc C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Temp\CommerceConnect\ja-JP.xml
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\temp\experienceanalytics
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Temp\ExperienceAnalytics\da-DK.xml D:\installation_history\66094F3320D448669F9DC3535CDF70D7\temp/experienceanalytics/da-dk.xml
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Temp\ExperienceAnalytics
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\3carcuuu.tv1 C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Temp\ExperienceAnalytics\da-DK.xml
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\temp\experienceanalytics
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Temp\ExperienceAnalytics\de-DE.xml D:\installation_history\66094F3320D448669F9DC3535CDF70D7\temp/experienceanalytics/de-de.xml
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Temp\ExperienceAnalytics
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\pmqtx5r2.d15 C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Temp\ExperienceAnalytics\de-DE.xml
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\temp\experienceanalytics
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Temp\ExperienceAnalytics\ja-JP.xml D:\installation_history\66094F3320D448669F9DC3535CDF70D7\temp/experienceanalytics/ja-jp.xml
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Temp\ExperienceAnalytics
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\zw2ambl2.p50 C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Temp\ExperienceAnalytics\ja-JP.xml
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\temp\experienceprofile
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Temp\ExperienceProfile\da-DK.xml D:\installation_history\66094F3320D448669F9DC3535CDF70D7\temp/experienceprofile/da-dk.xml
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Temp\ExperienceProfile
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\k5d1eeq4.3il C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Temp\ExperienceProfile\da-DK.xml
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\temp\experienceprofile
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Temp\ExperienceProfile\de-DE.xml D:\installation_history\66094F3320D448669F9DC3535CDF70D7\temp/experienceprofile/de-de.xml
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Temp\ExperienceProfile
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\yhta3nra.gyf C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Temp\ExperienceProfile\de-DE.xml
+OK: MkDir  D:\installation_history\66094F3320D448669F9DC3535CDF70D7\temp\experienceprofile
+OK: MoveIfNotExists C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Temp\ExperienceProfile\ja-JP.xml D:\installation_history\66094F3320D448669F9DC3535CDF70D7\temp/experienceprofile/ja-jp.xml
+OK: MkDir  C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Temp\ExperienceProfile
+OK: Move D:\install\66094F3320D448669F9DC3535CDF70D7\ny1dmslf.tlj C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\Temp\ExperienceProfile\ja-JP.xml
+OK: Delete  D:\install\66094F3320D448669F9DC3535CDF70D7-commit.bat

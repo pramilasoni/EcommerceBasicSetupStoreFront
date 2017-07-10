@@ -1,0 +1,17 @@
+﻿@using Sitecore.Data;
+@using Sitecore.Data.Items;
+
+@{
+    var categoryPagePath = "/sitecore/client/Applications/MerchandisingManager/Category?target=";
+}
+
+<div class="CommerceTiles">
+    <div class="TileImage" onclick="window.location.href = $(this).attr('href');" data-bind="style: { backgroundImage: 'url(\'' + toolsIcon() + '\')'} , attr: {alt: description, title: description, href: '@categoryPagePath' + itemId() + '&p=' + clickPath()}" />
+    <span class="sc-tile-checkBoxContainer"></span>
+    <div class="TileBody">
+        <a onclick="window.location.href = $(this).attr('href');" data-bind="attr: { id: itemId() + '_category', href: '@categoryPagePath' + itemId() + '&p=' + clickPath(), text: _displayname }">
+            <span data-bind="text: _displayname"></span>
+        </a>
+        <span data-bind="truncatedText: description"></span>
+    </div>
+</div>

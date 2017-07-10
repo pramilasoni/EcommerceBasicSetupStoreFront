@@ -1,0 +1,21 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Web.UI.Controls.Common.UserControls
+@model RenderingModel
+@{
+  var rendering = Html.Sitecore().Controls().GetUserControl(Model.Rendering);
+  rendering.Class = "sc-CommercePageName";
+  rendering.Requires.Script("client", "CommercePageName.js");
+
+  var dataSource = new DatasourceBasedParametersResolver(Model.Rendering);
+  
+
+  rendering.SetAttribute("data-sc-text", "");
+  rendering.SetAttribute("data-sc-prefix", dataSource.GetString("Prefix"));
+  rendering.GetString("text", "text");
+  rendering.GetString("Prefix", "prefix");
+  
+  var htmlAttributes = rendering.HtmlAttributes;
+}      
+<div @htmlAttributes>
+</div>

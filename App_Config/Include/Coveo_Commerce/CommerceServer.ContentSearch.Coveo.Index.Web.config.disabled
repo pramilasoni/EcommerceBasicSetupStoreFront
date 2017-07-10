@@ -1,0 +1,55 @@
+﻿<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
+  <sitecore>
+    <contentSearch>
+      <configuration>
+        <indexes hint="list:AddIndex">
+          <index id="Coveo_products_web" type="Coveo.SearchProvider.ProviderIndex, Coveo.SearchProvider">
+            <!-- 
+              To replace the lucene commerce_products_web_index with a coveo index, uncomment the following section and comment out the above Coveo_products_web index id element
+            -->
+            <!--
+          <index id="commerce_products_web_index" type="Sitecore.ContentSearch.LuceneProvider.LuceneIndex, Sitecore.ContentSearch.LuceneProvider">
+            <patch:delete />
+          </index>
+          <index id="commerce_products_web_index" type="Coveo.SearchProvider.ProviderIndex, Coveo.SearchProvider">
+            -->        
+            <param desc="name">$(id)</param>
+            <configuration ref="coveo/defaultIndexConfiguration">
+              <queryConfiguration ref="coveo/defaultIndexConfiguration/queryConfiguration">
+                <maximumAge>00:00:00</maximumAge>
+              </queryConfiguration>
+            </configuration>
+            <strategies hint="list:AddStrategy">
+              <strategy ref="contentSearch/indexConfigurations/indexUpdateStrategies/syncMaster" />
+              <strategy ref="contentSearch/indexConfigurations/indexUpdateStrategies/allCatalogsIntervalAsyncMaster" />
+            </strategies>
+            <locations hint="list:AddCrawler">
+              <crawler type="Sitecore.Commerce.Connect.CommerceServer.Search.AllCatalogsCrawler, Sitecore.Commerce.Connect.CommerceServer">
+                <Database>web</Database>
+                <Root>/sitecore/Commerce/Catalog Management/Catalogs</Root>
+              </crawler>
+            </locations>
+            <propertyStore ref="contentSearch/indexConfigurations/databasePropertyStore" param1="$(id)"/>
+          </index>
+          
+          <!-- 
+            If you replace your sitecore_web_index with Coveo, you will need to map the below additions to your web index name
+            
+            The below section adds commerce catalog data to the default Coveo web index
+          -->
+          <index id="Coveo_web_index" type="Coveo.SearchProvider.ProviderIndex, Coveo.SearchProvider">
+            <locations hint="list:AddCrawler">
+              <crawler type="Sitecore.Commerce.Connect.CommerceServer.Search.SelectedCatalogsCrawler, Sitecore.Commerce.Connect.CommerceServer">
+                <Database>web</Database>
+                <Root>/sitecore/Commerce/Catalog Management/Catalogs</Root>
+              </crawler>
+            </locations>
+            <strategies hint="list:AddStrategy">
+              <strategy ref="contentSearch/indexConfigurations/indexUpdateStrategies/selectedCatalogsIntervalAsyncMaster"/>
+            </strategies>
+          </index>
+        </indexes>
+      </configuration>
+    </contentSearch>
+  </sitecore>
+</configuration>

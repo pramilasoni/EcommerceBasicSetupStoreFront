@@ -1,0 +1,80 @@
+﻿@using Sitecore.Data
+@using Sitecore.Globalization
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Web.UI.Controls.Common.UserControls
+
+@model RenderingModel
+@{
+    
+  var parameterResolver = new DatasourceBasedParametersResolver(Model.Rendering);
+  var rendering = Html.Sitecore().Controls().GetUserControl(Model.Rendering);
+  rendering.Class = "sc-InventoryCatalog bizToolsForms cs-basefields";
+  rendering.Requires.Script("client", "InventoryCatalog.js");
+  rendering.ControlId = Model.Rendering.Parameters["Id"];
+  var htmlAttributes = rendering.HtmlAttributes;
+  
+  var requiredTooltip = parameterResolver.GetString("requiredFieldTooltip");
+  var parentTabId = parameterResolver.GetString("ParentTabId");
+  var create = Request.QueryString["create"];
+  bool createMode = create == "true";
+
+  var inventoryCatalogTemplate = Sitecore.Data.Managers.TemplateManager.GetTemplate(ID.Parse("{C5E8C469-5580-4755-93C5-F62E11D014A5}"), Sitecore.Context.ContentDatabase);
+
+  Language currentLanguage = Sitecore.Context.Language;
+
+  var languageName = Request.QueryString["lang"];
+
+  if (!string.IsNullOrWhiteSpace(languageName))
+  {
+      Language.TryParse(languageName, out currentLanguage);
+  }
+
+  var catalogNameFieldName = inventoryCatalogTemplate.GetField("InventoryCatalogName").GetTitle(currentLanguage);
+  var descriptionFieldName = inventoryCatalogTemplate.GetField("InventoryCatalogDescription").GetTitle(currentLanguage);
+}      
+<div data-sc-parenttabid="@parentTabId" @htmlAttributes>
+    @{
+
+        <div class="col-md-3 row-fluid ">
+            <div style="display:inline-block;">
+                @Html.Sitecore().Placeholder("CatalogNameLabelPlaceholder")
+            </div>
+            <span title="@requiredTooltip" style="color: #FF0000" class="required_field">&#9679;</span>
+            <div class="isrequired" data-sc-fielddisplayname="@catalogNameFieldName">
+                @Html.Sitecore().Placeholder("CatalogNameTextPlaceholder")               
+            </div>
+        </div>
+    <div class="col-md-8 row-fluid ">
+        <div style="display:inline-block;">
+            @Html.Sitecore().Placeholder("DescriptionLabelPlaceholder")
+        </div>
+        <span title="@requiredTooltip" style="color: #FF0000" class="required_field">&#9679;</span>
+        <div class="isrequired" data-sc-fielddisplayname="@descriptionFieldName">
+            @Html.Sitecore().Placeholder("DescriptionPlaceholder")
+        </div>
+    </div>
+    if (!createMode)
+    {
+        <div class="col-md-3 row-fluid ">
+            <div>
+                @Html.Sitecore().Placeholder("CreatedDateLabelPlaceholder")
+            </div>
+            <div>
+                <span>&nbsp;</span>
+                @Html.Sitecore().Placeholder("CreatedDateTextPlaceholder")
+            </div>
+        </div>
+        <div class="col-md-3 row-fluid ">
+            <div>
+                @Html.Sitecore().Placeholder("ModifiedDateLabelPlaceholder")
+            </div>
+            <div>
+                <span>&nbsp;</span>
+                @Html.Sitecore().Placeholder("ModifiedDateTextPlaceholder")
+            </div>
+        </div>
+    }
+}
+</div>
+

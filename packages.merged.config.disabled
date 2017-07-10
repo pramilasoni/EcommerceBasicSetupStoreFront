@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<packages>
+  <!-- Packages required for in hous builds only -->
+  <!---->
+  <package id="SigningClient" targetFramework="net452" />
+  <package id="SitecoreStaticCodeAnalysis" targetFramework="net452" />
+  <package id="SitecoreStyleCop" version="4.7.41" targetFramework="net452" />
+</packages>

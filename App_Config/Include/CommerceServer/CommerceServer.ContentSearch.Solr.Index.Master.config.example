@@ -1,0 +1,56 @@
+﻿<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
+  <sitecore>
+    <contentSearch>
+      <configuration type="Sitecore.ContentSearch.ContentSearchConfiguration, Sitecore.ContentSearch">
+        <indexes hint="list:AddIndex">
+          <index id="commerce_products_master_index" type="Sitecore.ContentSearch.SolrProvider.SolrSearchIndex, Sitecore.ContentSearch.SolrProvider">
+            <param desc="name">$(id)</param>
+            <param desc="core">itembuckets_commerce_products_master_index</param>
+            <param desc="propertyStore" ref="contentSearch/indexConfigurations/databasePropertyStore" param1="$(id)" />
+            <configuration ref="contentSearch/indexConfigurations/defaultSolrIndexConfiguration" />
+            <strategies hint="list:AddStrategy">
+              <strategy ref="contentSearch/indexConfigurations/indexUpdateStrategies/syncMaster" />
+              <strategy ref="contentSearch/indexConfigurations/indexUpdateStrategies/allCatalogsIntervalAsyncMaster" />
+            </strategies>
+            <locations hint="list:AddCrawler">
+              <crawler type="Sitecore.Commerce.Connect.CommerceServer.Search.AllCatalogsCrawler, Sitecore.Commerce.Connect.CommerceServer">
+                <Database>master</Database>
+                <Root>/sitecore/Commerce/Catalog Management/Catalogs</Root>
+              </crawler>
+            </locations>
+          </index>
+          <index id="sitecore_master_index">
+            <strategies hint="list:AddStrategy">
+              <strategy ref="contentSearch/indexConfigurations/indexUpdateStrategies/selectedCatalogsIntervalAsyncMaster"/>
+            </strategies>
+            <locations hint="list:AddCrawler">
+              <crawler type="Sitecore.ContentSearch.SitecoreItemCrawler, Sitecore.ContentSearch">
+              </crawler>
+              <crawler type="Sitecore.Commerce.Connect.CommerceServer.Search.SelectedCatalogsCrawler, Sitecore.Commerce.Connect.CommerceServer">
+                <Database>master</Database>
+                <Root>/sitecore/Commerce/Catalog Management/Catalogs</Root>
+              </crawler>
+            </locations>
+          </index>
+
+          <index id="commerce_userprofiles_index_master" type="Sitecore.ContentSearch.SolrProvider.SolrSearchIndex, Sitecore.ContentSearch.SolrProvider">
+            <param desc="name">$(id)</param>
+            <param desc="folder">$(id)</param>
+            <param desc="propertyStore" ref="contentSearch/indexConfigurations/databasePropertyStore" param1="$(id)" />
+            <configuration ref="contentSearch/indexConfigurations/commerceSolrProfileUserObjectIndexConfiguration" />
+            <locations hint="list:AddCrawler">
+              <crawler type="Sitecore.Commerce.Connect.CommerceServer.Search.UserProfileCrawler, Sitecore.Commerce.Connect.CommerceServer">
+                <ProfileType>UserObject</ProfileType>
+                <AddressPropertiesToIndex>
+                  GeneralInfo.address_line1, GeneralInfo.address_line2, GeneralInfo.city, GeneralInfo.region_code, GeneralInfo.region_name, GeneralInfo.postal_code, GeneralInfo.country_name, GeneralInfo.country_code, GeneralInfo.tel_number
+                </AddressPropertiesToIndex>
+              </crawler>
+            </locations>
+          </index>
+
+        </indexes>
+      </configuration>
+
+    </contentSearch>
+  </sitecore>
+</configuration>

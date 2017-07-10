@@ -1,0 +1,2808 @@
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager_{1f708226-942d-4d88-b548-bef7844ede71}
+content-length:
+550
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{1F708226-942D-4D88-B548-BEF7844EDE71}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager</itempath>
+  <parent>{9CBE9270-1377-48CC-87B6-263F4C705C7D}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>5c02523e-b0b3-4d47-9a8e-ae33a64c7d68</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/templates_{d86299c6-9124-4e79-96bc-5492e1a930e7}
+content-length:
+560
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{D86299C6-9124-4E79-96BC-5492E1A930E7}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Templates</itempath>
+  <parent>{1F708226-942D-4D88-B548-BEF7844EDE71}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>2e7fd508-61ab-479a-9b38-71623a7add66</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/templates/corporatecustomer_{521cb219-3065-42af-8dea-2c5e457967d5}
+content-length:
+578
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{521CB219-3065-42AF-8DEA-2C5E457967D5}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Templates/CorporateCustomer</itempath>
+  <parent>{D86299C6-9124-4E79-96BC-5492E1A930E7}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>b417a2f9-2b12-40b3-a92a-daea80d05908</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/templates/customer_{a14e9857-f2a5-426e-adc8-f674b92841f4}
+content-length:
+569
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{A14E9857-F2A5-426E-ADC8-F674B92841F4}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Templates/Customer</itempath>
+  <parent>{D86299C6-9124-4E79-96BC-5492E1A930E7}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>11d884c8-68e1-4f78-a7fa-43264b50144b</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/templates/corporatecustomer/commerce_{e4351829-2e18-4b55-86d3-0ec9315699f5}
+content-length:
+587
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{E4351829-2E18-4B55-86D3-0EC9315699F5}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Templates/CorporateCustomer/Commerce</itempath>
+  <parent>{521CB219-3065-42AF-8DEA-2C5E457967D5}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>4a54ea83-ae0a-46d2-8b2e-b39e52742ef5</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/templates/customer/commerce_{fd31ee57-e0ee-411b-8bb1-6c658ba28b44}
+content-length:
+578
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{FD31EE57-E0EE-411B-8BB1-6C658BA28B44}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Templates/Customer/Commerce</itempath>
+  <parent>{A14E9857-F2A5-426E-ADC8-F674B92841F4}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>cb732393-e6fe-4812-b3c3-96b52b2d643c</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/templates/corporatecustomer/commerce/code_{f0327448-4ff0-40ad-97d1-af1d274eb5d7}
+content-length:
+592
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{F0327448-4FF0-40AD-97D1-AF1D274EB5D7}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Templates/CorporateCustomer/Commerce/Code</itempath>
+  <parent>{E4351829-2E18-4B55-86D3-0EC9315699F5}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>1093d194-bf2d-417f-9d29-f274495d2264</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/templates/corporatecustomer/commerce/contact_{582519a7-53e1-4f5c-a027-18b90a0ebe47}
+content-length:
+595
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{582519A7-53E1-4F5C-A027-18B90A0EBE47}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Templates/CorporateCustomer/Commerce/Contact</itempath>
+  <parent>{E4351829-2E18-4B55-86D3-0EC9315699F5}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>f95a86e4-9581-46da-ba43-03af1e065cf8</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/templates/corporatecustomer/commerce/corporationname_{ce0f4487-ca96-473c-a746-89b5cc19e00e}
+content-length:
+603
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{CE0F4487-CA96-473C-A746-89B5CC19E00E}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Templates/CorporateCustomer/Commerce/CorporationName</itempath>
+  <parent>{E4351829-2E18-4B55-86D3-0EC9315699F5}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>f277fc62-0174-4ab5-9569-fe189dd4b789</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/templates/customer/commerce/displayname_{6f3a4122-6788-45d9-bc18-ad660eddd4cf}
+content-length:
+590
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{6F3A4122-6788-45D9-BC18-AD660EDDD4CF}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Templates/Customer/Commerce/DisplayName</itempath>
+  <parent>{FD31EE57-E0EE-411B-8BB1-6C658BA28B44}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>140d18b5-4a0c-4813-bb45-9b9e6ead2557</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/templates/customer/commerce/firstname_{5ea9356d-dc21-4294-bf30-ee6cf7dba9a8}
+content-length:
+588
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{5EA9356D-DC21-4294-BF30-EE6CF7DBA9A8}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Templates/Customer/Commerce/FirstName</itempath>
+  <parent>{FD31EE57-E0EE-411B-8BB1-6C658BA28B44}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>adb8dc03-3e2f-48a9-a549-01c921d2b2aa</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/templates/customer/commerce/lastname_{8f2654ea-a7ca-4590-a814-5ceacd5c1ecf}
+content-length:
+587
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{8F2654EA-A7CA-4590-A814-5CEACD5C1ECF}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Templates/Customer/Commerce/LastName</itempath>
+  <parent>{FD31EE57-E0EE-411B-8BB1-6C658BA28B44}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>409cbd5b-63de-4a27-b65b-e2c8b2571871</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/templates/customer/commerce/lastorderdate_{b5997a01-633f-4b18-972a-259c712d549d}
+content-length:
+592
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{B5997A01-633F-4B18-972A-259C712D549D}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Templates/Customer/Commerce/LastOrderDate</itempath>
+  <parent>{FD31EE57-E0EE-411B-8BB1-6C658BA28B44}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>9dbe332f-2201-4344-9891-fa7e8284e314</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search_{3cad0be7-734a-47dd-8d3f-d55a2e4012f8}
+content-length:
+727
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{3CAD0BE7-734A-47DD-8D3F-D55A2E4012F8}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search</itempath>
+  <parent>{1F708226-942D-4D88-B548-BEF7844EDE71}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>61c0c7ae-b526-41a3-a2a4-041cd904acf9</revision>
+    </version>
+    <version>
+      <language>ja-JP</language>
+      <versionnumber>1</versionnumber>
+      <revision>24832b12-5112-4a28-9cee-41fe538c7d2a</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/customer_{bc39400b-6255-4cbf-a997-5cd1863595fa}
+content-length:
+559
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{BC39400B-6255-4CBF-A997-5CD1863595FA}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Customer</itempath>
+  <parent>{1F708226-942D-4D88-B548-BEF7844EDE71}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>34507f73-a18c-4bb5-8dd5-1566b943ba59</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order_{53a1c1e9-21e1-4338-b8c3-741a4fd4ba57}
+content-length:
+726
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{53A1C1E9-21E1-4338-B8C3-741A4FD4BA57}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order</itempath>
+  <parent>{1F708226-942D-4D88-B548-BEF7844EDE71}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>1025164f-edad-42e4-8482-60410561b616</revision>
+    </version>
+    <version>
+      <language>ja-JP</language>
+      <versionnumber>1</versionnumber>
+      <revision>4f7689b0-5ea0-43ac-bf2d-1b65fb4b55a2</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings_{082de6e2-17f7-41d0-91c5-22d951545283}
+content-length:
+570
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{082DE6E2-17F7-41D0-91C5-22D951545283}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings</itempath>
+  <parent>{3CAD0BE7-734A-47DD-8D3F-D55A2E4012F8}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>dd185e45-702a-4ddd-b5d5-b58d55ca7f15</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/customer/pagesettings_{3f83b5cf-e211-44f9-bc6d-34fffccb867e}
+content-length:
+572
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{3F83B5CF-E211-44F9-BC6D-34FFFCCB867E}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Customer/PageSettings</itempath>
+  <parent>{BC39400B-6255-4CBF-A997-5CD1863595FA}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>dd185e45-702a-4ddd-b5d5-b58d55ca7f15</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings_{b82fd4c6-2262-41c2-ae33-d23987ce5a72}
+content-length:
+569
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{B82FD4C6-2262-41C2-AE33-D23987CE5A72}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings</itempath>
+  <parent>{53A1C1E9-21E1-4338-B8C3-741A4FD4BA57}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>dd185e45-702a-4ddd-b5d5-b58d55ca7f15</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/searchtabcontrol_{58f8eb5d-4b90-4fd3-b518-8b7b1eb8fe1d}
+content-length:
+587
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{58F8EB5D-4B90-4FD3-B518-8B7B1EB8FE1D}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/SearchTabControl</itempath>
+  <parent>{082DE6E2-17F7-41D0-91C5-22D951545283}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>6998b150-df57-4e9a-8508-90e02e169a06</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/customer/pagesettings/customertabcontrol_{f8002246-73ad-4e6a-99fa-2a2e933a6478}
+content-length:
+591
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{F8002246-73AD-4E6A-99FA-2A2E933A6478}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Customer/PageSettings/CustomerTabControl</itempath>
+  <parent>{3F83B5CF-E211-44F9-BC6D-34FFFCCB867E}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>284e99d4-e30e-4855-9eb3-d904947cc2e8</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/ordertabcontrol_{6027660a-c649-428b-83fa-e605f4fd5a8b}
+content-length:
+585
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{6027660A-C649-428B-83FA-E605F4FD5A8B}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/OrderTabControl</itempath>
+  <parent>{B82FD4C6-2262-41C2-AE33-D23987CE5A72}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>6f65b090-7898-4dcb-9b89-736c7c43df36</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/searchtabcontrol/customers_{18af25a0-0f69-4ad8-89a9-e8d056c53af3}
+content-length:
+767
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{18AF25A0-0F69-4AD8-89A9-E8D056C53AF3}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/SearchTabControl/Customers</itempath>
+  <parent>{58F8EB5D-4B90-4FD3-B518-8B7B1EB8FE1D}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>4078e59e-fc29-4838-b04a-dd2f5974564f</revision>
+    </version>
+    <version>
+      <language>ja-JP</language>
+      <versionnumber>1</versionnumber>
+      <revision>61fab442-cc21-4fef-b657-6bb87d9bd5ed</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/customer/pagesettings/customertabcontrol/details_{9ef3c04f-d563-42df-813f-309b5ae601b1}
+content-length:
+599
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{9EF3C04F-D563-42DF-813F-309B5AE601B1}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Customer/PageSettings/CustomerTabControl/Details</itempath>
+  <parent>{F8002246-73AD-4E6A-99FA-2A2E933A6478}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>d5147409-d322-405a-85df-b554a77dcbd0</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/ordertabcontrol/details_{3c7f60b9-f80f-4350-abb8-2c7bca52d87c}
+content-length:
+593
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{3C7F60B9-F80F-4350-ABB8-2C7BCA52D87C}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/OrderTabControl/Details</itempath>
+  <parent>{6027660A-C649-428B-83FA-E605F4FD5A8B}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>32a1009c-b6fa-45ba-bca9-84da250be9fe</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/ordertabcontrol/line items_{cd557e9b-f7d9-4740-a943-480941065a5e}
+content-length:
+596
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{CD557E9B-F7D9-4740-A943-480941065A5E}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/OrderTabControl/Line Items</itempath>
+  <parent>{6027660A-C649-428B-83FA-E605F4FD5A8B}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>ff370e43-7d2b-422b-966e-06e21f694d75</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/searchtabcontrol/customers/pagesettings_{904dd556-32c3-4ba2-8481-ad47812154e6}
+content-length:
+610
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{904DD556-32C3-4BA2-8481-AD47812154E6}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/SearchTabControl/Customers/PageSettings</itempath>
+  <parent>{18AF25A0-0F69-4AD8-89A9-E8D056C53AF3}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>8cdd2284-efb5-47bc-ac6e-222e30af2b2c</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/searchtabcontrol/orders_{e1a99056-de43-49bf-8688-a9f056af0d6f}
+content-length:
+594
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{E1A99056-DE43-49BF-8688-A9F056AF0D6F}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/SearchTabControl/Orders</itempath>
+  <parent>{58F8EB5D-4B90-4FD3-B518-8B7B1EB8FE1D}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>c2d728f6-a5ab-4a9d-8477-6f9b0b50a52c</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/customer/pagesettings/customertabcontrol/details/pagesettings_{85a0e019-65bd-4550-8cc8-81bc525283f9}
+content-length:
+612
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{85A0E019-65BD-4550-8CC8-81BC525283F9}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Customer/PageSettings/CustomerTabControl/Details/PageSettings</itempath>
+  <parent>{9EF3C04F-D563-42DF-813F-309B5AE601B1}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>33d593c4-025f-4208-b4fd-ec99e16dbb6d</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/ordertabcontrol/details/pagesettings_{25bd7d02-d794-4f59-ae02-c8b92a47800c}
+content-length:
+606
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{25BD7D02-D794-4F59-AE02-C8B92A47800C}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/OrderTabControl/Details/PageSettings</itempath>
+  <parent>{3C7F60B9-F80F-4350-ABB8-2C7BCA52D87C}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>b40dc666-6973-498b-b50e-f63153167a52</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/ordertabcontrol/line items/pagesettings_{ef0a6379-97d4-47a5-82a4-e4b00d659d87}
+content-length:
+609
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{EF0A6379-97D4-47A5-82A4-E4B00D659D87}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/OrderTabControl/Line Items/PageSettings</itempath>
+  <parent>{CD557E9B-F7D9-4740-A943-480941065A5E}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>7e1e6550-787a-40d3-a66b-180d03daaca9</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/searchtabcontrol/customers/pagesettings/customeractioncontrol_{a2996bb8-79af-442a-b1a6-06485e8a7f35}
+content-length:
+632
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{A2996BB8-79AF-442A-B1A6-06485E8A7F35}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/SearchTabControl/Customers/PageSettings/CustomerActionControl</itempath>
+  <parent>{904DD556-32C3-4BA2-8481-AD47812154E6}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>9323a785-ccf4-48fe-867f-b8573a083e28</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/searchtabcontrol/orders/pagesettings_{9dcb29e5-ebec-4417-8177-8df821c2cf54}
+content-length:
+607
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{9DCB29E5-EBEC-4417-8177-8DF821C2CF54}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/SearchTabControl/Orders/PageSettings</itempath>
+  <parent>{E1A99056-DE43-49BF-8688-A9F056AF0D6F}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>b1c7b8a7-c583-43bb-835a-fc564a484307</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/customer/pagesettings/customertabcontrol/details/pagesettings/customersglobalactioncontrol_{f71a221b-6416-4c8b-8e61-bb2e8d18f3ec}
+content-length:
+641
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{F71A221B-6416-4C8B-8E61-BB2E8D18F3EC}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Customer/PageSettings/CustomerTabControl/Details/PageSettings/CustomersGlobalActionControl</itempath>
+  <parent>{85A0E019-65BD-4550-8CC8-81BC525283F9}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>57114156-d176-461a-bf59-addfa2344335</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/customer/pagesettings/customertabcontrol/details/pagesettings/globalactions_{090200cd-326c-44a5-b415-1bb8921ea36c}
+content-length:
+626
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{090200CD-326C-44A5-B415-1BB8921EA36C}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Customer/PageSettings/CustomerTabControl/Details/PageSettings/GlobalActions</itempath>
+  <parent>{85A0E019-65BD-4550-8CC8-81BC525283F9}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>1300769f-7c55-4e5b-9400-97a73cbafc6e</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/ordertabcontrol/details/pagesettings/globalactions_{f05056a2-0e8d-4421-b078-c02eb716e342}
+content-length:
+620
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{F05056A2-0E8D-4421-B078-C02EB716E342}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/OrderTabControl/Details/PageSettings/GlobalActions</itempath>
+  <parent>{25BD7D02-D794-4F59-AE02-C8B92A47800C}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>b9646e5b-935d-448a-aee0-ff675ee3c062</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/ordertabcontrol/line items/pagesettings/lineitemsactioncontrol_{f1b3f8e9-8a6f-4233-b4b0-4d0a9af994e2}
+content-length:
+632
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{F1B3F8E9-8A6F-4233-B4B0-4D0A9AF994E2}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/OrderTabControl/Line Items/PageSettings/LineItemsActionControl</itempath>
+  <parent>{EF0A6379-97D4-47A5-82A4-E4B00D659D87}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>91f1f8ab-bf23-444d-a999-ee6d1f9c62d9</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/searchtabcontrol/customers/pagesettings/customeractioncontrol/actioncolumn_{72068223-d437-4753-b0c5-20413e5f06e1}
+content-length:
+645
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{72068223-D437-4753-B0C5-20413E5F06E1}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/SearchTabControl/Customers/PageSettings/CustomerActionControl/ActionColumn</itempath>
+  <parent>{A2996BB8-79AF-442A-B1A6-06485E8A7F35}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>130c0c00-eb32-4359-8a37-d718739e6b6c</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/searchtabcontrol/orders/pagesettings/orderactioncontrol_{08057112-5a2c-4356-983e-44eb77b83c4f}
+content-length:
+626
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{08057112-5A2C-4356-983E-44EB77B83C4F}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/SearchTabControl/Orders/PageSettings/OrderActionControl</itempath>
+  <parent>{9DCB29E5-EBEC-4417-8177-8DF821C2CF54}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>0f6ce72c-c5ed-4575-b5f4-1f365c6f0109</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/settings_{d60f277e-2769-4469-956a-fbf818c6a4f4}
+content-length:
+559
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{D60F277E-2769-4469-956A-FBF818C6A4F4}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Settings</itempath>
+  <parent>{1F708226-942D-4D88-B548-BEF7844EDE71}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>0538edfd-8b28-4ca6-9c1c-a6d41c9b4142</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/customer/pagesettings/buttons_{b9780406-56c6-4fca-adfc-46ce3f429526}
+content-length:
+580
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{B9780406-56C6-4FCA-ADFC-46CE3F429526}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Customer/PageSettings/Buttons</itempath>
+  <parent>{3F83B5CF-E211-44F9-BC6D-34FFFCCB867E}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>8bd51e4d-9470-4a30-bcde-472e227f0217</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/customer/pagesettings/customertabcontrol/details/pagesettings/customersglobalactioncontrol/actioncolumn_{98638857-1233-4415-8074-49a3b5ca1760}
+content-length:
+654
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{98638857-1233-4415-8074-49A3B5CA1760}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Customer/PageSettings/CustomerTabControl/Details/PageSettings/CustomersGlobalActionControl/ActionColumn</itempath>
+  <parent>{F71A221B-6416-4C8B-8E61-BB2E8D18F3EC}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>130c0c00-eb32-4359-8a37-d718739e6b6c</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/customer/pagesettings/customertabcontrol/details/pagesettings/globalactions/globalactioncolumn_{83d17baa-7ab8-494a-9aba-fbe5e844675f}
+content-length:
+645
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{83D17BAA-7AB8-494A-9ABA-FBE5E844675F}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Customer/PageSettings/CustomerTabControl/Details/PageSettings/GlobalActions/GlobalActionColumn</itempath>
+  <parent>{090200CD-326C-44A5-B415-1BB8921EA36C}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>a445bec4-5ef8-4183-bd4f-e3388601b248</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/customer/pagesettings/generalerrormessage_{a3909979-10ab-42b9-a4b4-8b330c06f422}
+content-length:
+592
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{A3909979-10AB-42B9-A4B4-8B330C06F422}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Customer/PageSettings/GeneralErrorMessage</itempath>
+  <parent>{3F83B5CF-E211-44F9-BC6D-34FFFCCB867E}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>82f5c9bd-f767-473b-8d29-e076792b9787</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/customer/pagesettings/successmessage_{427b1b17-4ee1-4436-8966-317480472c43}
+content-length:
+587
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{427B1B17-4EE1-4436-8966-317480472C43}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Customer/PageSettings/SuccessMessage</itempath>
+  <parent>{3F83B5CF-E211-44F9-BC6D-34FFFCCB867E}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>a189f0bf-d4d7-464a-9011-fddd516155db</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/generalerrormessage_{b4cfa6c5-4aac-4829-80ce-5fb23feb6d10}
+content-length:
+589
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{B4CFA6C5-4AAC-4829-80CE-5FB23FEB6D10}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/GeneralErrorMessage</itempath>
+  <parent>{B82FD4C6-2262-41C2-AE33-D23987CE5A72}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>75a38a7a-1687-4e39-8a3d-fffc44e7d5d0</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/ordertabcontrol/details/pagesettings/globalactions/globalactioncolumn_{da0b95e0-cf0e-4327-875a-523acade6607}
+content-length:
+639
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{DA0B95E0-CF0E-4327-875A-523ACADE6607}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/OrderTabControl/Details/PageSettings/GlobalActions/GlobalActionColumn</itempath>
+  <parent>{F05056A2-0E8D-4421-B078-C02EB716E342}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>bf566385-f0b6-4b14-9848-7fec9429eb6b</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/ordertabcontrol/line items/pagesettings/lineitemsactioncontrol/actioncolumn_{e4cbb858-fa52-485d-91ed-e6ad23d24f1b}
+content-length:
+645
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{E4CBB858-FA52-485D-91ED-E6AD23D24F1B}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/OrderTabControl/Line Items/PageSettings/LineItemsActionControl/ActionColumn</itempath>
+  <parent>{F1B3F8E9-8A6F-4233-B4B0-4D0A9AF994E2}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>130c0c00-eb32-4359-8a37-d718739e6b6c</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/ordertabcontrol/line items/pagesettings/lineitemslist_{92e06ff9-bae2-4eea-b938-4eaa5b7a6910}
+content-length:
+623
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{92E06FF9-BAE2-4EEA-B938-4EAA5B7A6910}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/OrderTabControl/Line Items/PageSettings/LineItemsList</itempath>
+  <parent>{EF0A6379-97D4-47A5-82A4-E4B00D659D87}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>e4342519-0c23-4261-975e-d7f7df128e37</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/successmessage_{e37c4a60-8fbc-466f-b26c-a90f96f954c9}
+content-length:
+584
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{E37C4A60-8FBC-466F-B26C-A90F96F954C9}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/SuccessMessage</itempath>
+  <parent>{B82FD4C6-2262-41C2-AE33-D23987CE5A72}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>89598902-4099-422a-9c7c-86dcb4aa16e3</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/buttons_{aa966cde-8af9-41fd-8819-7daa8db1d62f}
+content-length:
+578
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{AA966CDE-8AF9-41FD-8819-7DAA8DB1D62F}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/Buttons</itempath>
+  <parent>{082DE6E2-17F7-41D0-91C5-22D951545283}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>c374bd6a-f3c2-4035-95be-b182f3492150</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/customertemplateslist_{a7caadfd-8d9a-4dd1-9135-532b4c7405ee}
+content-length:
+592
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{A7CAADFD-8D9A-4DD1-9135-532B4C7405EE}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/CustomerTemplatesList</itempath>
+  <parent>{082DE6E2-17F7-41D0-91C5-22D951545283}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>3b91873f-94f0-49a1-bd3b-7a8f5e2255c7</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/generalerrormessage_{2733b9d0-181d-45a1-a425-3e9cc616747c}
+content-length:
+590
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{2733B9D0-181D-45A1-A425-3E9CC616747C}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/GeneralErrorMessage</itempath>
+  <parent>{082DE6E2-17F7-41D0-91C5-22D951545283}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>de6a3ea6-d255-46c2-88a4-66dddf942ceb</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/searchtabcontrol/customers/pagesettings/customeractioncontrol/actioncolumn/actiongroup_{88895936-eff9-43d3-a212-6555e53b11cf}
+content-length:
+657
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{88895936-EFF9-43D3-A212-6555E53B11CF}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/SearchTabControl/Customers/PageSettings/CustomerActionControl/ActionColumn/ActionGroup</itempath>
+  <parent>{72068223-D437-4753-B0C5-20413E5F06E1}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>8099cf46-6760-48d4-8c19-a16a26bab220</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/searchtabcontrol/customers/pagesettings/customerslist_{607eabd5-5239-45bc-988d-cf0a7d01ff9e}
+content-length:
+624
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{607EABD5-5239-45BC-988D-CF0A7D01FF9E}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/SearchTabControl/Customers/PageSettings/CustomersList</itempath>
+  <parent>{904DD556-32C3-4BA2-8481-AD47812154E6}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>7e0cce06-a933-4c2e-a008-6aa0202dfdfb</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/searchtabcontrol/orders/pagesettings/orderactioncontrol/actioncolumn_{d3ab475b-9ccd-4199-9ab4-1da8f0b500bd}
+content-length:
+639
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{D3AB475B-9CCD-4199-9AB4-1DA8F0B500BD}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/SearchTabControl/Orders/PageSettings/OrderActionControl/ActionColumn</itempath>
+  <parent>{08057112-5A2C-4356-983E-44EB77B83C4F}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>130c0c00-eb32-4359-8a37-d718739e6b6c</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/searchtabcontrol/orders/pagesettings/orderslist_{ed9a74a2-6d5b-4e8a-8b47-ac4e7e20bd02}
+content-length:
+618
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{ED9A74A2-6D5B-4E8A-8B47-AC4E7E20BD02}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/SearchTabControl/Orders/PageSettings/OrdersList</itempath>
+  <parent>{9DCB29E5-EBEC-4417-8177-8DF821C2CF54}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>abf2b65f-2d01-4b9e-9dc0-1503e7478b0b</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/settings/help configuration items_{bf2bc7b8-54a9-4f79-acd9-ba557fb5c7a9}
+content-length:
+584
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{BF2BC7B8-54A9-4F79-ACD9-BA557FB5C7A9}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Settings/Help Configuration Items</itempath>
+  <parent>{D60F277E-2769-4469-956A-FBF818C6A4F4}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>0a4548d0-57f9-4eda-8ae9-57b50c6e541e</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/sidebarformpage_{7002ed61-bd4c-43eb-9d36-4607dbace639}
+content-length:
+566
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{7002ED61-BD4C-43EB-9D36-4607DBACE639}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/SidebarFormPage</itempath>
+  <parent>{1F708226-942D-4D88-B548-BEF7844EDE71}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>9882ae79-939c-46e8-98c2-29678cd08ac9</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/subapprenderings_{e3a5a9b4-409b-4153-b406-55704c4b17df}
+content-length:
+567
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{E3A5A9B4-409B-4153-B406-55704C4B17DF}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/SubAppRenderings</itempath>
+  <parent>{1F708226-942D-4D88-B548-BEF7844EDE71}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>ae792e88-2d1e-47f3-8123-c40a65417710</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/customer/pagesettings/buttons/backbutton parameters_{637df26d-8999-4eb6-b9e5-110a2a1ddad2}
+content-length:
+602
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{637DF26D-8999-4EB6-B9E5-110A2A1DDAD2}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Customer/PageSettings/Buttons/BackButton Parameters</itempath>
+  <parent>{B9780406-56C6-4FCA-ADFC-46CE3F429526}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>c8222c41-2737-4f40-9e18-40586964d97e</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/customer/pagesettings/buttons/customerdetails button parameters_{89e81c6a-bddc-436c-b0ff-93674fe92f06}
+content-length:
+614
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{89E81C6A-BDDC-436C-B0FF-93674FE92F06}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Customer/PageSettings/Buttons/CustomerDetails Button Parameters</itempath>
+  <parent>{B9780406-56C6-4FCA-ADFC-46CE3F429526}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>d8a1c238-54e7-4c3d-bebb-4d8ec192733f</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/customer/pagesettings/confirmactiondialog_{2911074d-905e-4db8-8288-a2a92da32ad5}
+content-length:
+592
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{2911074D-905E-4DB8-8288-A2A92DA32AD5}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Customer/PageSettings/ConfirmActionDialog</itempath>
+  <parent>{3F83B5CF-E211-44F9-BC6D-34FFFCCB867E}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>0d2bf848-7d49-466c-8662-9cf0ce4cf1f4</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/customer/pagesettings/customertabcontrol/details/pagesettings/customersglobalactioncontrol/actioncolumn/actiongroup_{ee2b15fd-e1d2-400a-a0fe-4f8972e696dd}
+content-length:
+666
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{EE2B15FD-E1D2-400A-A0FE-4F8972E696DD}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Customer/PageSettings/CustomerTabControl/Details/PageSettings/CustomersGlobalActionControl/ActionColumn/ActionGroup</itempath>
+  <parent>{98638857-1233-4415-8074-49A3B5CA1760}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>8099cf46-6760-48d4-8c19-a16a26bab220</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/customer/pagesettings/customertabcontrol/details/pagesettings/globalactions/globalactioncolumn/globalactiongroup_{92566ebc-0478-4739-9b31-8a76eebc45da}
+content-length:
+663
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{92566EBC-0478-4739-9B31-8A76EEBC45DA}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Customer/PageSettings/CustomerTabControl/Details/PageSettings/GlobalActions/GlobalActionColumn/GlobalActionGroup</itempath>
+  <parent>{83D17BAA-7AB8-494A-9ABA-FBE5E844675F}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>478c905c-37e6-4fd5-b4f6-065f282bb3ac</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/customer/pagesettings/generalerrormessage/errormessage_{f36cc7e2-bb95-42a1-86b5-6255be54713e}
+content-length:
+605
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{F36CC7E2-BB95-42A1-86B5-6255BE54713E}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Customer/PageSettings/GeneralErrorMessage/ErrorMessage</itempath>
+  <parent>{A3909979-10AB-42B9-A4B4-8B330C06F422}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>0839a13b-2634-49f5-9e14-840df2e84511</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/customer/pagesettings/headertitle_{c0e8b7e1-f22f-4856-9462-503fc3518bd2}
+content-length:
+584
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{C0E8B7E1-F22F-4856-9462-503FC3518BD2}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Customer/PageSettings/HeaderTitle</itempath>
+  <parent>{3F83B5CF-E211-44F9-BC6D-34FFFCCB867E}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>0acf3a41-30f1-47e9-9a2c-fb4c829d7da4</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/customer/pagesettings/page-stylesheet-file_{5c4312be-4db2-45fd-86dd-1d80366497f9}
+content-length:
+593
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{5C4312BE-4DB2-45FD-86DD-1D80366497F9}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Customer/PageSettings/Page-Stylesheet-File</itempath>
+  <parent>{3F83B5CF-E211-44F9-BC6D-34FFFCCB867E}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>515f8ce6-ca70-46f1-9474-22acf5cd621c</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/customer/pagesettings/successmessage/savesucceeded_{013955e1-58c5-4560-927a-c1cb8b7972e2}
+content-length:
+601
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{013955E1-58C5-4560-927A-C1CB8B7972E2}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Customer/PageSettings/SuccessMessage/SaveSucceeded</itempath>
+  <parent>{427B1B17-4EE1-4436-8966-317480472C43}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>0b710151-7d78-40bd-a293-fd9fc7562973</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/customer/pagesettings/text_{41687087-c31c-4531-a066-adc2aa728bf1}
+content-length:
+577
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{41687087-C31C-4531-A066-ADC2AA728BF1}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Customer/PageSettings/Text</itempath>
+  <parent>{3F83B5CF-E211-44F9-BC6D-34FFFCCB867E}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>e874b28d-f165-4c4f-8f96-5c1b579c9bb1</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/buttons_{4b41d65e-162a-4614-bfe2-17af063fe612}
+content-length:
+577
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{4B41D65E-162A-4614-BFE2-17AF063FE612}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/Buttons</itempath>
+  <parent>{B82FD4C6-2262-41C2-AE33-D23987CE5A72}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>54228a9e-5937-479e-babd-6b952bbe7989</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/confirmactiondialog_{9fcac2a7-b2d6-429e-82aa-203df095a873}
+content-length:
+589
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{9FCAC2A7-B2D6-429E-82AA-203DF095A873}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/ConfirmActionDialog</itempath>
+  <parent>{B82FD4C6-2262-41C2-AE33-D23987CE5A72}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>0d2bf848-7d49-466c-8662-9cf0ce4cf1f4</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/generalerrormessage/errormessage_{175689b6-46f0-4394-bacb-07fc904b3743}
+content-length:
+602
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{175689B6-46F0-4394-BACB-07FC904B3743}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/GeneralErrorMessage/ErrorMessage</itempath>
+  <parent>{B4CFA6C5-4AAC-4829-80CE-5FB23FEB6D10}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>a71369cf-d79a-4725-8038-b60abd09ad32</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/globalactionscontrol_{54b8c477-320b-4bc7-9268-58d1baadb2e1}
+content-length:
+590
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{54B8C477-320B-4BC7-9268-58D1BAADB2E1}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/GlobalActionsControl</itempath>
+  <parent>{B82FD4C6-2262-41C2-AE33-D23987CE5A72}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>69820742-12bf-4900-b92f-47494dbf1695</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/ordertabcontrol/details/pagesettings/globalactions/globalactioncolumn/globalactionsgroup_{cbc89c94-bff0-4ca3-bb44-9a875acd9232}
+content-length:
+658
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{CBC89C94-BFF0-4CA3-BB44-9A875ACD9232}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/OrderTabControl/Details/PageSettings/GlobalActions/GlobalActionColumn/GlobalActionsGroup</itempath>
+  <parent>{DA0B95E0-CF0E-4327-875A-523ACADE6607}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>dc8f0c56-8277-4b82-9d82-018fbc4f98dd</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/ordertabcontrol/details/pagesettings/orderinformation_{c76b0216-3bd5-4cd6-8f86-5d07ab0cc116}
+content-length:
+623
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{C76B0216-3BD5-4CD6-8F86-5D07AB0CC116}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/OrderTabControl/Details/PageSettings/OrderInformation</itempath>
+  <parent>{25BD7D02-D794-4F59-AE02-C8B92A47800C}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>d0f2d33d-46cc-4e16-b563-ae9e8bb748e1</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/ordertabcontrol/line items/pagesettings/lineitemsactioncontrol/actioncolumn/actiongroup_{32ecdfa0-0427-4b9c-a9ab-ff9336eb6345}
+content-length:
+657
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{32ECDFA0-0427-4B9C-A9AB-FF9336EB6345}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/OrderTabControl/Line Items/PageSettings/LineItemsActionControl/ActionColumn/ActionGroup</itempath>
+  <parent>{E4CBB858-FA52-485D-91ED-E6AD23D24F1B}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>8099cf46-6760-48d4-8c19-a16a26bab220</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/ordertabcontrol/line items/pagesettings/lineitemslist/description_{d0171239-686f-40cd-9c78-eba175d22ff6}
+content-length:
+635
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{D0171239-686F-40CD-9C78-EBA175D22FF6}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/OrderTabControl/Line Items/PageSettings/LineItemsList/Description</itempath>
+  <parent>{92E06FF9-BAE2-4EEA-B938-4EAA5B7A6910}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>dc686c36-1357-4831-8c3a-11e8b8fa1ca9</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/ordertabcontrol/line items/pagesettings/lineitemslist/display name_{9689d0e2-8684-49e3-8044-3270623d0efc}
+content-length:
+636
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{9689D0E2-8684-49E3-8044-3270623D0EFC}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/OrderTabControl/Line Items/PageSettings/LineItemsList/Display Name</itempath>
+  <parent>{92E06FF9-BAE2-4EEA-B938-4EAA5B7A6910}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>8a9cedc8-f8d8-4288-9055-9d207d8393d6</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/ordertabcontrol/line items/pagesettings/lineitemslist/line total_{d2719457-bef4-4f64-9cb6-1e50015d75d8}
+content-length:
+634
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{D2719457-BEF4-4F64-9CB6-1E50015D75D8}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/OrderTabControl/Line Items/PageSettings/LineItemsList/Line Total</itempath>
+  <parent>{92E06FF9-BAE2-4EEA-B938-4EAA5B7A6910}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>54e41b76-5aa2-49ca-b565-3d4430fd83bf</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/ordertabcontrol/line items/pagesettings/lineitemslist/quantity_{6302ad0e-b9a8-4a0a-9468-8111bb301a04}
+content-length:
+632
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{6302AD0E-B9A8-4A0A-9468-8111BB301A04}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/OrderTabControl/Line Items/PageSettings/LineItemsList/Quantity</itempath>
+  <parent>{92E06FF9-BAE2-4EEA-B938-4EAA5B7A6910}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>2ef02422-7cbd-4f25-904b-e6618c93c930</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/ordertabcontrol/line items/pagesettings/lineitemslist/sku_{8ecb304f-44c6-4a01-b73e-a15ddd952ff8}
+content-length:
+627
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{8ECB304F-44C6-4A01-B73E-A15DDD952FF8}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/OrderTabControl/Line Items/PageSettings/LineItemsList/SKU</itempath>
+  <parent>{92E06FF9-BAE2-4EEA-B938-4EAA5B7A6910}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>38e107df-04ba-4d5f-b254-baf48ce670a8</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/ordertabcontrol/line items/pagesettings/lineitemslist/thumbnail_{621a0aaa-ced9-4730-ad5b-fa3b961101e0}
+content-length:
+633
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{621A0AAA-CED9-4730-AD5B-FA3B961101E0}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/OrderTabControl/Line Items/PageSettings/LineItemsList/Thumbnail</itempath>
+  <parent>{92E06FF9-BAE2-4EEA-B938-4EAA5B7A6910}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>4854e4b9-d1f6-4dfe-87b3-054f59eca0c1</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/page-stylesheet-file_{c4f7f1dc-db73-4977-9068-5ad762360d8c}
+content-length:
+590
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{C4F7F1DC-DB73-4977-9068-5AD762360D8C}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/Page-Stylesheet-File</itempath>
+  <parent>{B82FD4C6-2262-41C2-AE33-D23987CE5A72}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>d8d0e0c5-bb97-4b66-9249-3dcdf1e98d24</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/successmessage/actionsucceeded_{684a6f7e-1d05-4433-a78d-8d3a76ae5dd4}
+content-length:
+600
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{684A6F7E-1D05-4433-A78D-8D3A76AE5DD4}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/SuccessMessage/ActionSucceeded</itempath>
+  <parent>{E37C4A60-8FBC-466F-B26C-A90F96F954C9}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>fad525cd-32e8-453b-b290-f29e252dec15</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/order/pagesettings/text_{296565a3-e47b-46b3-a4d9-7a5c291920f0}
+content-length:
+574
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{296565A3-E47B-46B3-A4D9-7A5C291920F0}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Order/PageSettings/Text</itempath>
+  <parent>{B82FD4C6-2262-41C2-AE33-D23987CE5A72}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>8e56602b-5638-4e68-9a9a-44146ebbf4cf</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/renderings_{b56509f8-e7eb-4ea3-90fd-530c8c0f8c39}
+content-length:
+561
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{B56509F8-E7EB-4EA3-90FD-530C8C0F8C39}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Renderings</itempath>
+  <parent>{1F708226-942D-4D88-B548-BEF7844EDE71}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>a22f9da6-94f2-404c-aaea-86baf6c5d8b6</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/buttons/newcustomerbutton parameters_{b96804d1-b8f5-411f-81b5-bfa1399852a6}
+content-length:
+607
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{B96804D1-B8F5-411F-81B5-BFA1399852A6}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/Buttons/NewCustomerButton Parameters</itempath>
+  <parent>{AA966CDE-8AF9-41FD-8819-7DAA8DB1D62F}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>92259e28-ea25-431b-9c55-4a3201dbc1df</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/buttons/orderdetails button parameters_{a6d940aa-1bdc-40db-9046-521beb3e1a11}
+content-length:
+609
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{A6D940AA-1BDC-40DB-9046-521BEB3E1A11}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/Buttons/OrderDetails Button Parameters</itempath>
+  <parent>{AA966CDE-8AF9-41FD-8819-7DAA8DB1D62F}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>1f10c6a1-d90f-437b-8636-4730b72d1465</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/confirmdeletecustomer_{89f13c9b-53b4-499d-bb0a-830cb96fd14d}
+content-length:
+592
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{89F13C9B-53B4-499D-BB0A-830CB96FD14D}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/ConfirmDeleteCustomer</itempath>
+  <parent>{082DE6E2-17F7-41D0-91C5-22D951545283}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>8db10787-2242-445c-a9f1-15ff6535db3b</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/customertemplatescancelbutton_{f6cb1d7d-e663-4e7c-89e9-3de3b0d202d3}
+content-length:
+600
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{F6CB1D7D-E663-4E7C-89E9-3DE3B0D202D3}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/CustomerTemplatesCancelButton</itempath>
+  <parent>{082DE6E2-17F7-41D0-91C5-22D951545283}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>232ad8ae-2bb6-4a1f-b967-fbc85772f89e</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/customertemplatesdialog_{cc2051e6-875e-409f-a380-1f6babbe10db}
+content-length:
+594
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{CC2051E6-875E-409F-A380-1F6BABBE10DB}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/CustomerTemplatesDialog</itempath>
+  <parent>{082DE6E2-17F7-41D0-91C5-22D951545283}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>5fc8fe31-8b35-4c03-9503-2d4ed8079e93</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/customertemplateslist/template name_{7a2083f3-3229-44f3-9f53-c8a3d0891404}
+content-length:
+606
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{7A2083F3-3229-44F3-9F53-C8A3D0891404}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/CustomerTemplatesList/Template Name</itempath>
+  <parent>{A7CAADFD-8D9A-4DD1-9135-532B4C7405EE}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>6fb04219-d349-42a5-99c1-704cad1ce627</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/customertemplatesokbutton_{d8285f9a-1218-46c7-8c5a-eef890e365f3}
+content-length:
+596
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{D8285F9A-1218-46C7-8C5A-EEF890E365F3}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/CustomerTemplatesOKButton</itempath>
+  <parent>{082DE6E2-17F7-41D0-91C5-22D951545283}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>d5ab672b-e89c-4582-a9e3-bfc0b18e4ab7</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/generalerrormessage/errormessage_{d84c91d2-778c-4547-8079-4c238c681291}
+content-length:
+603
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{D84C91D2-778C-4547-8079-4C238C681291}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/GeneralErrorMessage/ErrorMessage</itempath>
+  <parent>{2733B9D0-181D-45A1-A425-3E9CC616747C}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>c99f1c6d-7a6b-4fbf-a6f2-eb61a53de14c</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/headertitle_{32b687e7-ea01-4f8e-b440-17e355bc54a6}
+content-length:
+582
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{32B687E7-EA01-4F8E-B440-17E355BC54A6}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/HeaderTitle</itempath>
+  <parent>{082DE6E2-17F7-41D0-91C5-22D951545283}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>9664f6b4-2c4b-45ea-84a5-abc63a30ad1f</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/page-stylesheet-file_{fb1427af-3c0b-4817-bca4-548a1ea32ef5}
+content-length:
+591
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{FB1427AF-3C0B-4817-BCA4-548A1EA32EF5}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/Page-Stylesheet-File</itempath>
+  <parent>{082DE6E2-17F7-41D0-91C5-22D951545283}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>7f15aa08-a233-49c1-b63d-e55c83f18a5c</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/searchtabcontrol/customers/pagesettings/customeractioncontrol/actioncolumn/actiongroup/delete_{f5ce685d-141b-495f-880c-48ae4c9181cc}
+content-length:
+664
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{F5CE685D-141B-495F-880C-48AE4C9181CC}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/SearchTabControl/Customers/PageSettings/CustomerActionControl/ActionColumn/ActionGroup/Delete</itempath>
+  <parent>{88895936-EFF9-43D3-A212-6555E53B11CF}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>dda3675a-f824-464f-ba25-6089d7a600c3</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/searchtabcontrol/customers/pagesettings/customerexpander_{fb5e8289-c788-41b9-bb57-2656a812fbe0}
+content-length:
+627
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{FB5E8289-C788-41B9-BB57-2656A812FBE0}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/SearchTabControl/Customers/PageSettings/CustomerExpander</itempath>
+  <parent>{904DD556-32C3-4BA2-8481-AD47812154E6}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>18f52f4e-217e-4b01-be89-99d07de8020c</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/searchtabcontrol/customers/pagesettings/customerslist/email_{7a32eba6-6bd1-40e0-b894-fc10dae8135c}
+content-length:
+630
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{7A32EBA6-6BD1-40E0-B894-FC10DAE8135C}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/SearchTabControl/Customers/PageSettings/CustomersList/Email</itempath>
+  <parent>{607EABD5-5239-45BC-988D-CF0A7D01FF9E}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>d881eb0b-328a-467a-bfe1-68d252560f87</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/searchtabcontrol/customers/pagesettings/customerslist/firstname_{f5bada98-ed2a-429d-924f-7ccfc3ba4fd6}
+content-length:
+634
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{F5BADA98-ED2A-429D-924F-7CCFC3BA4FD6}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/SearchTabControl/Customers/PageSettings/CustomersList/FirstName</itempath>
+  <parent>{607EABD5-5239-45BC-988D-CF0A7D01FF9E}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>19f461cd-94f0-4313-b9f1-3938eae3fc9e</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/searchtabcontrol/customers/pagesettings/customerslist/lastname_{ca1fd4c1-06bd-4d4c-9073-e2276283a9c0}
+content-length:
+633
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{CA1FD4C1-06BD-4D4C-9073-E2276283A9C0}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/SearchTabControl/Customers/PageSettings/CustomersList/LastName</itempath>
+  <parent>{607EABD5-5239-45BC-988D-CF0A7D01FF9E}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>b94553fd-030a-4f81-93cd-1e1561ab8eea</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/searchtabcontrol/customers/pagesettings/moreresultsbutton_{04f535bf-5873-44e2-bcd5-2e38ef5a0b4a}
+content-length:
+628
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{04F535BF-5873-44E2-BCD5-2E38EF5A0B4A}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/SearchTabControl/Customers/PageSettings/MoreResultsButton</itempath>
+  <parent>{904DD556-32C3-4BA2-8481-AD47812154E6}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>4e14b71d-0b81-482b-8b21-26f91fda145b</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/searchtabcontrol/customers/pagesettings/no sidebar results text_{a079766c-0469-4a92-b117-2078e92e8e5c}
+content-length:
+634
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{A079766C-0469-4A92-B117-2078E92E8E5C}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/SearchTabControl/Customers/PageSettings/No Sidebar Results Text</itempath>
+  <parent>{904DD556-32C3-4BA2-8481-AD47812154E6}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>548e85aa-455e-4519-8ad8-661e9b0c010c</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/searchtabcontrol/customers/pagesettings/selectedcustomeritemtitle_{79c7367a-f2dc-47d6-a093-75e747d51169}
+content-length:
+636
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{79C7367A-F2DC-47D6-A093-75E747D51169}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/SearchTabControl/Customers/PageSettings/SelectedCustomerItemTitle</itempath>
+  <parent>{904DD556-32C3-4BA2-8481-AD47812154E6}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>6937a8d0-892c-42e2-beaa-b75143a0bcd1</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/searchtabcontrol/orders/pagesettings/moreresultsbutton_{af83df57-3f13-40a6-8513-af8c62c2adfe}
+content-length:
+625
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{AF83DF57-3F13-40A6-8513-AF8C62C2ADFE}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/SearchTabControl/Orders/PageSettings/MoreResultsButton</itempath>
+  <parent>{9DCB29E5-EBEC-4417-8177-8DF821C2CF54}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>d7add094-d22f-474e-a9cd-477259ea8493</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/searchtabcontrol/orders/pagesettings/orderactioncontrol/actioncolumn/actiongroup_{63d73423-b29d-4ee5-944e-3dbd1c663fc4}
+content-length:
+651
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{63D73423-B29D-4EE5-944E-3DBD1C663FC4}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/SearchTabControl/Orders/PageSettings/OrderActionControl/ActionColumn/ActionGroup</itempath>
+  <parent>{D3AB475B-9CCD-4199-9AB4-1DA8F0B500BD}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>8099cf46-6760-48d4-8c19-a16a26bab220</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/searchtabcontrol/orders/pagesettings/ordersexpander_{e912d478-5ccc-4fc6-ab92-ab54438fb0ae}
+content-length:
+622
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{E912D478-5CCC-4FC6-AB92-AB54438FB0AE}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/SearchTabControl/Orders/PageSettings/OrdersExpander</itempath>
+  <parent>{9DCB29E5-EBEC-4417-8177-8DF821C2CF54}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>95a5f344-91fa-45fc-8dd5-a692e6d0fd45</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/searchtabcontrol/orders/pagesettings/orderslist/order confirmation_{5e5cc8d3-8d4e-4148-add9-5debe7933c2a}
+content-length:
+637
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{5E5CC8D3-8D4E-4148-ADD9-5DEBE7933C2A}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/SearchTabControl/Orders/PageSettings/OrdersList/Order Confirmation</itempath>
+  <parent>{ED9A74A2-6D5B-4E8A-8B47-AC4E7E20BD02}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>050f7799-d9f3-4f7d-889d-c4a8739d0a17</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/searchtabcontrol/orders/pagesettings/orderslist/order placed date_{82edece3-cb60-454a-9bbe-232ee272c5b8}
+content-length:
+636
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{82EDECE3-CB60-454A-9BBE-232EE272C5B8}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/SearchTabControl/Orders/PageSettings/OrdersList/Order Placed Date</itempath>
+  <parent>{ED9A74A2-6D5B-4E8A-8B47-AC4E7E20BD02}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>5b60165d-b035-48a2-aa38-d956652d7654</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/searchtabcontrol/orders/pagesettings/orderslist/order status_{ebf794f2-8472-4469-bfdb-817e2ae8939f}
+content-length:
+631
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{EBF794F2-8472-4469-BFDB-817E2AE8939F}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/SearchTabControl/Orders/PageSettings/OrdersList/Order Status</itempath>
+  <parent>{ED9A74A2-6D5B-4E8A-8B47-AC4E7E20BD02}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>ebedd975-bba6-4561-9744-2973f0063227</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/search/pagesettings/searchtabcontrol/orders/pagesettings/selectedorderitemtitle_{d5f0226e-765a-4143-8044-a1f865b1c791}
+content-length:
+630
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{D5F0226E-765A-4143-8044-A1F865B1C791}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Search/PageSettings/SearchTabControl/Orders/PageSettings/SelectedOrderItemTitle</itempath>
+  <parent>{9DCB29E5-EBEC-4417-8177-8DF821C2CF54}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>8698c905-73bb-4670-b409-e44671ab43e3</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/settings/help button parameters_{ccb9376e-6171-48ab-878e-56a43fe9ef15}
+content-length:
+582
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{CCB9376E-6171-48AB-878E-56A43FE9EF15}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Settings/Help Button Parameters</itempath>
+  <parent>{D60F277E-2769-4469-956A-FBF818C6A4F4}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>d8de2e94-194e-4bab-8a48-256926fbf05e</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/settings/help configuration items/customer-detailstab_{cb71dc79-23a4-490a-886e-44547f10b0e1}
+content-length:
+604
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{CB71DC79-23A4-490A-886E-44547F10B0E1}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Settings/Help Configuration Items/Customer-DetailsTab</itempath>
+  <parent>{BF2BC7B8-54A9-4F79-ACD9-BA557FB5C7A9}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>15980cc4-4b0b-4f23-9d22-5776d637b826</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/settings/help configuration items/order-detailstab_{0bcf7f03-8434-4060-83ac-93ca0cf45a7c}
+content-length:
+601
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{0BCF7F03-8434-4060-83AC-93CA0CF45A7C}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Settings/Help Configuration Items/Order-DetailsTab</itempath>
+  <parent>{BF2BC7B8-54A9-4F79-ACD9-BA557FB5C7A9}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>73fc3461-9e7c-43fd-a774-549ab121f836</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/settings/help configuration items/order-itemstab_{2b1bdac7-5c31-4a96-8684-77969c954f86}
+content-length:
+599
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{2B1BDAC7-5C31-4A96-8684-77969C954F86}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Settings/Help Configuration Items/Order-ItemsTab</itempath>
+  <parent>{BF2BC7B8-54A9-4F79-ACD9-BA557FB5C7A9}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>0c71e3fa-4b7f-471f-af05-ef4bc470a34f</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/settings/help configuration items/search-customerstab_{d9b21255-848e-455e-9b83-ced88a0d0f53}
+content-length:
+604
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{D9B21255-848E-455E-9B83-CED88A0D0F53}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Settings/Help Configuration Items/Search-CustomersTab</itempath>
+  <parent>{BF2BC7B8-54A9-4F79-ACD9-BA557FB5C7A9}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>72c061c3-584d-4aa4-83a0-b56b0a9dd552</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/settings/help configuration items/search-orderstab_{d58429ea-b038-419d-a968-be35b2bb9ef6}
+content-length:
+601
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{D58429EA-B038-419D-A968-BE35B2BB9EF6}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/Settings/Help Configuration Items/Search-OrdersTab</itempath>
+  <parent>{BF2BC7B8-54A9-4F79-ACD9-BA557FB5C7A9}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>5b72726e-ba76-4a91-9ee4-cbdbdd02d134</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/sidebarformpage/pagesettings_{cb1a73fa-cd7c-4670-b17c-51beb8cdb1b8}
+content-length:
+579
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{CB1A73FA-CD7C-4670-B17C-51BEB8CDB1B8}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/SidebarFormPage/PageSettings</itempath>
+  <parent>{7002ED61-BD4C-43EB-9D36-4607DBACE639}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>8a0a82dc-83cc-4004-bcc8-304816bbe954</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/subapprenderings/listviewdetails_{ef81f664-453a-44f6-8632-8b2ecb3a9666}
+content-length:
+583
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{EF81F664-453A-44F6-8632-8B2ECB3A9666}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/SubAppRenderings/ListViewDetails</itempath>
+  <parent>{E3A5A9B4-409B-4153-B406-55704C4B17DF}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>e6f6f841-da44-4549-b1ce-65342004f5f5</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/customerordermanager/subapprenderings/listviewnodetails_{0fd4ebf1-a5d7-4a52-b7d3-208ef9a3514b}
+content-length:
+585
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{0FD4EBF1-A5D7-4A52-B7D3-208EF9A3514B}</itemid>
+  <itempath>/sitecore/client/Applications/CustomerOrderManager/SubAppRenderings/ListViewNoDetails</itempath>
+  <parent>{E3A5A9B4-409B-4153-B406-55704C4B17DF}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>77627bf3-c0a0-4d4a-9d72-bcc847dc33f9</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deleteditems/core/sitecore/client/applications/launchpad/pagesettings/buttons/contentediting/customer order manager_{c796f123-fe92-459e-8587-755b44d7ddc4}
+content-length:
+598
+<?xml version="1.0" encoding="utf-8"?>
+<deleteItemCommand>
+  <collisionbehavior></collisionbehavior>
+  <databasename>core</databasename>
+  <itemid>{C796F123-FE92-459E-8587-755B44D7DDC4}</itemid>
+  <itempath>/sitecore/client/Applications/Launchpad/PageSettings/Buttons/ContentEditing/Customer Order Manager</itempath>
+  <parent>{11FEE71B-C63E-42C8-9319-8883A9A9DD20}</parent>
+  <versions>
+    <version>
+      <language>en</language>
+      <versionnumber>1</versionnumber>
+      <revision>57125cf8-8f41-4c71-824c-51f275ae0b52</revision>
+    </version>
+  </versions>
+</deleteItemCommand>----endentry----
+----startentry----
+deletedfiles/_DEV/DeployedItems.xml
+content-length:
+254
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFile>
+  <collisionbehavior></collisionbehavior>
+  <path>_DEV\DeployedItems.xml</path>
+  <id>_DEV\DeployedItems.xml</id>
+  <parent></parent>
+  <hashCode>/qKeCwhBD7EXklSIwn2jXg==</hashCode>
+</deleteFile>----endentry----
+----startentry----
+deletedfiles/App_Config/Include/Sitecore.Commerce.UX.CustomerOrderManager.config
+content-length:
+344
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFile>
+  <collisionbehavior></collisionbehavior>
+  <path>App_Config\Include\Sitecore.Commerce.UX.CustomerOrderManager.config</path>
+  <id>App_Config\Include\Sitecore.Commerce.UX.CustomerOrderManager.config</id>
+  <parent></parent>
+  <hashCode>DLlYGbr46YwNF7RYlnwS3Q==</hashCode>
+</deleteFile>----endentry----
+----startentry----
+deletedfiles/bin/Microsoft.Threading.Tasks.dll
+content-length:
+276
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFile>
+  <collisionbehavior></collisionbehavior>
+  <path>bin\Microsoft.Threading.Tasks.dll</path>
+  <id>bin\Microsoft.Threading.Tasks.dll</id>
+  <parent></parent>
+  <hashCode>0BgZv+AyIt+p41o2VVtrbA==</hashCode>
+</deleteFile>----endentry----
+----startentry----
+deletedfiles/bin/Microsoft.Threading.Tasks.Extensions.Desktop.dll
+content-length:
+314
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFile>
+  <collisionbehavior></collisionbehavior>
+  <path>bin\Microsoft.Threading.Tasks.Extensions.Desktop.dll</path>
+  <id>bin\Microsoft.Threading.Tasks.Extensions.Desktop.dll</id>
+  <parent></parent>
+  <hashCode>5UipPRaWTlKGjEfO8cmPLg==</hashCode>
+</deleteFile>----endentry----
+----startentry----
+deletedfiles/bin/Microsoft.Threading.Tasks.Extensions.Desktop.xml
+content-length:
+314
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFile>
+  <collisionbehavior></collisionbehavior>
+  <path>bin\Microsoft.Threading.Tasks.Extensions.Desktop.xml</path>
+  <id>bin\Microsoft.Threading.Tasks.Extensions.Desktop.xml</id>
+  <parent></parent>
+  <hashCode>b/dbu4cjiz53myzAW8t/xg==</hashCode>
+</deleteFile>----endentry----
+----startentry----
+deletedfiles/bin/Microsoft.Threading.Tasks.Extensions.dll
+content-length:
+298
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFile>
+  <collisionbehavior></collisionbehavior>
+  <path>bin\Microsoft.Threading.Tasks.Extensions.dll</path>
+  <id>bin\Microsoft.Threading.Tasks.Extensions.dll</id>
+  <parent></parent>
+  <hashCode>aqI5P/H94aYdDPUXMEKPdA==</hashCode>
+</deleteFile>----endentry----
+----startentry----
+deletedfiles/bin/Microsoft.Threading.Tasks.Extensions.xml
+content-length:
+298
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFile>
+  <collisionbehavior></collisionbehavior>
+  <path>bin\Microsoft.Threading.Tasks.Extensions.xml</path>
+  <id>bin\Microsoft.Threading.Tasks.Extensions.xml</id>
+  <parent></parent>
+  <hashCode>TJpSe3FtRwtwOFmQ6VKOQw==</hashCode>
+</deleteFile>----endentry----
+----startentry----
+deletedfiles/bin/Microsoft.Threading.Tasks.xml
+content-length:
+276
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFile>
+  <collisionbehavior></collisionbehavior>
+  <path>bin\Microsoft.Threading.Tasks.xml</path>
+  <id>bin\Microsoft.Threading.Tasks.xml</id>
+  <parent></parent>
+  <hashCode>WM5TuVSvqOr+4NcHh8DM/g==</hashCode>
+</deleteFile>----endentry----
+----startentry----
+deletedfiles/bin/Simple.OData.Client.Net40.dll
+content-length:
+276
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFile>
+  <collisionbehavior></collisionbehavior>
+  <path>bin\Simple.OData.Client.Net40.dll</path>
+  <id>bin\Simple.OData.Client.Net40.dll</id>
+  <parent></parent>
+  <hashCode>1qlSb1a1YwR0GkvKD7E8Tg==</hashCode>
+</deleteFile>----endentry----
+----startentry----
+deletedfiles/bin/Simple.OData.Client.Net40.xml
+content-length:
+276
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFile>
+  <collisionbehavior></collisionbehavior>
+  <path>bin\Simple.OData.Client.Net40.xml</path>
+  <id>bin\Simple.OData.Client.Net40.xml</id>
+  <parent></parent>
+  <hashCode>hp814eheY/iAOu3RW0wFXQ==</hashCode>
+</deleteFile>----endentry----
+----startentry----
+deletedfiles/bin/Sitecore.Commerce.UX.CustomerOrderManager.dll
+content-length:
+308
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFile>
+  <collisionbehavior></collisionbehavior>
+  <path>bin\Sitecore.Commerce.UX.CustomerOrderManager.dll</path>
+  <id>bin\Sitecore.Commerce.UX.CustomerOrderManager.dll</id>
+  <parent></parent>
+  <hashCode>fVCmVOPdX6xHszNmPrIo2A==</hashCode>
+</deleteFile>----endentry----
+----startentry----
+deletedfiles/bin/System.Net.Http.Extensions.dll
+content-length:
+278
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFile>
+  <collisionbehavior></collisionbehavior>
+  <path>bin\System.Net.Http.Extensions.dll</path>
+  <id>bin\System.Net.Http.Extensions.dll</id>
+  <parent></parent>
+  <hashCode>wHDrjrbKwoP65XFkY4+cyQ==</hashCode>
+</deleteFile>----endentry----
+----startentry----
+deletedfiles/bin/System.Net.Http.Extensions.xml
+content-length:
+278
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFile>
+  <collisionbehavior></collisionbehavior>
+  <path>bin\System.Net.Http.Extensions.xml</path>
+  <id>bin\System.Net.Http.Extensions.xml</id>
+  <parent></parent>
+  <hashCode>8B6kXFqPB8HElhptJBP74w==</hashCode>
+</deleteFile>----endentry----
+----startentry----
+deletedfiles/bin/System.Net.Http.Primitives.dll
+content-length:
+278
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFile>
+  <collisionbehavior></collisionbehavior>
+  <path>bin\System.Net.Http.Primitives.dll</path>
+  <id>bin\System.Net.Http.Primitives.dll</id>
+  <parent></parent>
+  <hashCode>yE6ABazMNxvqbdmpGs4FSQ==</hashCode>
+</deleteFile>----endentry----
+----startentry----
+deletedfiles/bin/System.Net.Http.Primitives.xml
+content-length:
+278
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFile>
+  <collisionbehavior></collisionbehavior>
+  <path>bin\System.Net.Http.Primitives.xml</path>
+  <id>bin\System.Net.Http.Primitives.xml</id>
+  <parent></parent>
+  <hashCode>ZVPGswvqUzFr0skRS+FJ3A==</hashCode>
+</deleteFile>----endentry----
+----startentry----
+deletedfolders/sitecore/shell/client/Applications/CustomerOrderManager/Assets/Icons/48x48
+content-length:
+313
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFolder>
+  <collisionbehavior></collisionbehavior>
+  <path>sitecore\shell\client\Applications\CustomerOrderManager\Assets\Icons\48x48</path>
+  <id>sitecore\shell\client\Applications\CustomerOrderManager\Assets\Icons\48x48</id>
+  <parent></parent>
+</deleteFolder>----endentry----
+----startentry----
+deletedfolders/sitecore/shell/client/Applications/CustomerOrderManager/Assets/Icons
+content-length:
+301
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFolder>
+  <collisionbehavior></collisionbehavior>
+  <path>sitecore\shell\client\Applications\CustomerOrderManager\Assets\Icons</path>
+  <id>sitecore\shell\client\Applications\CustomerOrderManager\Assets\Icons</id>
+  <parent></parent>
+</deleteFolder>----endentry----
+----startentry----
+deletedfolders/sitecore/shell/client/Applications/CustomerOrderManager/Assets
+content-length:
+289
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFolder>
+  <collisionbehavior></collisionbehavior>
+  <path>sitecore\shell\client\Applications\CustomerOrderManager\Assets</path>
+  <id>sitecore\shell\client\Applications\CustomerOrderManager\Assets</id>
+  <parent></parent>
+</deleteFolder>----endentry----
+----startentry----
+deletedfolders/sitecore/shell/client/Applications/CustomerOrderManager
+content-length:
+275
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFolder>
+  <collisionbehavior></collisionbehavior>
+  <path>sitecore\shell\client\Applications\CustomerOrderManager</path>
+  <id>sitecore\shell\client\Applications\CustomerOrderManager</id>
+  <parent></parent>
+</deleteFolder>----endentry----
+----startentry----
+deletedfiles/sitecore/shell/client/Applications/CustomerOrderManager/Assets/Icons/48x48/CustomerOrderManagement.png
+content-length:
+414
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFile>
+  <collisionbehavior></collisionbehavior>
+  <path>sitecore\shell\client\Applications\CustomerOrderManager\Assets\Icons\48x48\CustomerOrderManagement.png</path>
+  <id>sitecore\shell\client\Applications\CustomerOrderManager\Assets\Icons\48x48\CustomerOrderManagement.png</id>
+  <parent></parent>
+  <hashCode>FLIt2LlCL+0iUMpNP07nSg==</hashCode>
+</deleteFile>----endentry----
+----startentry----
+deletedfolders/sitecore/shell/client/Applications/CustomerOrderManager/Assets/Styles
+content-length:
+303
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFolder>
+  <collisionbehavior></collisionbehavior>
+  <path>sitecore\shell\client\Applications\CustomerOrderManager\Assets\Styles</path>
+  <id>sitecore\shell\client\Applications\CustomerOrderManager\Assets\Styles</id>
+  <parent></parent>
+</deleteFolder>----endentry----
+----startentry----
+deletedfolders/sitecore/shell/client/Applications/CustomerOrderManager/Assets
+content-length:
+289
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFolder>
+  <collisionbehavior></collisionbehavior>
+  <path>sitecore\shell\client\Applications\CustomerOrderManager\Assets</path>
+  <id>sitecore\shell\client\Applications\CustomerOrderManager\Assets</id>
+  <parent></parent>
+</deleteFolder>----endentry----
+----startentry----
+deletedfolders/sitecore/shell/client/Applications/CustomerOrderManager
+content-length:
+275
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFolder>
+  <collisionbehavior></collisionbehavior>
+  <path>sitecore\shell\client\Applications\CustomerOrderManager</path>
+  <id>sitecore\shell\client\Applications\CustomerOrderManager</id>
+  <parent></parent>
+</deleteFolder>----endentry----
+----startentry----
+deletedfiles/sitecore/shell/client/Applications/CustomerOrderManager/Assets/Styles/Styles.css
+content-length:
+370
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFile>
+  <collisionbehavior></collisionbehavior>
+  <path>sitecore\shell\client\Applications\CustomerOrderManager\Assets\Styles\Styles.css</path>
+  <id>sitecore\shell\client\Applications\CustomerOrderManager\Assets\Styles\Styles.css</id>
+  <parent></parent>
+  <hashCode>7X1v5ehxdDQojVtOAasa4Q==</hashCode>
+</deleteFile>----endentry----
+----startentry----
+deletedfolders/sitecore/shell/client/Applications/CustomerOrderManager/Customer
+content-length:
+293
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFolder>
+  <collisionbehavior></collisionbehavior>
+  <path>sitecore\shell\client\Applications\CustomerOrderManager\Customer</path>
+  <id>sitecore\shell\client\Applications\CustomerOrderManager\Customer</id>
+  <parent></parent>
+</deleteFolder>----endentry----
+----startentry----
+deletedfolders/sitecore/shell/client/Applications/CustomerOrderManager
+content-length:
+275
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFolder>
+  <collisionbehavior></collisionbehavior>
+  <path>sitecore\shell\client\Applications\CustomerOrderManager</path>
+  <id>sitecore\shell\client\Applications\CustomerOrderManager</id>
+  <parent></parent>
+</deleteFolder>----endentry----
+----startentry----
+deletedfiles/sitecore/shell/client/Applications/CustomerOrderManager/Customer/Customer.js
+content-length:
+362
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFile>
+  <collisionbehavior></collisionbehavior>
+  <path>sitecore\shell\client\Applications\CustomerOrderManager\Customer\Customer.js</path>
+  <id>sitecore\shell\client\Applications\CustomerOrderManager\Customer\Customer.js</id>
+  <parent></parent>
+  <hashCode>1n3UR7EWSxhK3OxQRxPZYw==</hashCode>
+</deleteFile>----endentry----
+----startentry----
+deletedfolders/sitecore/shell/client/Applications/CustomerOrderManager/Order
+content-length:
+287
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFolder>
+  <collisionbehavior></collisionbehavior>
+  <path>sitecore\shell\client\Applications\CustomerOrderManager\Order</path>
+  <id>sitecore\shell\client\Applications\CustomerOrderManager\Order</id>
+  <parent></parent>
+</deleteFolder>----endentry----
+----startentry----
+deletedfolders/sitecore/shell/client/Applications/CustomerOrderManager
+content-length:
+275
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFolder>
+  <collisionbehavior></collisionbehavior>
+  <path>sitecore\shell\client\Applications\CustomerOrderManager</path>
+  <id>sitecore\shell\client\Applications\CustomerOrderManager</id>
+  <parent></parent>
+</deleteFolder>----endentry----
+----startentry----
+deletedfiles/sitecore/shell/client/Applications/CustomerOrderManager/Order/Order.js
+content-length:
+350
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFile>
+  <collisionbehavior></collisionbehavior>
+  <path>sitecore\shell\client\Applications\CustomerOrderManager\Order\Order.js</path>
+  <id>sitecore\shell\client\Applications\CustomerOrderManager\Order\Order.js</id>
+  <parent></parent>
+  <hashCode>OW/yzyvkx3brxoLMjREfMA==</hashCode>
+</deleteFile>----endentry----
+----startentry----
+deletedfolders/sitecore/shell/client/Applications/CustomerOrderManager/Search
+content-length:
+289
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFolder>
+  <collisionbehavior></collisionbehavior>
+  <path>sitecore\shell\client\Applications\CustomerOrderManager\Search</path>
+  <id>sitecore\shell\client\Applications\CustomerOrderManager\Search</id>
+  <parent></parent>
+</deleteFolder>----endentry----
+----startentry----
+deletedfolders/sitecore/shell/client/Applications/CustomerOrderManager
+content-length:
+275
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFolder>
+  <collisionbehavior></collisionbehavior>
+  <path>sitecore\shell\client\Applications\CustomerOrderManager</path>
+  <id>sitecore\shell\client\Applications\CustomerOrderManager</id>
+  <parent></parent>
+</deleteFolder>----endentry----
+----startentry----
+deletedfiles/sitecore/shell/client/Applications/CustomerOrderManager/Search/Search.js
+content-length:
+354
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFile>
+  <collisionbehavior></collisionbehavior>
+  <path>sitecore\shell\client\Applications\CustomerOrderManager\Search\Search.js</path>
+  <id>sitecore\shell\client\Applications\CustomerOrderManager\Search\Search.js</id>
+  <parent></parent>
+  <hashCode>jcEmBcInQxeGYQRULnclIw==</hashCode>
+</deleteFile>----endentry----
+----startentry----
+deletedfolders/Views/Order
+content-length:
+187
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFolder>
+  <collisionbehavior></collisionbehavior>
+  <path>Views\Order</path>
+  <id>Views\Order</id>
+  <parent></parent>
+</deleteFolder>----endentry----
+----startentry----
+deletedfiles/Views/Order/OrderDetails.cshtml
+content-length:
+272
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFile>
+  <collisionbehavior></collisionbehavior>
+  <path>Views\Order\OrderDetails.cshtml</path>
+  <id>Views\Order\OrderDetails.cshtml</id>
+  <parent></parent>
+  <hashCode>ziaM1erU50Mi1wfoZlQBDw==</hashCode>
+</deleteFile>----endentry----
+----startentry----
+deletedfolders/Views/Order
+content-length:
+187
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFolder>
+  <collisionbehavior></collisionbehavior>
+  <path>Views\Order</path>
+  <id>Views\Order</id>
+  <parent></parent>
+</deleteFolder>----endentry----
+----startentry----
+deletedfiles/Views/Order/OrderPreview.cshtml
+content-length:
+272
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFile>
+  <collisionbehavior></collisionbehavior>
+  <path>Views\Order\OrderPreview.cshtml</path>
+  <id>Views\Order\OrderPreview.cshtml</id>
+  <parent></parent>
+  <hashCode>wBANehjn3VXzLsHU8aIm1Q==</hashCode>
+</deleteFile>----endentry----
+----startentry----
+deletedfolders/Views/Profile
+content-length:
+191
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFolder>
+  <collisionbehavior></collisionbehavior>
+  <path>Views\Profile</path>
+  <id>Views\Profile</id>
+  <parent></parent>
+</deleteFolder>----endentry----
+----startentry----
+deletedfiles/Views/Profile/CustomerDetails.cshtml
+content-length:
+282
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFile>
+  <collisionbehavior></collisionbehavior>
+  <path>Views\Profile\CustomerDetails.cshtml</path>
+  <id>Views\Profile\CustomerDetails.cshtml</id>
+  <parent></parent>
+  <hashCode>ziaM1erU50Mi1wfoZlQBDw==</hashCode>
+</deleteFile>----endentry----
+----startentry----
+deletedfolders/Views/Profile
+content-length:
+191
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFolder>
+  <collisionbehavior></collisionbehavior>
+  <path>Views\Profile</path>
+  <id>Views\Profile</id>
+  <parent></parent>
+</deleteFolder>----endentry----
+----startentry----
+deletedfiles/Views/Profile/CustomerPreview.cshtml
+content-length:
+282
+<?xml version="1.0" encoding="utf-8"?>
+<deleteFile>
+  <collisionbehavior></collisionbehavior>
+  <path>Views\Profile\CustomerPreview.cshtml</path>
+  <id>Views\Profile\CustomerPreview.cshtml</id>
+  <parent></parent>
+  <hashCode>u/GM5Bht8zp0U8HxAu69kA==</hashCode>
+</deleteFile>----endentry----

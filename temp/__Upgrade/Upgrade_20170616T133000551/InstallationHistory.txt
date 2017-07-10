@@ -1,0 +1,10 @@
+INFO:Installing package: C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\admin\packages\Sitecore Commerce Customer and Order Manager.1.1.76.update
+INFO:Installation Mode: Install
+WARN:Item path: '[s]/sitecore/client[/s]'<br/>Item ID: '[s]{31056D46-2FAA-4EA2-8759-BE93EAE10001}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/client/Applications[/s]'<br/>Item ID: '[s]{9CBE9270-1377-48CC-87B6-263F4C705C7D}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/client/Applications/Launchpad[/s]'<br/>Item ID: '[s]{6B846FBD-8549-4C91-AE6B-18286EFE82D2}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/client/Applications/Launchpad/PageSettings[/s]'<br/>Item ID: '[s]{AFE511E0-249F-47AF-8439-4E3641DAFAB8}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/client/Applications/Launchpad/PageSettings/Buttons[/s]'<br/>Item ID: '[s]{C625DB2F-6DB2-4645-B7F7-733ABFC2CAC6}[/s]'<br/>Add item operation will be skipped.
+WARN:Item path: '[s]/sitecore/client/Applications/Launchpad/PageSettings/Buttons/ContentEditing[/s]'<br/>Item ID: '[s]{11FEE71B-C63E-42C8-9319-8883A9A9DD20}[/s]'<br/>Add item operation will be skipped.
+INFO:Installation of package 'C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\admin\packages\Sitecore Commerce Customer and Order Manager.1.1.76.update' has been finished.
+INFO:Post installation step for the package 'C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\sitecore\admin\packages\Sitecore Commerce Customer and Order Manager.1.1.76.update' has been executed.

@@ -1,0 +1,45 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Web.UI.Controls.Common.UserControls
+@model RenderingModel
+@{
+  var rendering = Html.Sitecore().Controls().GetUserControl(Model.Rendering);
+  rendering.Class = "sc-CommerceImages";
+  rendering.Requires.Script("client", "CommerceImages.js");
+  rendering.GetString("images", "images");
+  rendering.GetString("displayName", "displayName");
+  rendering.GetString("dialogWindow", "dialogWindow");
+  rendering.GetString("computedimages", "computedimages");
+  rendering.GetString("baseUrl", "baseUrl");
+  rendering.Attributes["data-bind"] = "visible: isVisible";
+  rendering.Attributes["media-url"] = rendering.GetString("baseUrl", "baseUrl");
+  var removeLabel = rendering.GetString("removeLabel", "removeLabel"); ;
+  rendering.HasNestedComponents = true;
+
+  var isStandaloneLicense = false;
+  
+  if (Sitecore.SecurityModel.License.License.HasModule("Sitecore.CommerceServer.Standalone")) 
+  {
+      isStandaloneLicense = true;
+  }
+
+  rendering.Attributes["sc-cs-license"] = isStandaloneLicense.ToString().ToLower();
+  var placeholderName = this.Model.Rendering.Parameters["Id"] + ".NoImages";
+  var htmlAttributes = rendering.HtmlAttributes;
+}      
+<div @htmlAttributes>
+    <div class="noComputedImages" data-bind="visible: $data['computedimages']() == null || $data['computedimages']().length == 0">
+        @Html.Sitecore().Placeholder(placeholderName)
+    </div>
+    <ul data-bind="foreach: $data['computedimages']" class="commerceImageList"> 
+        <li class="ui-state-default" data-bind="style: { backgroundImage: 'url('+ $data['path'] +')' }, attr: { title: $data['alt'], id: $data['id']}">
+            <div class="sort-controls">
+                <span class="sort-handle"></span>
+                <span class="sort-delete" title="@removeLabel" style="display: none;"></span>
+                </div>
+        </li>     
+    </ul>
+     
+     <div class="selectMediaLibraryButton" data-bind="css: { noImagesAddButton: $data['computedimages']() == null || $data['computedimages']().length == 0, singleImageAddButton: $data['numberOfImages']() == 1 }"> @Html.Sitecore().Placeholder("CommerceImages.Actions")</div>
+  
+</div>

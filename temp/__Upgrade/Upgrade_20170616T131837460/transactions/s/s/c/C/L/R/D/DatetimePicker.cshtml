@@ -1,0 +1,14 @@
+﻿@model Sitecore.Speak.Components.Models.ComponentRenderingModel
+
+<div @Model.HtmlAttributes class="commerce-datetimepicker">
+    <div class='input-group date' id='datetimepicker_@Model.Rendering.Parameters["Id"]'>
+        <input type='text' class="form-control" />
+        <span class="input-group-addon">
+            <span class="glyphicon glyphicon-calendar"></span>
+        </span>
+    </div>
+
+</div>
+
+<!--<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css" />-->
+<link rel="stylesheet" href="~/sitecore/shell/client/Commerce/Layouts/Renderings/DatetimePicker/bootstrap-datetimepicker.min.css" />

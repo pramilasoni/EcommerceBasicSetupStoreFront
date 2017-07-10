@@ -1,0 +1,56 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Web.UI.Controls.Common.UserControls
+@using Sitecore.Data
+@using Sitecore.Data.Items
+@model RenderingModel
+@{
+    var rendering = Html.Sitecore().Controls().GetUserControl(Model.Rendering);
+    rendering.Class = "sc-CommerceContextMenu";
+    rendering.Requires.Script("client", "CommerceContextMenu.js");
+
+    Sitecore.Data.Database db = Sitecore.Context.Database;
+
+    Item dataSource = db.GetItem(new ID(rendering.DataSource.ToString()));
+
+    rendering.GetString("commands", "commands");
+    rendering.GetString("axis", "axis");
+
+    var htmlAttributes = rendering.HtmlAttributes;
+}      
+<div @htmlAttributes data-sc-axis="@dataSource["axis"]" data-bind="style: { left: axis }, visible: isVisible">
+    <div>
+        <ul>
+            @foreach (Item menuitem in dataSource.Children)
+            {
+
+                <li>
+                    @if (!menuitem.HasChildren)
+                    {
+                        <a data-sc-commandid="@menuitem["Id"]" data-sc-click="@menuitem["Click"]" data-sc-title="@menuitem["Title"]" data-bind="@Html.Raw("click: invokeEvent.bind($data," + dataSource.Children.IndexOf(menuitem) + ")")">
+                            @menuitem["Title"]
+                        </a>}
+                    else
+                    {
+                        <a class="cs-context-parent" data-sc-commandid="@menuitem["Id"]" data-sc-title="@menuitem["Title"]">
+                            @menuitem["Title"]
+                        </a>
+                    }
+                </li>
+                if (menuitem.HasChildren)
+                {
+                    foreach (Item childItem in menuitem.Children)
+                    {
+                        <li class="cs-context-child">
+                            <a data-sc-commandid="@childItem["Id"]" data-sc-click="@childItem["Click"]" data-sc-title="@childItem["Title"]" data-bind="@Html.Raw("click: invokeEvent.bind($data," + menuitem.Children.IndexOf(childItem) + ")")">
+                                @childItem["Title"]
+                            </a>
+                        </li>
+                    }
+                }
+            }
+
+        </ul>
+    </div>
+
+</div>

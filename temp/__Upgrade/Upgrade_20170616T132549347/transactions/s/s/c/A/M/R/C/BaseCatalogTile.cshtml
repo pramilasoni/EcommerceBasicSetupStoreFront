@@ -1,0 +1,26 @@
+﻿@using Sitecore.Data;
+@using Sitecore.Data.Items;
+
+@{
+    var catalogPagePath = "/sitecore/client/Applications/MerchandisingManager/Catalog?target=";
+
+    var currencyTextItem = Sitecore.Data.Database.GetDatabase("core").GetItem("{CFE7AD77-459D-49CE-A89C-CE60CFE95D6A}");
+    string currencyText = "Currency";
+    if (currencyTextItem != null)
+    {
+        currencyText = currencyTextItem.Fields["Text"].Value;
+    }
+}
+<div class="CommerceTiles">
+    <div class="TileImage" onclick="window.location.href = $(this).attr('href');" data-bind="style: { backgroundImage: 'url(\'' + toolsIcon() + '\')'} , attr: {title: _displayname, href: '@catalogPagePath' + itemId()}" />
+    <span class="sc-tile-checkBoxContainer"></span>
+    <div class="TileBody">
+        <a onclick="window.location.href = $(this).attr('href');" data-bind="attr: { id: itemId() + '_catalog', href: '@catalogPagePath' + itemId(), text: _displayname }">
+            <span data-bind="text: _displayname"></span>
+        </a>
+        <div>
+            <p> @currencyText<span data-bind="text: currency"></span></p>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,149 @@
+﻿<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
+  <sitecore>
+    <contentSearch>
+      <indexConfigurations>
+        <defaultSolrIndexConfiguration type="Sitecore.ContentSearch.SolrProvider.SolrIndexConfiguration, Sitecore.ContentSearch.SolrProvider">
+          <fieldMap type="Sitecore.ContentSearch.SolrProvider.SolrFieldMap, Sitecore.ContentSearch.SolrProvider">
+            <typeMatches hint="raw:AddTypeMatch">
+              <typeMatch typeName="idCollection" type="System.Collections.Generic.List`1[[Sitecore.Data.ID, Sitecore.Kernel]]" fieldNameFormat="{0}_sm"  multiValued="true" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider" />
+              <typeMatch typeName="textCollection" type="System.Collections.Generic.List`1[System.String]" fieldNameFormat="{0}_tm" multiValued="true" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider" />
+              <typeMatch typeName="stringCaseInsensitive" type="System.String" fieldNameFormat="{0}_sci" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider" />
+            </typeMatches>
+
+            <fieldNames hint="raw:AddFieldByFieldName">
+              <field fieldName="catalogitemid" storageType="YES" indexType="UN_TOKENIZED" vectorType="NO" boost="1f" returnType="text" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+              <field fieldName="productid" storageType="YES" indexType="UN_TOKENIZED" vectorType="NO" boost="1f" returnType="string" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+              <field fieldName="onsale" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="bool" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+              <field fieldName="brand" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="string" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+              <field fieldName="definitionname" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="text" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+              <field fieldName="catalogname" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="stringCaseInsensitive" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+              <field fieldName="currency" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="text" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+              <field fieldName="defaultlanguage" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="string" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+              <field fieldName="listprice" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="double" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+              <field fieldName="rating" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="text" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+              <field fieldName="commercesearchitemtype" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="text" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+              <field fieldName="commerceancestorids"  storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="idCollection" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+              <field fieldName="crosssell"  storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="idCollection" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+              <field fieldName="upsell"  storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="idCollection" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+              <field fieldName="commerceancestornames"  storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="textCollection" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+              <field fieldName="startdate" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="datetime" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+              <field fieldName="enddate" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="datetime" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+
+              <!-- Replace Sitecore.Commerce fields that require customization to integrate with Commerce Server -->
+              <field fieldName="instocklocations" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="textCollection" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+              <field fieldName="outofstocklocations" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="textCollection" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+              <field fieldName="orderablelocations" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="textCollection" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+              <field fieldName="preorderable" storageType="YES" indexType="TOKENIZED" vectorType="NO" boost="1f" returnType="text" settingType="Sitecore.ContentSearch.SolrProvider.SolrSearchFieldConfiguration, Sitecore.ContentSearch.SolrProvider"/>
+            </fieldNames>
+
+            <fieldTypes hint="raw:AddFieldByFieldTypeName">
+              <fieldType fieldTypeName="catalog selection control" returnType="textCollection" />
+              <fieldType fieldTypeName="child categories list control" returnType="textCollection" />
+              <fieldType fieldTypeName="child products list control" returnType="textCollection" />
+              <fieldType fieldTypeName="commerce catalog enumeration control" returnType="text" />
+              <fieldType fieldTypeName="commerce decimal control" returnType="double" />
+              <fieldType fieldTypeName="commerce double control" returnType="double" />
+              <fieldType fieldTypeName="commerce int32 control" returnType="int" />
+              <fieldType fieldTypeName="commerce int64 control" returnType="long" />
+              <fieldType fieldTypeName="commerce read-only control" returnType="text" />
+              <fieldType fieldTypeName="commerce single control" returnType="float" />
+              <fieldType fieldTypeName="parent categories list control" returnType="textCollection"/>
+              <fieldType fieldTypeName="primary parent category control" returnType="text" />
+              <fieldType fieldTypeName="relationship list control" returnType="textCollection" />
+              <fieldType fieldTypeName="variant list control" returnType="textCollection" />
+            </fieldTypes>
+          </fieldMap>
+
+          <documentOptions type="Sitecore.ContentSearch.SolrProvider.SolrDocumentBuilderOptions, Sitecore.ContentSearch.SolrProvider">
+            <fields hint="raw:AddComputedIndexField">
+              <!-- Remove Sitecore.Commerce fields not exposed by Commerce Server products default schema -->
+              <field fieldName="categoryname">
+                <patch:delete />
+              </field>
+              <field fieldName="manufacturername">
+                <patch:delete />
+              </field>
+              <field fieldName="producttypename">
+                <patch:delete />
+              </field>
+
+              <!-- Replace Sitecore.Commerce fields that require customization to integrate with Commerce Server -->
+              <field fieldName="instocklocations">
+                <patch:delete />
+              </field>
+              <field fieldName="outofstocklocations">
+                <patch:delete />
+              </field>
+              <field fieldName="orderablelocations">
+                <patch:delete />
+              </field>
+              <field fieldName="preorderable">
+                <patch:delete />
+              </field>
+              <field fieldName="instocklocations" returnType="textCollection">Sitecore.Commerce.Connect.CommerceServer.Search.ComputedFields.InStockLocations, Sitecore.Commerce.Connect.CommerceServer</field>
+              <field fieldName="outofstocklocations" returnType="textCollection">Sitecore.Commerce.Connect.CommerceServer.Search.ComputedFields.OutOfStockLocations, Sitecore.Commerce.Connect.CommerceServer</field>
+              <field fieldName="orderablelocations" returnType="textCollection">Sitecore.Commerce.Connect.CommerceServer.Search.ComputedFields.OrderableLocations, Sitecore.Commerce.Connect.CommerceServer</field>
+              <field fieldName="preorderable" returnType="text">Sitecore.Commerce.Connect.CommerceServer.Search.ComputedFields.PreOrderable, Sitecore.Commerce.Connect.CommerceServer</field>
+
+              <field fieldName="catalogitemid" returnType="text">Sitecore.Commerce.Connect.CommerceServer.Search.ComputedFields.CatalogItemId, Sitecore.Commerce.Connect.CommerceServer</field>
+              <field fieldName="commercesearchitemtype" returnType="text">Sitecore.Commerce.Connect.CommerceServer.Search.ComputedFields.CommerceSearchItemType, Sitecore.Commerce.Connect.CommerceServer</field>
+              <field fieldName="commerceancestornames" returnType="textCollection">Sitecore.Commerce.Connect.CommerceServer.Search.ComputedFields.CommerceAncestorNames, Sitecore.Commerce.Connect.CommerceServer</field>
+              <field fieldName="commerceancestorids" returnType="idCollection">Sitecore.Commerce.Connect.CommerceServer.Search.ComputedFields.CommerceAncestorIds, Sitecore.Commerce.Connect.CommerceServer</field>
+              <field fieldName="crosssell" returnType="idCollection">Sitecore.Commerce.Connect.CommerceServer.Search.ComputedFields.CommerceRelationships, Sitecore.Commerce.Connect.CommerceServer</field>
+              <field fieldName="upsell" returnType="idCollection">Sitecore.Commerce.Connect.CommerceServer.Search.ComputedFields.CommerceRelationships, Sitecore.Commerce.Connect.CommerceServer</field>
+
+              <field fieldName="_content" type="Sitecore.Commerce.Connect.CommerceServer.Search.ComputedFields.ContentGathererField, Sitecore.Commerce.Connect.CommerceServer"/>
+
+            </fields>
+          </documentOptions>
+
+          <fieldReaders type="Sitecore.ContentSearch.FieldReaders.FieldReaderMap, Sitecore.ContentSearch">
+            <mapFieldByTypeName hint="raw:AddFieldReaderByFieldTypeName">
+              <fieldReader fieldTypeName="catalog selection control" fieldReaderType="Sitecore.ContentSearch.FieldReaders.MultiListFieldReader, Sitecore.ContentSearch" />
+              <fieldReader fieldTypeName="child categories list control" fieldReaderType="Sitecore.ContentSearch.FieldReaders.MultiListFieldReader, Sitecore.ContentSearch" />
+              <fieldReader fieldTypeName="child products list control" fieldReaderType="Sitecore.ContentSearch.FieldReaders.MultiListFieldReader, Sitecore.ContentSearch" />
+              <fieldReader fieldTypeName="commerce catalog enumeration control" fieldReaderType="Sitecore.ContentSearch.FieldReaders.DefaultFieldReader, Sitecore.ContentSearch" />
+              <fieldReader fieldTypeName="commerce decimal control" fieldReaderType="Sitecore.Commerce.Connect.CommerceServer.Search.FieldReaders.CommerceDoubleFieldReader, Sitecore.Commerce.Connect.CommerceServer" />
+              <fieldReader fieldTypeName="commerce double control" fieldReaderType="Sitecore.Commerce.Connect.CommerceServer.Search.FieldReaders.CommerceDoubleFieldReader, Sitecore.Commerce.Connect.CommerceServer" />
+              <fieldReader fieldTypeName="commerce int32 control" fieldReaderType="Sitecore.Commerce.Connect.CommerceServer.Search.FieldReaders.CommerceInt32FieldReader, Sitecore.Commerce.Connect.CommerceServer" />
+              <fieldReader fieldTypeName="commerce int64 control" fieldReaderType="Sitecore.Commerce.Connect.CommerceServer.Search.FieldReaders.CommerceInt64FieldReader, Sitecore.Commerce.Connect.CommerceServer" />
+              <fieldReader fieldTypeName="commerce read-only control" fieldReaderType="Sitecore.ContentSearch.FieldReaders.DefaultFieldReader, Sitecore.ContentSearch" />
+              <fieldReader fieldTypeName="commerce single control" fieldReaderType="Sitecore.Commerce.Connect.CommerceServer.Search.FieldReaders.CommerceSingleFieldReader, Sitecore.Commerce.Connect.CommerceServer" />
+              <fieldReader fieldTypeName="parent categories list control" fieldReaderType="Sitecore.ContentSearch.FieldReaders.MultiListFieldReader, Sitecore.ContentSearch"/>
+              <fieldReader fieldTypeName="primary parent category control" fieldReaderType="Sitecore.ContentSearch.FieldReaders.DefaultFieldReader, Sitecore.ContentSearch" />
+              <fieldReader fieldTypeName="relationship list control" fieldReaderType="Sitecore.ContentSearch.FieldReaders.MultiListFieldReader, Sitecore.ContentSearch" />
+              <fieldReader fieldTypeName="variant list control" fieldReaderType="Sitecore.ContentSearch.FieldReaders.MultiListFieldReader, Sitecore.ContentSearch" />
+              <fieldReader fieldTypeName="commerce int64 control" fieldReaderType="Sitecore.ContentSearch.FieldReaders.NumericFieldReader, Sitecore.ContentSearch"/>
+            </mapFieldByTypeName>
+          </fieldReaders>
+        </defaultSolrIndexConfiguration>
+
+        <commerceSolrProfileUserObjectIndexConfiguration type="Sitecore.ContentSearch.SolrProvider.SolrIndexConfiguration, Sitecore.ContentSearch.SolrProvider">
+          <!-- This flag will index all fields by default. This allows new fields in your templates to automatically be included into the index.
+               You have two choices : 
+               
+               1) Set this to true and place all the fields you would like to remove in the 'ExcludeField' list below.
+               2) Set to false and place all fields you would like to be indexed in the 'IncludeField' list below.
+            
+-->
+          <indexAllFields>true</indexAllFields>
+          <initializeOnAdd>false</initializeOnAdd>
+          <fieldMap type="Sitecore.Commerce.Connect.CommerceServer.Search.ProfileSolrFieldMap, Sitecore.Commerce.Connect.CommerceServer">
+            <param desc="profileType">UserObject</param>
+            <param desc="additionalFields">_content</param>
+          </fieldMap>
+
+          <documentOptions type="Sitecore.ContentSearch.SolrProvider.SolrDocumentBuilderOptions, Sitecore.ContentSearch.SolrProvider">
+          </documentOptions>
+
+          <fieldReaders ref="contentSearch/indexConfigurations/defaultSolrIndexConfiguration/fieldReaders"/>
+          <indexFieldStorageValueFormatter ref="contentSearch/indexConfigurations/defaultSolrIndexConfiguration/indexFieldStorageValueFormatter"/>
+          <indexDocumentPropertyMapper ref="contentSearch/indexConfigurations/defaultSolrIndexConfiguration/indexDocumentPropertyMapper"/>
+          <documentBuilderType>Sitecore.ContentSearch.SolrProvider.SolrDocumentBuilder, Sitecore.ContentSearch.SolrProvider</documentBuilderType>
+          <defaultSearchSecurityOption ref="contentSearch/indexConfigurations/defaultSearchSecurityOption"/>
+        </commerceSolrProfileUserObjectIndexConfiguration>
+
+      </indexConfigurations>
+    </contentSearch>
+  </sitecore>
+</configuration>

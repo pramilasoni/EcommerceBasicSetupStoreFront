@@ -1,0 +1,213 @@
+﻿@using Sitecore.Data
+@using Sitecore.Data.Managers
+@using Sitecore.Globalization
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Web.UI.Controls.Common.UserControls
+@using Sitecore.Commerce.UX.Merchandising;
+@model RenderingModel
+@{
+    
+  var parameterResolver = new DatasourceBasedParametersResolver(Model.Rendering);
+  var rendering = Html.Sitecore().Controls().GetUserControl(Model.Rendering);
+  rendering.Class = "sc-ProductInventoryBaseFields bizToolsForms cs-basefields";
+  rendering.ControlId = Model.Rendering.Parameters["Id"];
+  rendering.SetAttribute("data-bind", "visible: isVisible");
+  rendering.Requires.Script("client", "ProductInventoryBaseFields.js");
+  var requiredTooltip = parameterResolver.GetString("requiredFieldTooltip"); 
+  var parentTabId = parameterResolver.GetString("ParentTabId"); 
+  var htmlAttributes = rendering.HtmlAttributes;
+
+  Language currentLanguage = Sitecore.Context.Language;
+
+  var languageName = Request.QueryString["lang"];
+
+  if (!string.IsNullOrWhiteSpace(languageName))
+  {
+      Language.TryParse(languageName, out currentLanguage);
+  }
+
+  var inventorySkuTemplate = TemplateManager.GetTemplate(ID.Parse("{A42418BC-E80E-4DF6-BB19-9E60D6A4D346}"), Sitecore.Context.ContentDatabase);
+
+  var inventoryCatalogFieldName = inventorySkuTemplate.GetField("InventoryCatalogName").GetTitle(currentLanguage);
+  var statusFieldName = inventorySkuTemplate.GetField("Status").GetTitle(currentLanguage);
+  var onHandQuantityFieldName = inventorySkuTemplate.GetField("OnHandQuantity").GetTitle(currentLanguage);
+  var stockOutThresholdFieldName = inventorySkuTemplate.GetField("StockOutThreshold").GetTitle(currentLanguage);
+}  
+  
+<div data-sc-hasnested="true" data-sc-parenttabid="@parentTabId" @htmlAttributes>
+    <div class="col-md-3 row-fluid">
+        <div style="display:inline-block;">
+            @Html.Sitecore().Placeholder("ProductInventoryCatalogNameLabelPlaceholder")
+        </div>
+        <span title="@requiredTooltip" style="color: #FF0000" class="required_field">&#9679;</span>
+        <div class="isrequired inventory" data-sc-fielddisplayname="@inventoryCatalogFieldName">
+            @Html.Sitecore().Placeholder("ProductInventoryCatalogNameTextPlaceholder")
+        </div>
+    </div>
+    
+    <div class="col-md-1 row-fluid">
+        <div style="display:inline-block;">
+            @Html.Sitecore().Placeholder("ProductInventoryBackorderableLabelPlaceholder")
+        </div>
+        <div class="inventory">
+            @Html.Sitecore().Placeholder("ProductInventoryBackorderableCheckBoxPlaceholder")
+        </div>
+    </div>
+        
+    <div class="col-md-8 row-fluid">
+        <div style="display:inline-block;">
+            @Html.Sitecore().Placeholder("ProductInventoryPreorderableLabelPlaceholder")
+        </div>
+        <div class="inventory">
+            @Html.Sitecore().Placeholder("ProductInventoryPreorderableCheckBoxPlaceholder")
+        </div>
+    </div>
+
+    <div class="col-md-3 row-fluid">
+        <div style="display:inline-block;">
+            @Html.Sitecore().Placeholder("ProductInventoryStatusLabelPlaceholder")
+        </div>
+        <span title="@requiredTooltip" style="color: #FF0000" class="required_field">&#9679;</span>
+        <div class="isrequired inventory" data-sc-fielddisplayname="@statusFieldName">
+            @Html.Sitecore().Placeholder("ProductInventoryStatusComboBoxPlaceholder")
+        </div>
+    </div>
+
+    <div class="col-md-3 row-fluid">
+        <div style="display:inline-block;">
+            @Html.Sitecore().Placeholder("ProductInventoryOnhandQuantityLabelPlaceholder")
+        </div>
+        <span title="@requiredTooltip" style="color: #FF0000" class="required_field">&#9679;</span>
+        <div class="isrequired inventory" data-sc-fielddisplayname="@onHandQuantityFieldName">
+            @Html.Sitecore().Placeholder("ProductInventoryOnhandQuantityTextPlaceholder")
+        </div>
+    </div>
+
+    <div class="col-md-3 row-fluid">
+        <div style="display:inline-block;">
+            @Html.Sitecore().Placeholder("ProductInventoryExcessOnhandQuantityLabelPlaceholder")
+        </div>
+        <div class="inventory">
+            @Html.Sitecore().Placeholder("ProductInventoryExcessOnhandQuantityTextPlaceholder")
+        </div>
+    </div>
+
+    <div class="col-md-3 row-fluid">
+        <div style="display:inline-block;">
+            @Html.Sitecore().Placeholder("ProductInventoryReorderPointLabelPlaceholder")
+        </div>
+        <div class="inventory">
+            @Html.Sitecore().Placeholder("ProductInventoryReorderPointTextPlaceholder")
+        </div>
+    </div>
+
+    <div class="col-md-3 row-fluid">
+        <div style="display:inline-block;">
+            @Html.Sitecore().Placeholder("ProductInventoryTargetQuantityLabelPlaceholder")
+        </div>
+        <div class="inventory">
+            @Html.Sitecore().Placeholder("ProductInventoryTargetQuantityTextPlaceholder")
+        </div>
+    </div>
+
+    <div class="col-md-3 row-fluid">
+        <div style="display:inline-block;">
+            @Html.Sitecore().Placeholder("ProductInventoryBackorderLimitLabelPlaceholder")
+        </div>
+        <div class="inventory">
+            @Html.Sitecore().Placeholder("ProductInventoryBackorderLimitTextPlaceholder")
+        </div>
+    </div>
+
+    <div class="col-md-3 row-fluid">
+        <div style="display:inline-block;">
+            @Html.Sitecore().Placeholder("ProductInventoryPreorderLimitLabelPlaceholder")
+        </div>
+        <div class="inventory">
+            @Html.Sitecore().Placeholder("ProductInventoryPreorderLimitTextPlaceholder")
+        </div>
+    </div>
+
+    <div class="col-md-3 row-fluid">
+        <div style="display:inline-block;">
+            @Html.Sitecore().Placeholder("ProductInventoryStockOutThresholdLabelPlaceholder")
+        </div>
+        <span title="@requiredTooltip" style="color: #FF0000" class="required_field">&#9679;</span>
+        <div class="isrequired inventory" data-sc-fielddisplayname="@stockOutThresholdFieldName">
+            @Html.Sitecore().Placeholder("ProductInventoryStockOutThresholdTextPlaceholder")
+        </div>
+    </div>
+
+    <div class="col-md-3 row-fluid">
+        <div style="display:inline-block;">
+            @Html.Sitecore().Placeholder("ProductInventoryPreorderAvailabilityDateLabelPlaceholder")
+        </div>
+        <div class="inventory">
+            @Html.Sitecore().Placeholder("ProductInventoryPreorderAvailabilityDateTextPlaceholder")
+        </div>
+    </div>
+
+    <div class="col-md-3 row-fluid">
+        <div style="display:inline-block;">
+            @Html.Sitecore().Placeholder("ProductInventoryBackorderAvailabilityDateLabelPlaceholder")
+        </div>
+        <div class="inventory">
+            @Html.Sitecore().Placeholder("ProductInventoryBackorderAvailabilityDateTextPlaceholder")
+        </div>
+    </div>
+
+    <div class="col-md-3 row-fluid">
+        <div style="display:inline-block;">
+            @Html.Sitecore().Placeholder("ProductInventoryLastRestockedLabelPlaceholder")
+        </div>
+        <div class="inventory">
+            @Html.Sitecore().Placeholder("ProductInventoryLastRestockedTextPlaceholder")
+        </div>
+    </div>
+
+    <div class="col-md-3 row-fluid">
+        <div style="display:inline-block;">
+            @Html.Sitecore().Placeholder("ProductInventoryUnitOfMeasureLabelPlaceholder")
+        </div>
+        <div class="inventory">
+            @Html.Sitecore().Placeholder("ProductInventoryUnitOfMeasureTextPlaceholder")
+        </div>
+    </div>
+
+    <div class="col-md-3 row-fluid">
+        <div style="display:inline-block;">
+            @Html.Sitecore().Placeholder("ProductInventoryMemoLabelPlaceholder")
+        </div>
+        <div class="inventory">
+            @Html.Sitecore().Placeholder("ProductInventoryMemoTextPlaceholder")
+        </div>
+    </div>
+
+    <div class="col-md-3 row-fluid">
+        <div style="display:inline-block;">
+            @Html.Sitecore().Placeholder("ProductInventoryLastModifiedLabelPlaceholder")
+        </div>
+        <div class="inventory">
+            @Html.Sitecore().Placeholder("ProductInventoryLastModifiedTextPlaceholder")
+        </div>
+    </div>
+
+    <div class="col-md-3 row-fluid">
+        <div style="display:inline-block;">
+            @Html.Sitecore().Placeholder("ProductInventoryBackorderedQuantityLabelPlaceholder")
+        </div>
+        <div class="inventory">
+            @Html.Sitecore().Placeholder("ProductInventoryBackorderedQuantityTextPlaceholder")
+        </div>
+    </div>
+
+    <div class="col-md-3 row-fluid">
+        <div style="display:inline-block;">
+            @Html.Sitecore().Placeholder("ProductInventoryPreorderedQuantityLabelPlaceholder")
+        </div>
+        <div class="inventory">
+            @Html.Sitecore().Placeholder("ProductInventoryPreorderedQuantityTextPlaceholder")
+        </div>
+    </div>
+</div>

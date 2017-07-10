@@ -1,0 +1,42 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Web.UI.Controls.Common.UserControls
+@model RenderingModel
+@{
+  var rendering = Html.Sitecore().Controls().GetUserControl(Model.Rendering);
+  rendering.Class = "sc-CommerceSearchFacets";
+  rendering.Requires.Script("client", "CommerceSearchFacets.js");
+  rendering.GetString("Facets", "facets");
+  rendering.GetString("FacetCriteria", "facetCriteria");
+  rendering.Attributes["data-bind"] = "visible: isVisible";
+  rendering.HasNestedComponents = true;
+  
+  var renderingId = this.Model.Rendering.Parameters["Id"];
+  var noFacetsMessagePlaceholderName = renderingId + ".NoFacetsMessage";
+  var clearSelectedFacetsPlaceholderName = renderingId + ".ClearFacetsMessage";
+
+  var dataSource = new DatasourceBasedParametersResolver(Model.Rendering);
+  var noFacetValue = dataSource.GetString("No Facet Value Message");
+  var htmlAttributes = rendering.HtmlAttributes;
+}      
+
+<div @htmlAttributes>
+    <div data-bind="visible: $data['facets']() == null || $data['facets']().length == 0">
+        @Html.Sitecore().Placeholder(noFacetsMessagePlaceholderName)
+    </div>
+    <div data-bind="click: $data.clearFacets, visible: $data['facetCriteria']() != null && $data['facetCriteria']().length > 0">
+        <a>
+            @Html.Sitecore().Placeholder(clearSelectedFacetsPlaceholderName)
+        </a>
+    </div>
+    <ul data-bind="foreach: $data['facets']">
+        <li>
+            <span data-bind="text: $data['DisplayName']"></span>
+            <ul data-bind="foreach: $data['FoundValues']">
+                <li>
+                    <a data-bind="click: function (data, event) { $root.facetClicked(data, event, $parent) }, css: { selectedFacet: $root.isFacetSelected($data, $parent)}, text: $data['Name'] == '' ? '@(noFacetValue)'.replace('{0}', $parent['DisplayName']) + ' (' + $data['AggregateCount'] + ')' : $root.isListPrice($data['Name'])  + ' (' + $data['AggregateCount'] + ')'"></a> 
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>

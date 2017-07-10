@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copy the following into the Solr schema xml file
+-->
+<schema name="example" version="1.5">
+  <field name="productid" type="lowercase" indexed="true" stored="true" />
+</schema>

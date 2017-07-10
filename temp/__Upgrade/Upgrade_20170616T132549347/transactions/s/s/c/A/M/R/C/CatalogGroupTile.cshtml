@@ -1,0 +1,16 @@
+﻿@using Sitecore.Data;
+@using Sitecore.Data.Items;
+
+<div class="CommerceTiles">
+    <div class="TileImage" onclick="window.location.href = $(this).attr('href');" data-bind="style: { backgroundImage: 'url(\'' + toolsIcon() + '\')'} ,attr: {alt: description, title: description , href: '/sitecore/client/Applications/MerchandisingManager/' + _templatename() + '?target=' + itemId()}" />
+    <span class="sc-tile-checkBoxContainer"></span>
+    <div class="TileBody">
+        <a onclick="window.location.href = $(this).attr('href');" data-bind="attr: { id: itemId() + '_cataloggroup', href: '/sitecore/client/Applications/MerchandisingManager/' + _templatename() + '?target=' + itemId(), text: _displayname }">
+            <span data-bind="text: name"></span>
+        </a>
+        <div>
+            <p data-bind="text: _templatename"></p>
+        </div>
+        <span data-bind="truncatedText: description, maxTextLength: 30"></span>
+    </div>
+</div>

@@ -1,0 +1,58 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Web.UI.Controls.Common.UserControls
+@model RenderingModel
+@{
+    var rendering = Html.Sitecore().Controls().GetUserControl(Model.Rendering);
+    rendering.Class = "sc-CommerceDataSource";
+    rendering.Requires.Script("client", "CommerceDataSource.js");
+
+    var searchTerm = this.Model.Rendering.Parameters["SearchTerm"];
+    var pageIndex = this.Model.Rendering.Parameters["PageIndex"];
+    var pageSize = this.Model.Rendering.Parameters["PageSize"];
+    var dataUrl = this.Model.Rendering.Parameters["DataUrl"];
+    var fields = this.Model.Rendering.Parameters["Fields"];
+    var database = this.Model.Rendering.Parameters["Database"];
+    var catalogName = this.Model.Rendering.Parameters["CatalogName"];
+    var commerceItemId = this.Model.Rendering.Parameters["CommerceItemId"];
+    var commerceItemType = this.Model.Rendering.Parameters["CommerceItemType"];
+    var facetCriteria = this.Model.Rendering.Parameters["FacetCriteria"];
+    var language = this.Model.Rendering.Parameters["Language"];
+    var extendedParameters = this.Model.Rendering.Parameters["ExtendedParameters"];
+    var isAutoRefresh = this.Model.Rendering.Parameters["IsAutoRefresh"];
+    var refreshTimeout = this.Model.Rendering.Parameters["RefreshTimeout"];
+    var headers = this.Model.Rendering.Parameters["Headers"];
+
+    rendering.GetString("Sorting", "sorting");
+    rendering.GetString("FacetCriteria", "facetCriteria");
+    rendering.GetString("SearchTerm", "searchTerm");
+    rendering.GetString("totalItemCount", "totalItemCount");
+    rendering.GetString("ExtendedParameters", "extendedParameters");
+
+    rendering.GetString("isBusy", "isBusy");
+    rendering.GetString("hasMoreItems", "hasMoreItems");
+
+    rendering.GetString("IsAutoRefresh", "isAutoRefresh");
+    rendering.GetString("RefreshTimeout", "refreshTimeout");
+    rendering.GetString("Headers", "headers");
+
+    rendering.SetAttribute("data-sc-searchTerm", searchTerm);
+    rendering.SetAttribute("data-sc-pageIndex", pageIndex);
+    rendering.SetAttribute("data-sc-pageSize", pageSize);
+    rendering.SetAttribute("data-sc-dataUrl", dataUrl);
+    rendering.SetAttribute("data-sc-fields", fields);
+    rendering.SetAttribute("data-sc-database", database);
+    rendering.SetAttribute("data-sc-catalogName", catalogName);
+    rendering.SetAttribute("data-sc-commerceItemId", commerceItemId);
+    rendering.SetAttribute("data-sc-commerceItemType", commerceItemType);
+    rendering.SetAttribute("data-sc-facetCriteria", facetCriteria);
+    rendering.SetAttribute("data-sc-language", language);
+    rendering.SetAttribute("data-sc-extendedParameters", extendedParameters);
+    rendering.SetAttribute("data-sc-isAutoRefresh", isAutoRefresh);
+    rendering.SetAttribute("data-sc-refreshTimeout", refreshTimeout);
+    rendering.SetAttribute("data-sc-headers", headers);
+
+    var htmlAttributes = rendering.HtmlAttributes;
+}      
+<div @htmlAttributes>
+</div>

@@ -1,0 +1,113 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Web.UI.Controls.Common.UserControls
+@using Sitecore.Commerce.UX.Merchandising
+@model RenderingModel
+@{
+    var parameterResolver = new DatasourceBasedParametersResolver(Model.Rendering);
+    var fields = "Name|Description|Expression";
+    var target = Request.QueryString["target"];
+    var lang = Request.QueryString["lang"];
+    if (string.IsNullOrWhiteSpace(lang))
+    {
+        lang = BusinessController.GetRequestUserLanguage();
+    }
+    var create = Request.QueryString["create"];
+    var template = Request.QueryString["template"];
+    var requiredTooltip = parameterResolver.GetString("requiredFieldTooltip");
+    var controlMappings = parameterResolver.GetString("ControlMappings");
+
+    var contentDatabaseName = Sitecore.Context.ContentDatabase.Name;
+    FieldRendering renderer = new FieldRendering(template, target, contentDatabaseName, lang, controlMappings);
+    renderer.Class = "sc-DynamicCatalogSet bizToolsForms cs-basefields";
+    var requirePath = string.Format("/sitecore/shell/commerce/merchandising/DynamicFormRendering/BaseFields?targetId={0}&fields={1}&dataSource={2}&scriptName={3}&lang={4}&template={5}", target, fields, controlMappings, Model.Rendering.Parameters["Id"], lang, template);
+    renderer.ControlId = Model.Rendering.Parameters["Id"];
+    renderer.SetAttribute("data-bind", "visible: isVisible");
+    renderer.GetString("editFunctionBody", "editFunctionBody");
+
+    var htmlAttributes = renderer.HtmlAttributes;
+}      
+<div @htmlAttributes data-sc-hasnested="true" data-sc-require="@requirePath">
+    @{
+        var field = renderer.GetField("Name");
+        var viewRepresentation = renderer.GetControlRepresentation(field.FieldType);
+
+        if (field.CanRead || field.CanWrite)
+        {
+            <div class="col-md-3 row-fluid ">
+                <div style="display:inline-block;">
+                    @Html.Sitecore().Placeholder("DynamicCatalogSetNameLabelPlaceholder")
+                </div>
+                @{
+            if (renderer.Helper.Write && field.CanWrite)
+            {
+                <span title="@requiredTooltip" style="color: #FF0000" class="required_field">&#9679;</span>
+                <div class="isrequired">
+                    @Html.Sitecore().Placeholder("DynamicCatalogSetNamePlaceholder")
+                    @*@Html.Commerce().RenderView(viewRepresentation.EditControlId.ToString(), "ID", field.Name, viewRepresentation.EditField, field.Value)*@
+                </div>
+            }
+            else if (field.CanRead)
+            {
+                <div>
+                    <span>&nbsp;</span>
+                    @Html.Commerce().RenderView(viewRepresentation.ViewControlId.ToString(), "ID", field.Name, viewRepresentation.ViewField, field.Value)
+                </div>
+            }
+                }
+            </div>
+        }
+
+        field = renderer.GetField("Expression");
+        viewRepresentation = renderer.GetControlRepresentation(field.FieldType);
+
+        if (field.CanRead || field.CanWrite)
+        {
+            <div class="col-md-9 row-fluid ">
+                <div style="display:inline-block;">
+                    @Html.Sitecore().Placeholder("DynamicCatalogSetExpressionLabelPlaceholder")
+                </div>
+                @{
+            if (renderer.Helper.Write && field.CanWrite)
+            {
+                <span title="@requiredTooltip" style="color: #FF0000" class="required_field">&#9679;</span>
+                <div class="isrequired" data-sc-fielddisplayname="@field.DisplayName">
+                    @Html.Commerce().RenderView(viewRepresentation.EditControlId.ToString(), "ID", field.Name, viewRepresentation.EditField, field.Value)
+                </div>
+            }
+            else if (field.CanRead)
+            {
+                <div>
+                    <span>&nbsp;</span>
+                    @Html.Commerce().RenderView(viewRepresentation.ViewControlId.ToString(), "ID", field.Name, viewRepresentation.ViewField, field.Value)
+                </div>
+            }
+                }
+            </div>
+        }
+
+        field = renderer.GetField("Description");
+        viewRepresentation = renderer.GetControlRepresentation("Multi-Line Text");
+
+        if (field.CanRead || field.CanWrite)
+        {
+            <div class="col-md-12 row-fluid ">
+                <div>
+                    @Html.Sitecore().Placeholder("DynamicCatalogSetDescriptionLabelPlaceholder")
+                </div>
+                <div>
+                    @{
+            if (renderer.Helper.Write && field.CanWrite)
+            {
+                @Html.Commerce().RenderView(viewRepresentation.EditControlId.ToString(), "ID", field.Name, viewRepresentation.EditField, field.Value)
+            }
+            else if (field.CanRead)
+            {
+                @Html.Commerce().RenderView(viewRepresentation.ViewControlId.ToString(), "ID", field.Name, viewRepresentation.ViewField, field.Value)
+            }
+                    }
+                </div>
+            </div>
+        }
+}
+</div>

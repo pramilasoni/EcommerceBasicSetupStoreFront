@@ -1,0 +1,26 @@
+﻿@using Sitecore.Data;
+@using Sitecore.Data.Items;
+
+@{
+    var variantPagePath = "/sitecore/client/Applications/MerchandisingManager/VariantDetail?target=";
+
+    var variantIdTextItem = Sitecore.Data.Database.GetDatabase("core").GetItem("{B5BA86F2-23B8-483F-8093-4A8800553ED6}");
+    string variantIdText = "Variant Id";
+    if (variantIdTextItem != null)
+    {
+        variantIdText = variantIdTextItem.Fields["Text"].Value;
+    }
+
+}
+
+<div class="CommerceTiles">
+    <div class="TileImage" onclick="window.location.href = $(this).attr('href');" data-bind="style: { backgroundImage: 'url(\'' + toolsIcon() + '\')'} , attr: {title: $data['__Display name'], href: '@variantPagePath' + itemId() + '&p=' + clickPath()}" />
+    <span class="sc-tile-checkBoxContainer"></span>
+    <div class="TileBody">
+        <a onclick="window.location.href = $(this).attr('href');" data-bind="attr: { id: itemId() + '_product', href: '@variantPagePath' + itemId() + '&p=' + clickPath(), text: $data['__Display name'] }">
+            <span data-bind="text: $data['__Display name']"></span>
+        </a>
+        <p>@variantIdText<span data-bind="text: variantId"></span></p>
+        <p><span data-bind="html: CommerceUtilities.getCurrencyFormattedSpan(listprice())"></span></p>
+    </div>
+</div>

@@ -1,0 +1,661 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<messages>
+  <message>
+    <number>1</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/templates[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/templates[/s]'&lt;br/&gt;Item ID: '[s]{3C1715FE-6A13-4FCF-845F-DE308BA9741D}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{3c1715fe-6a13-4fcf-845f-de308ba9741d}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>2</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/templates/System[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/templates/System[/s]'&lt;br/&gt;Item ID: '[s]{4BF98EF5-1D09-4DD1-9AFE-795F9829FD44}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{4bf98ef5-1d09-4dd1-9afe-795f9829fd44}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>3</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/templates/System/Layout[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/templates/System/Layout[/s]'&lt;br/&gt;Item ID: '[s]{FB6B721E-D64D-4392-A1F0-A15194CBFAD9}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{fb6b721e-d64d-4392-a1f0-a15194cbfad9}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>4</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/templates/System/Layout/Sections[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/templates/System/Layout/Sections[/s]'&lt;br/&gt;Item ID: '[s]{94D063F7-CD45-45AD-A2EF-84AB03358CD9}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{94d063f7-cd45-45ad-a2ef-84ab03358cd9}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>5</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/templates/System/Layout/Sections/Caching[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/templates/System/Layout/Sections/Caching[/s]'&lt;br/&gt;Item ID: '[s]{E8D2DD19-1347-4562-AE3F-310DC0B21A6C}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{e8d2dd19-1347-4562-ae3f-310dc0b21a6c}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>6</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/templates/System/Layout/Sections/Caching/Caching[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/templates/System/Layout/Sections/Caching/Caching[/s]'&lt;br/&gt;Item ID: '[s]{64CA39AE-89D3-4A78-B1F9-9E907CAAE6BC}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{64ca39ae-89d3-4a78-b1f9-9e907caae6bc}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>7</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/templates/Commerce[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/templates/Commerce[/s]'&lt;br/&gt;Item ID: '[s]{66EA5927-AE92-45FD-8B39-FAA0839A0C31}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{66ea5927-ae92-45fd-8b39-faa0839a0c31}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>8</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/templates/Commerce/Catalog[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/templates/Commerce/Catalog[/s]'&lt;br/&gt;Item ID: '[s]{963E797C-3687-4C0E-A0CE-1AAAF310F186}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{963e797c-3687-4c0e-a0ce-1aaaf310f186}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>9</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/templates/Commerce/Catalog/CommerceSearchSettings[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/templates/Commerce/Catalog/CommerceSearchSettings[/s]'&lt;br/&gt;Item ID: '[s]{CB5F3E43-EAF7-4EDB-8235-674745D95059}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{cb5f3e43-eaf7-4edb-8235-674745d95059}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>10</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/templates/Commerce/Catalog/Commerce Category[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/templates/Commerce/Catalog/Commerce Category[/s]'&lt;br/&gt;Item ID: '[s]{4C4FD207-A9F7-443D-B32A-50AA33523661}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{4c4fd207-a9f7-443d-b32a-50aa33523661}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>11</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/templates/Commerce/Catalog/Commerce Dynamic Category[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/templates/Commerce/Catalog/Commerce Dynamic Category[/s]'&lt;br/&gt;Item ID: '[s]{6820281F-3BB3-41B4-8C93-7771EEA496D0}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{6820281f-3bb3-41b4-8c93-7771eea496d0}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>12</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/templates/Commerce/Catalog/Commerce Product[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/templates/Commerce/Catalog/Commerce Product[/s]'&lt;br/&gt;Item ID: '[s]{225F8638-2611-4841-9B89-19A5440A1DA1}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{225f8638-2611-4841-9b89-19a5440a1da1}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>13</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Field has been modified</group>
+    <shortdescription>The '[s]Runtime Search Facets[/s]' shared field in the '[s]/sitecore/templates/Commerce/Catalog/Commerce Category/__Standard Values[/s]' item has been modified.</shortdescription>
+    <description>Field: '[s]Runtime Search Facets[/s]' ([s]{7E48EE19-93FC-4071-A192-470F1259EAE0}[/s])&lt;br/&gt;Item path: '[s]/sitecore/templates/Commerce/Catalog/Commerce Category/__Standard Values[/s]'&lt;br/&gt;Item ID: [s]{D98D9F40-DA49-456C-9492-9BC8FDA95985}[/s]&lt;br/&gt;The shared field has been modified from '[s][/s]' to '[s]{F80AC325-FE72-4242-8543-E421F0CD6E74}|{DCAD67E4-A0EB-4EBE-99B8-26C57DA43022}[/s]'.&lt;br/&gt;The field value will be overwritten.</description>
+    <action>Overwrite shared field</action>
+    <behavior>Force</behavior>
+    <messageid>{d98d9f40-da49-456c-9492-9bc8fda95985}_addeditems_master_Sitecore.Update.Installer.Items.ItemFieldChangedProcessor_{7E48EE19-93FC-4071-A192-470F1259EAE0}</messageid>
+    <messagegroupid>FieldHasValueMessage</messagegroupid>
+    <messagetypeid>SharedFieldModifiedMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>14</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Field has been modified</group>
+    <shortdescription>The '[s]Tools Navigation Facets[/s]' shared field in the '[s]/sitecore/templates/Commerce/Catalog/Commerce Category/__Standard Values[/s]' item has been modified.</shortdescription>
+    <description>Field: '[s]Tools Navigation Facets[/s]' ([s]{B5E7B1DF-4155-4862-8D81-1E63ED6D3BC2}[/s])&lt;br/&gt;Item path: '[s]/sitecore/templates/Commerce/Catalog/Commerce Category/__Standard Values[/s]'&lt;br/&gt;Item ID: [s]{D98D9F40-DA49-456C-9492-9BC8FDA95985}[/s]&lt;br/&gt;The shared field has been modified from '[s][/s]' to '[s]{3B423C39-C10C-4B4F-8692-B563CA632B31}|{154DC6DA-89C4-4704-8CDA-95994D794BEA}[/s]'.&lt;br/&gt;The field value will be overwritten.</description>
+    <action>Overwrite shared field</action>
+    <behavior>Force</behavior>
+    <messageid>{d98d9f40-da49-456c-9492-9bc8fda95985}_addeditems_master_Sitecore.Update.Installer.Items.ItemFieldChangedProcessor_{B5E7B1DF-4155-4862-8D81-1E63ED6D3BC2}</messageid>
+    <messagegroupid>FieldHasValueMessage</messagegroupid>
+    <messagetypeid>SharedFieldModifiedMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>15</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Field has been modified</group>
+    <shortdescription>The '[s]Tools Search Facets[/s]' shared field in the '[s]/sitecore/templates/Commerce/Catalog/Commerce Category/__Standard Values[/s]' item has been modified.</shortdescription>
+    <description>Field: '[s]Tools Search Facets[/s]' ([s]{420373A7-F888-490A-ABD6-E1BA4FCB75E0}[/s])&lt;br/&gt;Item path: '[s]/sitecore/templates/Commerce/Catalog/Commerce Category/__Standard Values[/s]'&lt;br/&gt;Item ID: [s]{D98D9F40-DA49-456C-9492-9BC8FDA95985}[/s]&lt;br/&gt;The shared field has been modified from '[s][/s]' to '[s]{3B423C39-C10C-4B4F-8692-B563CA632B31}|{154DC6DA-89C4-4704-8CDA-95994D794BEA}[/s]'.&lt;br/&gt;The field value will be overwritten.</description>
+    <action>Overwrite shared field</action>
+    <behavior>Force</behavior>
+    <messageid>{d98d9f40-da49-456c-9492-9bc8fda95985}_addeditems_master_Sitecore.Update.Installer.Items.ItemFieldChangedProcessor_{420373A7-F888-490A-ABD6-E1BA4FCB75E0}</messageid>
+    <messagegroupid>FieldHasValueMessage</messagegroupid>
+    <messagetypeid>SharedFieldModifiedMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>16</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Field has been modified</group>
+    <shortdescription>The '[s]Tools Navigation Facets[/s]' shared field in the '[s]/sitecore/templates/Commerce/Catalog/Commerce Product/__Standard Values[/s]' item has been modified.</shortdescription>
+    <description>Field: '[s]Tools Navigation Facets[/s]' ([s]{B5E7B1DF-4155-4862-8D81-1E63ED6D3BC2}[/s])&lt;br/&gt;Item path: '[s]/sitecore/templates/Commerce/Catalog/Commerce Product/__Standard Values[/s]'&lt;br/&gt;Item ID: [s]{AE5BF3D6-601C-470D-814A-21D750260B0E}[/s]&lt;br/&gt;The shared field has been modified from '[s][/s]' to '[s]{3B423C39-C10C-4B4F-8692-B563CA632B31}|{154DC6DA-89C4-4704-8CDA-95994D794BEA}[/s]'.&lt;br/&gt;The field value will be overwritten.</description>
+    <action>Overwrite shared field</action>
+    <behavior>Force</behavior>
+    <messageid>{ae5bf3d6-601c-470d-814a-21d750260b0e}_addeditems_master_Sitecore.Update.Installer.Items.ItemFieldChangedProcessor_{B5E7B1DF-4155-4862-8D81-1E63ED6D3BC2}</messageid>
+    <messagegroupid>FieldHasValueMessage</messagegroupid>
+    <messagetypeid>SharedFieldModifiedMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>17</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/Commerce[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/Commerce[/s]'&lt;br/&gt;Item ID: '[s]{CA2E00B1-0917-44A5-AD05-5FC3167AAA0C}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{ca2e00b1-0917-44a5-ad05-5fc3167aaa0c}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>18</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/content[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/content[/s]'&lt;br/&gt;Item ID: '[s]{0DE95AE4-41AB-4D01-9EB0-67441B7C2450}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{0de95ae4-41ab-4d01-9eb0-67441b7c2450}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>19</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/Commerce/Commerce Control Panel[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/Commerce/Commerce Control Panel[/s]'&lt;br/&gt;Item ID: '[s]{770EF91B-36CC-42BF-865E-B76633FAC34B}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{770ef91b-36cc-42bf-865e-b76633fac34b}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>20</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/layout[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/layout[/s]'&lt;br/&gt;Item ID: '[s]{EB2E4FFD-2761-4653-B052-26A64D385227}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{eb2e4ffd-2761-4653-b052-26a64d385227}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>21</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/media library[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/media library[/s]'&lt;br/&gt;Item ID: '[s]{3D6658D8-A0BF-4E75-B3E2-D050FABCF4E1}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{3d6658d8-a0bf-4e75-b3e2-d050fabcf4e1}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>22</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/system[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/system[/s]'&lt;br/&gt;Item ID: '[s]{13D6D6C6-C50B-4BBD-B331-2B04F1A58F21}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{13d6d6c6-c50b-4bbd-b331-2b04f1a58f21}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>23</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/Commerce/Commerce Control Panel/Storefront Settings[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/Commerce/Commerce Control Panel/Storefront Settings[/s]'&lt;br/&gt;Item ID: '[s]{431CCB66-AD67-472F-B11A-5908C822B768}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{431ccb66-ad67-472f-b11a-5908c822b768}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>24</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/layout/Renderings[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/layout/Renderings[/s]'&lt;br/&gt;Item ID: '[s]{32566F0E-7686-45F1-A12F-D7260BD78BC3}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{32566f0e-7686-45f1-a12f-d7260bd78bc3}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>25</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/system/Settings[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/system/Settings[/s]'&lt;br/&gt;Item ID: '[s]{087E1EA5-6280-4575-9E70-85B588DB91B2}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{087e1ea5-6280-4575-9e70-85b588db91b2}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>26</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/Commerce/Commerce Control Panel/Shared Settings[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/Commerce/Commerce Control Panel/Shared Settings[/s]'&lt;br/&gt;Item ID: '[s]{BEC7A22D-95BD-49D9-9715-5A2307110139}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{bec7a22d-95bd-49d9-9715-5a2307110139}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>27</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/Commerce/Commerce Control Panel/Storefront Settings/Storefronts[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/Commerce/Commerce Control Panel/Storefront Settings/Storefronts[/s]'&lt;br/&gt;Item ID: '[s]{99A2D449-7CC0-4FAC-B516-DB2176898898}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{99a2d449-7cc0-4fac-b516-db2176898898}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>28</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/system/Settings/Validation Rules[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/system/Settings/Validation Rules[/s]'&lt;br/&gt;Item ID: '[s]{B3031702-6BFF-4061-B92D-291E9EC865D5}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{b3031702-6bff-4061-b92d-291e9ec865d5}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>29</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/Commerce/Commerce Control Panel/Shared Settings/Currency Settings[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/Commerce/Commerce Control Panel/Shared Settings/Currency Settings[/s]'&lt;br/&gt;Item ID: '[s]{41947900-706C-4646-A3DD-F97B58F02424}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{41947900-706c-4646-a3dd-f97b58f02424}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>30</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/Commerce/Commerce Control Panel/Storefront Settings/Storefronts/Storefront[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/Commerce/Commerce Control Panel/Storefront Settings/Storefronts/Storefront[/s]'&lt;br/&gt;Item ID: '[s]{51541163-54AF-4D41-B86E-0B2E3A26B215}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{51541163-54af-4d41-b86e-0b2e3a26b215}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>31</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/Commerce/Settings[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/Commerce/Settings[/s]'&lt;br/&gt;Item ID: '[s]{E6073E88-8D37-4E7F-B0B8-111AD46706E5}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{e6073e88-8d37-4e7f-b0b8-111ad46706e5}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>32</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/system/Settings/Buckets[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/system/Settings/Buckets[/s]'&lt;br/&gt;Item ID: '[s]{877091A7-131E-40D2-BDC6-5534284C5D03}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{877091a7-131e-40d2-bdc6-5534284c5d03}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>33</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/system/Settings/Validation Rules/Field Rules[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/system/Settings/Validation Rules/Field Rules[/s]'&lt;br/&gt;Item ID: '[s]{207B1F0D-FCF2-4F86-B270-A20FD012CEB8}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{207b1f0d-fcf2-4f86-b270-a20fd012ceb8}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>34</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/Commerce/Catalog Management[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/Commerce/Catalog Management[/s]'&lt;br/&gt;Item ID: '[s]{0291F8D9-E2D9-4BDC-A426-0F235725964C}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{0291f8d9-e2d9-4bdc-a426-0f235725964c}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>35</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/Commerce/Commerce Control Panel/Shared Settings/Currency Settings/Currency Sets[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/Commerce/Commerce Control Panel/Shared Settings/Currency Settings/Currency Sets[/s]'&lt;br/&gt;Item ID: '[s]{D779664A-29F8-4ADA-B12C-A6666EC03958}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{d779664a-29f8-4ada-b12c-a6666ec03958}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>36</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/Commerce/Commerce Control Panel/Shared Settings/Language Sets[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/Commerce/Commerce Control Panel/Shared Settings/Language Sets[/s]'&lt;br/&gt;Item ID: '[s]{16055462-0DFA-4B49-A130-012589D12D47}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{16055462-0dfa-4b49-a130-012589d12d47}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>37</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/Commerce/Settings/Catalog[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/Commerce/Settings/Catalog[/s]'&lt;br/&gt;Item ID: '[s]{614105BC-C812-43E6-8005-1934275A9529}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{614105bc-c812-43e6-8005-1934275a9529}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>38</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/layout/Layouts[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/layout/Layouts[/s]'&lt;br/&gt;Item ID: '[s]{75CC5CE4-8979-4008-9D3C-806477D57619}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{75cc5ce4-8979-4008-9d3c-806477d57619}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>39</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/system/Settings/Buckets/Facets[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/system/Settings/Buckets/Facets[/s]'&lt;br/&gt;Item ID: '[s]{0B42DC05-5CF9-4DD5-9A3A-8BDF11BE2B88}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{0b42dc05-5cf9-4dd5-9a3a-8bdf11be2b88}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>40</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/Commerce/Catalog Management/Catalogs[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/Commerce/Catalog Management/Catalogs[/s]'&lt;br/&gt;Item ID: '[s]{08BFB57F-DAC9-4B11-90C5-5D19647899EF}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{08bfb57f-dac9-4b11-90c5-5d19647899ef}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>41</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/Commerce/Settings/Catalog/Default Catalog[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/Commerce/Settings/Catalog/Default Catalog[/s]'&lt;br/&gt;Item ID: '[s]{20CF30D5-9BE4-4681-91DD-E15B515FD1F3}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{20cf30d5-9be4-4681-91dd-e15b515fd1f3}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>42</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/Commerce/Settings/Catalog/Product Buckets[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/Commerce/Settings/Catalog/Product Buckets[/s]'&lt;br/&gt;Item ID: '[s]{68D829FC-D89B-4CFA-93DC-57F767C3BAF9}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{68d829fc-d89b-4cfa-93dc-57f767c3baf9}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>43</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/media library/Images[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/media library/Images[/s]'&lt;br/&gt;Item ID: '[s]{15451229-7534-44EF-815D-D93D6170BFCB}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{15451229-7534-44ef-815d-d93d6170bfcb}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>44</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Field has been modified</group>
+    <shortdescription>The '[s]Parameters[/s]' shared field in the '[s]/sitecore/system/Settings/Buckets/Facets/Commerce Product Colour[/s]' item has been modified.</shortdescription>
+    <description>Field: '[s]Parameters[/s]' ([s]{0E23BB51-C071-41B5-9D83-AC410B89B85A}[/s])&lt;br/&gt;Item path: '[s]/sitecore/system/Settings/Buckets/Facets/Commerce Product Colour[/s]'&lt;br/&gt;Item ID: [s]{BCB31BCB-F921-4CC5-8DDE-0AA47EDB74C7}[/s]&lt;br/&gt;The shared field has been modified from '[s][/s]' to '[s]Commerce Product Colour[/s]'.&lt;br/&gt;The field value will be overwritten.</description>
+    <action>Overwrite shared field</action>
+    <behavior>Force</behavior>
+    <messageid>{bcb31bcb-f921-4cc5-8dde-0aa47edb74c7}_addeditems_master_Sitecore.Update.Installer.Items.ItemFieldChangedProcessor_{0E23BB51-C071-41B5-9D83-AC410B89B85A}</messageid>
+    <messagegroupid>FieldHasValueMessage</messagegroupid>
+    <messagetypeid>SharedFieldModifiedMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>45</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Field has been modified</group>
+    <shortdescription>The '[s]Parameters[/s]' shared field in the '[s]/sitecore/system/Settings/Buckets/Facets/Commerce Product Size[/s]' item has been modified.</shortdescription>
+    <description>Field: '[s]Parameters[/s]' ([s]{0E23BB51-C071-41B5-9D83-AC410B89B85A}[/s])&lt;br/&gt;Item path: '[s]/sitecore/system/Settings/Buckets/Facets/Commerce Product Size[/s]'&lt;br/&gt;Item ID: [s]{7DEDCAD6-1D46-4CE2-96AB-2FAC19846A8F}[/s]&lt;br/&gt;The shared field has been modified from '[s][/s]' to '[s]Commerce Product Size[/s]'.&lt;br/&gt;The field value will be overwritten.</description>
+    <action>Overwrite shared field</action>
+    <behavior>Force</behavior>
+    <messageid>{7dedcad6-1d46-4ce2-96ab-2fac19846a8f}_addeditems_master_Sitecore.Update.Installer.Items.ItemFieldChangedProcessor_{0E23BB51-C071-41B5-9D83-AC410B89B85A}</messageid>
+    <messagegroupid>FieldHasValueMessage</messagegroupid>
+    <messagetypeid>SharedFieldModifiedMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>46</number>
+    <level>Collision</level>
+    <database>master</database>
+    <group>Item already exists</group>
+    <shortdescription>"Cannot add the '[s]/sitecore/system/Settings/Validation Rules/Global Rules[/s]' item, it already exists (duplicate ID)."</shortdescription>
+    <description>Item path: '[s]/sitecore/system/Settings/Validation Rules/Global Rules[/s]'&lt;br/&gt;Item ID: '[s]{3BB9F904-7784-4A98-8DC4-C9B122A44AC1}[/s]'&lt;br/&gt;Add item operation will be skipped.</description>
+    <action>Keep current item</action>
+    <behavior>Skip</behavior>
+    <messageid>{3bb9f904-7784-4a98-8dc4-c9b122a44ac1}_addeditems_master</messageid>
+    <messagegroupid>ItemAlreadyExistsMessage</messagegroupid>
+    <messagetypeid>ItemAlreadyExistsMessage</messagetypeid>
+    <customdata>[]</customdata>
+  </message>
+  <message>
+    <number>47</number>
+    <level>Warning</level>
+    <database>filesystem</database>
+    <group>A configuration file has been modified</group>
+    <shortdescription>The '[s]packages.config[/s]' configuration file already exists and some changes have been detected.</shortdescription>
+    <description>"File path: '[s]C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\packages.config[/s]'&lt;br/&gt;The file has been added manually and is different from the file in the package.&lt;br/&gt;The file will be replaced with the file from the package.&lt;br/&gt;The current file will be saved with a different name.&lt;br/&gt;The custom changes will be extracted and applied to the clean configuration file.&lt;br/&gt;The backup of the current file is saved as: '[s]C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\packages.custom.config.disabled[/s]'&lt;br/&gt;The merged file with customizations is saved as: '[s]C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\packages.merged.config.disabled[/s]'&lt;br/&gt;You must manually review the patch file, modify it if necessary, and then enable it to apply your customizations."</description>
+    <action>Overwrite file</action>
+    <behavior>Force</behavior>
+    <messageid>\packages.config_addedfiles_addconfigfile</messageid>
+    <messagegroupid>ConfigurationFileModified</messagegroupid>
+    <messagetypeid>AddConfigFile_HasSignificantChanges_PatchNotAware</messagetypeid>
+    <customdata>[{"Key":"MergedFilePath","Value":"C:\\Projects\\Ecommerce8.2.1Update1\\cf.reference.storefront821.com\\Website\\packages.merged.config.disabled"},{"Key":"BackupFilePath","Value":"C:\\Projects\\Ecommerce8.2.1Update1\\cf.reference.storefront821.com\\Website\\packages.custom.config.disabled"},{"Key":"SourceFilePath","Value":"C:\\Projects\\Ecommerce8.2.1Update1\\cf.reference.storefront821.com\\Website\\temp\\__Upgrade\\Upgrade_20170616T133928486\\source_files\\packages.config"},{"Key":"TargetFilePath","Value":"C:\\Projects\\Ecommerce8.2.1Update1\\cf.reference.storefront821.com\\Website\\packages.config"}]</customdata>
+  </message>
+</messages>

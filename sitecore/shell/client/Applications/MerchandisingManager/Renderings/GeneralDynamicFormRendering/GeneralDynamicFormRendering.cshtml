@@ -1,0 +1,101 @@
+﻿@using Sitecore.Mvc.Presentation
+@using Sitecore.Mvc
+@using System.Web
+@using Sitecore.Configuration
+@using Sitecore.Data
+@using Sitecore.Commerce.UX.Merchandising;
+@model RenderingModel
+@{
+    var parameterResolver = new DatasourceBasedParametersResolver(Model.Rendering);
+
+    var targetId = parameterResolver.GetString("TargetId"); 
+    var sections = parameterResolver.GetString("Sections"); 
+    var write = parameterResolver.GetString("Write"); 
+    var exclusions = parameterResolver.GetString("Exclusions"); 
+    var uri = parameterResolver.GetString("Data Url"); 
+    var totalColumnWidth = parameterResolver.GetString("Total Column Width"); 
+    var parentTabId = parameterResolver.GetString("ParentTabId");
+    var controlMappingFolder = parameterResolver.GetString("ControlMappings");
+
+    var create = Request.QueryString["create"];
+    var template = Request.QueryString["template"];
+    
+    var queryTarget = Request.QueryString["target"];
+
+    if (!string.IsNullOrWhiteSpace(queryTarget))
+    {
+        targetId = queryTarget;
+    }
+    
+    var lang = Request.QueryString["lang"];
+    if (string.IsNullOrWhiteSpace(lang))
+    {
+        lang = BusinessController.GetRequestUserLanguage();
+    }
+
+    var formRenderer = new GeneralDynamicFormRendering(controlMappingFolder, targetId, template, sections, write, exclusions, totalColumnWidth, lang, Sitecore.Context.ContentDatabase.Name);
+
+    var requirePath = string.Format("/sitecore/shell/commerce/merchandising/DynamicFormRendering?targetId={0}&sections={1}&write={2}&exclusions={3}&uri={4}&dataSource={5}&lang={6}&template={7}", targetId, sections, write, exclusions, uri, controlMappingFolder, lang, template);
+
+    formRenderer.Class = "sc-FormRenderer cs-extended";
+    formRenderer.ControlId = Model.Rendering.Parameters["Id"];
+    formRenderer.SetAttribute("data-bind", "visible: isVisible");
+    formRenderer.GetString("editFunctionBody", "editFunctionBody");
+    var htmlAttributes = formRenderer.HtmlAttributes;
+}
+<div @htmlAttributes data-sc-hasnested="true" data-sc-require="@requirePath">
+    @if (formRenderer.Helper.Sections.Count > 0)
+    {
+        int columnCount = 0;
+        bool rowOpen = false;
+
+        foreach (var field in formRenderer.FieldsToRender())
+        {
+            var viewRepresentation = formRenderer.GetControlRepresentation(field.FieldType);
+            var currentItemWidth = viewRepresentation.ColumnWidth > formRenderer.TotalColumnWidth ? formRenderer.TotalColumnWidth : viewRepresentation.ColumnWidth;
+
+            if (columnCount + currentItemWidth > formRenderer.TotalColumnWidth || columnCount % formRenderer.TotalColumnWidth == 0)
+            {
+                @:</div>
+                rowOpen = false;
+                columnCount = 0;
+            }
+
+            if (!rowOpen)
+            {
+                rowOpen = true;
+                 @:<div class="row">
+            }
+
+            columnCount += viewRepresentation.ColumnWidth;
+                    
+            @:<div class="cs-row @string.Format("span{0}", viewRepresentation.ColumnWidth) @string.Format("col-md-{0}", viewRepresentation.ColumnWidth)">
+                <label class="sc-text-label cs-label">@field.DisplayName</label>
+            if (formRenderer.Helper.Write && field.CanWrite)
+            {
+                if (field.IsRequired)
+                {
+                    <div class="isrequired bizToolsForms" data-sc-parenttabid="@parentTabId" data-sc-fieldDisplayName="@field.DisplayName">
+                        @Html.Commerce().RenderView(viewRepresentation.EditControlId.ToString(), "ID", field.Name, viewRepresentation.EditField, field.Value)
+                        <span style="color: #FF0000">*</span>
+                    </div>
+                }
+                else
+                {
+                    <div class="bizToolsForms" data-sc-parenttabid="@parentTabId">
+                        <span></span>
+                        @Html.Commerce().RenderView(viewRepresentation.EditControlId.ToString(), "ID", field.Name, viewRepresentation.EditField, field.Value)
+                    </div>
+                }
+            }
+            else if (field.CanRead)
+            {
+                    <div>
+                        <span></span>
+                        @Html.Commerce().RenderView(viewRepresentation.ViewControlId.ToString(), "ID", field.Name, viewRepresentation.ViewField, field.Value)
+                    </div>
+                }
+            @:</div>             
+        }
+    }
+</div>

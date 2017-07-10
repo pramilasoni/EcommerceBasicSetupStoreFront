@@ -1,0 +1,69 @@
+<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
+  <sitecore>
+    <pipelines>
+
+      <indexing.getChildrenToIndex>
+        <processor type="Sitecore.Commerce.Connect.CommerceServer.Search.GetChildrenToIndex, Sitecore.Commerce.Connect.CommerceServer">
+          <Indexes hint="list:AddString">
+            <!-- Add the coveo master and web index so that commerce items are not indexed with the standard crawler -->
+            <IndexName param="1">Coveo_master_index</IndexName>
+            <IndexName param="2">Coveo_web_index</IndexName>
+          </Indexes>
+        </processor>
+      </indexing.getChildrenToIndex>
+
+    </pipelines>
+
+    <coveo>
+      <defaultIndexConfiguration>
+        <fieldMap type="Coveo.SearchProvider.CoveoFieldMap, Coveo.SearchProvider">
+          <param desc="coveoReflectionFactory" type="Coveo.Framework.Utils.CoveoReflectionFactory, Coveo.Framework" />
+          
+          <fieldNames hint="raw:AddFieldByFieldName">
+            <fieldType fieldName="_displayname" isFacet="true" isSortable="true" settingType="Coveo.Framework.Configuration.FieldConfiguration, Coveo.Framework"/>
+            <fieldType fieldName="_path" isFacet="true" isSortable="true" isMultiValue="true" settingType="Coveo.Framework.Configuration.FieldConfiguration, Coveo.Framework"/>
+            <!-- Commerce Server fields -->
+            <fieldType fieldName="commerceancestorids" isFacet="true" isSortable="true" isMultiValue="true" settingType="Coveo.Framework.Configuration.FieldConfiguration, Coveo.Framework"/>
+            <fieldType fieldName="crosssell" isFacet="true" isSortable="true" isMultiValue="true" settingType="Coveo.Framework.Configuration.FieldConfiguration, Coveo.Framework"/>
+            <fieldType fieldName="upsell" isFacet="true" isSortable="true" isMultiValue="true" settingType="Coveo.Framework.Configuration.FieldConfiguration, Coveo.Framework"/>
+            <fieldType fieldName="commerceancestornames" isFacet="true" isSortable="true" isMultiValue="true" settingType="Coveo.Framework.Configuration.FieldConfiguration, Coveo.Framework"/>
+            <fieldType fieldName="instocklocations" isFacet="true" isSortable="true" isMultiValue="true" settingType="Coveo.Framework.Configuration.FieldConfiguration, Coveo.Framework"/>
+            <fieldType fieldName="outofstocklocations" isFacet="true" isSortable="true" isMultiValue="true" settingType="Coveo.Framework.Configuration.FieldConfiguration, Coveo.Framework"/>
+            <fieldType fieldName="orderablelocations" isFacet="true" isSortable="true" isMultiValue="true" settingType="Coveo.Framework.Configuration.FieldConfiguration, Coveo.Framework"/>
+            <fieldType fieldName="catalogname" isFacet="true" isSortable="true" settingType="Coveo.Framework.Configuration.FieldConfiguration, Coveo.Framework"/>
+            <fieldType fieldName="catalogitemid" isFacet="true" isSortable="true" settingType="Coveo.Framework.Configuration.FieldConfiguration, Coveo.Framework"/>
+            <fieldType fieldName="productid" isFacet="true" isSortable="true" settingType="Coveo.Framework.Configuration.FieldConfiguration, Coveo.Framework"/>
+            <fieldType fieldName="onsale" isFacet="true" isSortable="true" settingType="Coveo.Framework.Configuration.FieldConfiguration, Coveo.Framework"/>
+            <fieldType fieldName="brand" isFacet="true" isSortable="true" settingType="Coveo.Framework.Configuration.FieldConfiguration, Coveo.Framework"/>
+            <fieldType fieldName="definitionname" isFacet="true" isSortable="true" settingType="Coveo.Framework.Configuration.FieldConfiguration, Coveo.Framework"/>
+            <fieldType fieldName="currency" isFacet="true" isSortable="true" settingType="Coveo.Framework.Configuration.FieldConfiguration, Coveo.Framework"/>
+            <fieldType fieldName="defaultlanguage" isFacet="true" isSortable="true" settingType="Coveo.Framework.Configuration.FieldConfiguration, Coveo.Framework"/>
+            <fieldType fieldName="listprice" isFacet="true" isSortable="true" settingType="Coveo.Framework.Configuration.FieldConfiguration, Coveo.Framework"/>
+            <fieldType fieldName="rating" isFacet="true" isSortable="true" settingType="Coveo.Framework.Configuration.FieldConfiguration, Coveo.Framework"/>
+            <fieldType fieldName="commercesearchitemtype" isFacet="true" isSortable="true" settingType="Coveo.Framework.Configuration.FieldConfiguration, Coveo.Framework"/>
+            <fieldType fieldName="startdate" isFacet="true" isSortable="true" settingType="Coveo.Framework.Configuration.FieldConfiguration, Coveo.Framework"/>
+            <fieldType fieldName="enddate" isFacet="true" isSortable="true" settingType="Coveo.Framework.Configuration.FieldConfiguration, Coveo.Framework"/>
+            <fieldType fieldName="preorderable" isFacet="true" isSortable="true" settingType="Coveo.Framework.Configuration.FieldConfiguration, Coveo.Framework"/>
+          </fieldNames>
+        </fieldMap>
+
+        <documentOptions>
+          <fields hint="raw:AddComputedIndexField">
+            <!-- Commerce Server fields -->
+            <field fieldName="catalogitemid" returnType="string">Sitecore.Commerce.Connect.CommerceServer.Search.ComputedFields.CatalogItemId, Sitecore.Commerce.Connect.CommerceServer</field>
+            <field fieldName="instocklocations" returnType="stringCollection">Sitecore.Commerce.Connect.CommerceServer.Search.ComputedFields.InStockLocations, Sitecore.Commerce.Connect.CommerceServer</field>
+            <field fieldName="outofstocklocations" returnType="stringCollection">Sitecore.Commerce.Connect.CommerceServer.Search.ComputedFields.OutOfStockLocations, Sitecore.Commerce.Connect.CommerceServer</field>
+            <field fieldName="orderablelocations" returnType="stringCollection">Sitecore.Commerce.Connect.CommerceServer.Search.ComputedFields.OrderableLocations, Sitecore.Commerce.Connect.CommerceServer</field>
+            <field fieldName="preorderable" returnType="string">Sitecore.Commerce.Connect.CommerceServer.Search.ComputedFields.PreOrderable, Sitecore.Commerce.Connect.CommerceServer</field>
+            <field fieldName="commercesearchitemtype" returnType="string">Sitecore.Commerce.Connect.CommerceServer.Search.ComputedFields.CommerceSearchItemType, Sitecore.Commerce.Connect.CommerceServer</field>
+            <field fieldName="commerceancestornames" returnType="stringCollection">Sitecore.Commerce.Connect.CommerceServer.Search.ComputedFields.CommerceAncestorNames, Sitecore.Commerce.Connect.CommerceServer</field>
+            <field fieldName="commerceancestorids" returnType="idCollection">Sitecore.Commerce.Connect.CommerceServer.Search.ComputedFields.CommerceAncestorIds, Sitecore.Commerce.Connect.CommerceServer</field>
+            <field fieldName="crosssell" returnType="idCollection">Sitecore.Commerce.Connect.CommerceServer.Search.ComputedFields.CommerceRelationships, Sitecore.Commerce.Connect.CommerceServer</field>
+            <field fieldName="upsell" returnType="idCollection">Sitecore.Commerce.Connect.CommerceServer.Search.ComputedFields.CommerceRelationships, Sitecore.Commerce.Connect.CommerceServer</field>
+            <field fieldName="_content" type="Sitecore.Commerce.Connect.CommerceServer.Search.ComputedFields.ContentGathererField, Sitecore.Commerce.Connect.CommerceServer"/>
+          </fields>
+        </documentOptions>
+      </defaultIndexConfiguration>
+    </coveo>
+  </sitecore>
+</configuration>

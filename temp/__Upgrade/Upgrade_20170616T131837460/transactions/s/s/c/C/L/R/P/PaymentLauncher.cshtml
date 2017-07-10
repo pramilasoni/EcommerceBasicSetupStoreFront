@@ -1,0 +1,17 @@
+﻿@model Sitecore.Speak.Components.Models.ComponentRenderingModel
+
+@{
+    var launcherParameters = Sitecore.ClientHost.Databases.Database.GetItem("{69EA54C3-F086-4F0C-8AA4-BF09A6D09EAC}");
+    var enterPaymentButtonText = launcherParameters.Fields["EnterPaymentButtonText"].Value;
+    var paymentInfoValidatedText = launcherParameters.Fields["PaymentInfoValidatedText"].Value;
+}
+
+<div @Model.HtmlAttributes>
+    <div id="paymentSubAppLauncherDiv">
+        <button id="paymentSubAppButton" type="button">@enterPaymentButtonText</button>
+    </div>
+    <div id="paymentSubAppValidationComplete">
+        <img src="~/sitecore/shell/client/Commerce/Layouts/Renderings/PaymentLauncher/check-icon.gif" />
+        <span>@paymentInfoValidatedText</span>
+    </div>
+</div>

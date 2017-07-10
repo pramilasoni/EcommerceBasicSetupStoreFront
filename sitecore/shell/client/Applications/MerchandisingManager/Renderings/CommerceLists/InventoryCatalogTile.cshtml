@@ -1,0 +1,16 @@
+﻿@using Sitecore.Data;
+@using Sitecore.Data.Items;
+
+@{
+    var inventoryCatalogPagePath = "/sitecore/client/Applications/MerchandisingManager/InventoryCatalog?itemId=";
+}
+<div class="CommerceTiles">
+    <div class="TileImage" onclick="window.location.href = $(this).attr('href');" data-bind="style: { backgroundImage: 'url(\'' + toolsIcon() + '\')'} ,attr: {alt: description, title: description, href: '@inventoryCatalogPagePath' + itemId()}" />
+    <span class="sc-tile-checkBoxContainer"></span>
+    <div class="TileBody">
+        <a onclick="window.location.href = $(this).attr('href');" data-bind="attr: { id: itemId() + '_inventorycatalog', href: '@inventoryCatalogPagePath' + itemId(), text: name }">
+            <span data-bind="text: name"></span>
+        </a>
+        <span data-bind="truncatedText: description"></span>
+    </div>
+</div>

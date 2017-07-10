@@ -1,0 +1,12 @@
+﻿@model Sitecore.Commerce.UX.Shared.Components.CommerceFoundationFormHelper
+<div @Model.HtmlAttributes>
+    <div class="sc-commerceForm-formData">
+        @Model.FormData()
+    </div>
+    <div class="sc-commerceForm-formInitializationData">
+        @Model.FormFieldInitializationData()
+    </div>
+    <script type="application/json" class="sc-commerceForm-entityView">
+        @Html.Raw(Json.Encode(Model.EntityViewResponse))
+    </script>
+</div>

@@ -1,0 +1,16 @@
+﻿@using Sitecore.Data;
+@using Sitecore.Data.Items;
+
+<div class="CommerceTiles">
+    <div class="TileImage" data-bind="style: { backgroundImage: 'url(\'' + toolsIcon() + '\')'} , attr: {title: RuleType}" />
+    <span class="sc-tile-checkBoxContainer"></span>
+    <div class="TileBody">
+        <p data-bind="text: RuleType"></p>
+        <p data-bind="if: PricingRule">
+            <span data-bind="text: PricingRule"></span>:
+            <span></span><span data-bind="text:  parseFloat(Amount()).toFixed(2)"></span>
+        </p>
+        <p data-bind="text: BaseCatalog"></p>
+        <p data-bind="text: ItemCategory"></p>
+    </div>
+</div>

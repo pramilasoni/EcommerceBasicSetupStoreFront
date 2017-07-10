@@ -1,0 +1,199 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Web.UI.Controls.Common.UserControls
+@using Sitecore.Commerce.UX.Merchandising;
+@model RenderingModel
+@{
+    var parameterResolver = new DatasourceBasedParametersResolver(Model.Rendering);
+    var fields = "__Display name|VariantId|ListPrice";
+    var targetId = parameterResolver.GetString("TargetId");
+    var queryTarget = Request.QueryString["target"];
+    var create = Request.QueryString["create"];
+    var template = Request.QueryString["template"];
+    var requiredTooltip = parameterResolver.GetString("requiredFieldTooltip");
+    var parentTabId = parameterResolver.GetString("ParentTabId");
+    var controlMappings = parameterResolver.GetString("ControlMappings");
+
+    var lang = Request.QueryString["lang"];
+    if (string.IsNullOrWhiteSpace(lang))
+    {
+        lang = BusinessController.GetRequestUserLanguage();
+    }
+    
+    var createMode = create == "true";
+
+    if (!string.IsNullOrWhiteSpace(queryTarget))
+    {
+        targetId = queryTarget;
+    }
+
+    FieldRendering renderer = new FieldRendering(template, targetId, Sitecore.Context.ContentDatabase.Name, lang, controlMappings);
+
+    renderer.Class = "sc-VariantBaseFields bizToolsForms cs-basefields";
+    var requirePath = string.Format("/sitecore/shell/commerce/merchandising/DynamicFormRendering/BaseFields?targetId={0}&fields={1}&dataSource={2}&scriptName={3}&lang={4}&template={5}", targetId, fields, controlMappings, Model.Rendering.Parameters["Id"], lang, template);
+    renderer.ControlId = Model.Rendering.Parameters["Id"];
+    renderer.SetAttribute("data-bind", "visible: isVisible");
+    renderer.GetString("editFunctionBody", "editFunctionBody");
+
+    var htmlAttributes = renderer.HtmlAttributes;
+}
+<div @htmlAttributes data-sc-hasnested="true" data-sc-parenttabid="@parentTabId" data-sc-require="@requirePath">
+    @{
+
+        var field = renderer.GetField("Name");
+        var viewRepresentation = renderer.GetControlRepresentation(field.FieldType);
+
+        if (field.CanRead || field.CanWrite)
+        {
+            <div class="col-md-12 row-fluid ">
+                <div style="display:inline-block;">
+                    @Html.Sitecore().Placeholder("VariantIdLabelPlaceholder")
+                </div>
+                @{
+            if (renderer.Helper.Write && field.CanWrite)
+            {
+                if (createMode)
+                {
+                    var createViewRepresentation = renderer.GetControlRepresentation("Single-Line Text");
+                    <span title="@requiredTooltip" style="color: #FF0000" class="required_field">&#9679;</span>
+                     <div class="isrequired details" data-sc-fielddisplayname="@field.DisplayName">
+                        @Html.Commerce().RenderView(createViewRepresentation.EditControlId.ToString(), "ID", field.Name, createViewRepresentation.EditField, field.Value)
+                    </div>
+                }
+                else
+                {
+                    <span title="@requiredTooltip" style="color: #FF0000" class="required_field">&#9679;</span>
+                    <div class="isrequired details" data-sc-fielddisplayname="@field.DisplayName">
+                        @Html.Commerce().RenderView(viewRepresentation.ViewControlId.ToString(), "ID", field.Name, viewRepresentation.EditField, field.Value)
+                    </div>
+                }
+            }
+            else if (field.CanRead)
+            {
+                <div>
+                    <span>&nbsp;</span>
+                    @Html.Commerce().RenderView(viewRepresentation.ViewControlId.ToString(), "ID", field.Name, viewRepresentation.ViewField, field.Value)
+                </div>
+            }
+                }
+            </div>
+        }
+
+        field = renderer.GetField("__Display Name");
+        viewRepresentation = renderer.GetControlRepresentation(field.FieldType);
+
+        if (field.CanRead || field.CanWrite)
+        {
+            <div class="col-md-12 row-fluid ">
+                <div style="display:inline-block;">
+                    @Html.Sitecore().Placeholder("NameLabelPlaceholder")
+                </div>
+                @{
+            if (renderer.Helper.Write && field.CanWrite)
+            {
+                <span title="@requiredTooltip" style="color: #FF0000" class="required_field">&#9679;</span>
+                <div class="isrequired details" data-sc-fielddisplayname="@field.DisplayName">
+                    @Html.Commerce().RenderView(viewRepresentation.EditControlId.ToString(), "ID", field.Name, viewRepresentation.EditField, field.Value)
+                </div>
+            }
+            else if (field.CanRead)
+            {
+                <div>
+                    <span>&nbsp;</span>
+                    @Html.Commerce().RenderView(viewRepresentation.ViewControlId.ToString(), "ID", field.Name, viewRepresentation.ViewField, field.Value)
+                </div>
+            }
+                }
+            </div>
+        }
+
+        field = renderer.GetField("ListPrice");
+        viewRepresentation = renderer.GetControlRepresentation(field.FieldType);
+
+        if (field.CanRead || field.CanWrite)
+        {
+
+            <div class="col-md-12 row-fluid ">
+                <div style="display:inline-block;">
+                    @Html.Sitecore().Placeholder("ListPriceLabelPlaceholder")
+                </div>
+                @{
+            if (renderer.Helper.Write && field.CanWrite)
+            {
+                <span title="@requiredTooltip" style="color: #FF0000" class="required_field">&#9679;</span>
+                <div class="isrequired details" data-sc-fielddisplayname="@field.DisplayName">
+                    @Html.Commerce().RenderView(viewRepresentation.EditControlId.ToString(), "ID", field.Name, viewRepresentation.EditField, field.Value)
+                </div>
+            }
+            else if (field.CanRead)
+            {
+                <div>
+                    <span>&nbsp;</span>
+                    @Html.Commerce().RenderView(viewRepresentation.ViewControlId.ToString(), "ID", field.Name, viewRepresentation.ViewField, field.Value)
+                </div>
+            }
+                }
+            </div>
+        }
+
+
+                   
+        field = renderer.GetField("Variant_Tags");
+        viewRepresentation = renderer.GetControlRepresentation("TagEditor");
+
+        if (field.CanRead || field.CanWrite)
+        {
+
+            <div class="col-md-6 row-fluid ">
+                <div style="display:inline-block;">
+                    @Html.Sitecore().Placeholder("VariantTagsLabelPlaceholder")
+                </div>
+                @{
+            if (renderer.Helper.Write && field.CanWrite)
+            {
+               
+                <div class="details" data-sc-fielddisplayname="@field.DisplayName">
+                    @Html.Commerce().RenderView(viewRepresentation.EditControlId.ToString(), "ID", field.Name, viewRepresentation.EditField, field.Value)
+                </div>
+            }
+            else if (field.CanRead)
+            {
+                <div>
+                    <span>&nbsp;</span>
+                    @Html.Commerce().RenderView(viewRepresentation.ViewControlId.ToString(), "ID", field.Name, viewRepresentation.ViewField, field.Value)
+                </div>
+            }
+                }
+            </div>
+        }
+
+         if (!createMode)
+        {
+            field = renderer.GetField("VariationPriceCardName");
+
+            if (field.CanRead || field.CanWrite)
+            {
+                <div class="col-md-6 row-fluid ">
+                    <div>
+                        <input type="hidden" id="variantPriceCard" value="@field.Value"/>
+                        @Html.Sitecore().Placeholder("VariantPriceCardLabelPlaceholder")
+                        @Html.Sitecore().Placeholder("VariantPriceCardLinkPlaceholder")
+                     </div>
+                    <div>
+                        @{
+                            if (field.CanWrite)
+                            {             
+                    @Html.Sitecore().Placeholder("VariantPriceCardComboBoxPlaceholder")
+                            }
+                            else
+                            {
+                                @Html.Sitecore().Placeholder("VariantPriceCardTextPlaceholder")
+
+                            }
+                        }
+                    </div>
+                </div>
+            }
+        }
+}
+</div>
