@@ -1,8 +1,0 @@
-mkdir "C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\_DEV"
-copy /y "C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\temp\__Upgrade\Upgrade_20170622T115826123\transactions\_\DeployedItems.xml" "C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\_DEV\DeployedItems.xml"
-mkdir "C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Reference.Storefront"
-copy /y "C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\temp\__Upgrade\Upgrade_20170622T115826123\transactions\A\I\R\Reference.Storefront.custom.config.disabled" "C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Reference.Storefront\Reference.Storefront.custom.config.disabled"
-mkdir "C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Reference.Storefront"
-copy /y "C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\temp\__Upgrade\Upgrade_20170622T115826123\transactions\A\I\R\Reference.Storefront.patch.config.disabled" "C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Reference.Storefront\Reference.Storefront.patch.config.disabled"
-mkdir "C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Reference.Storefront"
-copy /y "C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\temp\__Upgrade\Upgrade_20170622T115826123\transactions\A\I\R\Reference.Storefront.config" "C:\Projects\Ecommerce8.2.1Update1\cf.reference.storefront821.com\Website\App_Config\Include\Reference.Storefront\Reference.Storefront.config"

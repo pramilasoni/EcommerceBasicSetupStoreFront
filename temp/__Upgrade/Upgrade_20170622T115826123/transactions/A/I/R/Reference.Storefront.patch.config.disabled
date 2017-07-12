@@ -1,7 +1,0 @@
-<configuration xmlns:p="http://www.sitecore.net/xmlconfig/" xmlns:s="http://www.sitecore.net/xmlconfig/set/" p:p="1">
-  <sitecore>
-    <sites>
-      <site name="storefront" s:hostName="cf.reference.storefront821.com" />
-    </sites>
-  </sitecore>
-</configuration>
